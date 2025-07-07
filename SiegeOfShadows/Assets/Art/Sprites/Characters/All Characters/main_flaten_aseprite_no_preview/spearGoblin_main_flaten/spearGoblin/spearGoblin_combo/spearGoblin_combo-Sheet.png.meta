@@ -1,0 +1,742 @@
+fileFormatVersion: 2
+guid: 95b2f8cf57b15c740bb4a1a5c9dc2b5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2221617334584870439
+    second: spearGoblin_combo-Sheet_0
+  - first:
+      213: -5497183646268277196
+    second: spearGoblin_combo-Sheet_1
+  - first:
+      213: -7812215754786477752
+    second: spearGoblin_combo-Sheet_2
+  - first:
+      213: -6805288815497127640
+    second: spearGoblin_combo-Sheet_3
+  - first:
+      213: -5176844306167413302
+    second: spearGoblin_combo-Sheet_4
+  - first:
+      213: 335244256589744045
+    second: spearGoblin_combo-Sheet_5
+  - first:
+      213: 7277517167799596249
+    second: spearGoblin_combo-Sheet_6
+  - first:
+      213: 5677602388614365084
+    second: spearGoblin_combo-Sheet_7
+  - first:
+      213: -3228353598133036323
+    second: spearGoblin_combo-Sheet_8
+  - first:
+      213: 7703203678671486337
+    second: spearGoblin_combo-Sheet_9
+  - first:
+      213: -3296283896254950099
+    second: spearGoblin_combo-Sheet_10
+  - first:
+      213: 7500370707281596456
+    second: spearGoblin_combo-Sheet_11
+  - first:
+      213: -7401399400029943735
+    second: spearGoblin_combo-Sheet_12
+  - first:
+      213: 1177694404771973410
+    second: spearGoblin_combo-Sheet_13
+  - first:
+      213: -4790282200935653600
+    second: spearGoblin_combo-Sheet_14
+  - first:
+      213: -1921760852011937643
+    second: spearGoblin_combo-Sheet_15
+  - first:
+      213: 6625810472758792186
+    second: spearGoblin_combo-Sheet_16
+  - first:
+      213: -485344828319979728
+    second: spearGoblin_combo-Sheet_17
+  - first:
+      213: -6788369647785711549
+    second: spearGoblin_combo-Sheet_18
+  - first:
+      213: -7781014066159880823
+    second: spearGoblin_combo-Sheet_19
+  - first:
+      213: 7390095276571108429
+    second: spearGoblin_combo-Sheet_20
+  - first:
+      213: -8829885286908345553
+    second: spearGoblin_combo-Sheet_21
+  - first:
+      213: 6314992654881517865
+    second: spearGoblin_combo-Sheet_22
+  - first:
+      213: -5015377623574215108
+    second: spearGoblin_combo-Sheet_23
+  - first:
+      213: 5195991038011312950
+    second: spearGoblin_combo-Sheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 7
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9f7390eca3b21e0800000000000000
+      internalID: -2221617334584870439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 7
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43eb71b599416b3b0800000000000000
+      internalID: -5497183646268277196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 7
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 849ed33792f659390800000000000000
+      internalID: -7812215754786477752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 7
+        width: 42
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829da56d0e1ce81a0800000000000000
+      internalID: -6805288815497127640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 12
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5436918872828b0800000000000000
+      internalID: -5176844306167413302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 7
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7850b00e607a400800000000000000
+      internalID: 335244256589744045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 7
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d470816e4feef460800000000000000
+      internalID: 7277517167799596249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 0
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fb44d8a45eace40800000000000000
+      internalID: 5677602388614365084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 3
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda1dedc1859233d0800000000000000
+      internalID: -3228353598133036323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 3
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d32b3bee647ea60800000000000000
+      internalID: 7703203678671486337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 2
+        width: 55
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2512e4c24f3142d0800000000000000
+      internalID: -3296283896254950099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 6
+        width: 56
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820d34b6b6ba61860800000000000000
+      internalID: 7500370707281596456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 7
+        width: 53
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9480d60c572f84990800000000000000
+      internalID: -7401399400029943735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 7
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229066a42d2085010800000000000000
+      internalID: 1177694404771973410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 7
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f9a5fd7bf758db0800000000000000
+      internalID: -4790282200935653600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 7
+        width: 54
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5909390efa88455e0800000000000000
+      internalID: -1921760852011937643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 7
+        width: 57
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affc9d9158b93fb50800000000000000
+      internalID: 6625810472758792186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 7
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0372a6a3375b349f0800000000000000
+      internalID: -485344828319979728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 7
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34860bb85cddac1a0800000000000000
+      internalID: -6788369647785711549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 4
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985f832bee8440490800000000000000
+      internalID: -7781014066159880823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 2
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d442058ef74ee8660800000000000000
+      internalID: 7390095276571108429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 0
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2341624d12f57580800000000000000
+      internalID: -8829885286908345553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 0
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921f9618c5c53a750800000000000000
+      internalID: 6314992654881517865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 0
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c368a6cbf9cc56ab0800000000000000
+      internalID: -5015377623574215108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spearGoblin_combo-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 4
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b07ccc15edb1840800000000000000
+      internalID: 5195991038011312950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

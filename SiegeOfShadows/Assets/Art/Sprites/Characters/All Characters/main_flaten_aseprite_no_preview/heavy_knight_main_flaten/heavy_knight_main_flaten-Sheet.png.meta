@@ -1,0 +1,1667 @@
+fileFormatVersion: 2
+guid: 0fc23a5ea029e5042aebb9aeb5122cd4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3634162378311093709
+    second: heavy_knight_main_flaten-Sheet_0
+  - first:
+      213: -4313640348489555768
+    second: heavy_knight_main_flaten-Sheet_1
+  - first:
+      213: 2021434603522657845
+    second: heavy_knight_main_flaten-Sheet_2
+  - first:
+      213: 9071788086285188167
+    second: heavy_knight_main_flaten-Sheet_3
+  - first:
+      213: 3293494754515015448
+    second: heavy_knight_main_flaten-Sheet_4
+  - first:
+      213: 7329988060856816743
+    second: heavy_knight_main_flaten-Sheet_5
+  - first:
+      213: 2939806856193989555
+    second: heavy_knight_main_flaten-Sheet_6
+  - first:
+      213: -8073092076586557543
+    second: heavy_knight_main_flaten-Sheet_7
+  - first:
+      213: -112813534614666334
+    second: heavy_knight_main_flaten-Sheet_8
+  - first:
+      213: -774194423760787895
+    second: heavy_knight_main_flaten-Sheet_9
+  - first:
+      213: 740886047124269844
+    second: heavy_knight_main_flaten-Sheet_10
+  - first:
+      213: 4944602633522749485
+    second: heavy_knight_main_flaten-Sheet_11
+  - first:
+      213: 8529249946756692516
+    second: heavy_knight_main_flaten-Sheet_12
+  - first:
+      213: -6191855907262136100
+    second: heavy_knight_main_flaten-Sheet_13
+  - first:
+      213: -4236515312563439123
+    second: heavy_knight_main_flaten-Sheet_14
+  - first:
+      213: 4265318634020404497
+    second: heavy_knight_main_flaten-Sheet_15
+  - first:
+      213: -3771519566548907870
+    second: heavy_knight_main_flaten-Sheet_16
+  - first:
+      213: 1156833129113100326
+    second: heavy_knight_main_flaten-Sheet_17
+  - first:
+      213: 2668269386903961024
+    second: heavy_knight_main_flaten-Sheet_18
+  - first:
+      213: -8340215211489504953
+    second: heavy_knight_main_flaten-Sheet_19
+  - first:
+      213: 5866073313284617958
+    second: heavy_knight_main_flaten-Sheet_20
+  - first:
+      213: 6047305961624752842
+    second: heavy_knight_main_flaten-Sheet_21
+  - first:
+      213: 5364748268778515162
+    second: heavy_knight_main_flaten-Sheet_22
+  - first:
+      213: 6635501422411359244
+    second: heavy_knight_main_flaten-Sheet_23
+  - first:
+      213: -6358023846526939020
+    second: heavy_knight_main_flaten-Sheet_24
+  - first:
+      213: 7734140813753586947
+    second: heavy_knight_main_flaten-Sheet_25
+  - first:
+      213: -9210105860979804591
+    second: heavy_knight_main_flaten-Sheet_26
+  - first:
+      213: -1498119478953271193
+    second: heavy_knight_main_flaten-Sheet_27
+  - first:
+      213: 3397299012876277038
+    second: heavy_knight_main_flaten-Sheet_28
+  - first:
+      213: -8148714722293299506
+    second: heavy_knight_main_flaten-Sheet_29
+  - first:
+      213: -8432663976065127501
+    second: heavy_knight_main_flaten-Sheet_30
+  - first:
+      213: -5314773500288482189
+    second: heavy_knight_main_flaten-Sheet_31
+  - first:
+      213: 7888274019910553391
+    second: heavy_knight_main_flaten-Sheet_32
+  - first:
+      213: 6050658509812338064
+    second: heavy_knight_main_flaten-Sheet_33
+  - first:
+      213: 7230896214140769323
+    second: heavy_knight_main_flaten-Sheet_34
+  - first:
+      213: 8398471318712764486
+    second: heavy_knight_main_flaten-Sheet_35
+  - first:
+      213: -2889383711608982491
+    second: heavy_knight_main_flaten-Sheet_36
+  - first:
+      213: 8148143046762242326
+    second: heavy_knight_main_flaten-Sheet_37
+  - first:
+      213: 7134360403469270332
+    second: heavy_knight_main_flaten-Sheet_38
+  - first:
+      213: 4081324246809338598
+    second: heavy_knight_main_flaten-Sheet_39
+  - first:
+      213: 3265436300089003362
+    second: heavy_knight_main_flaten-Sheet_40
+  - first:
+      213: -1225090480980653582
+    second: heavy_knight_main_flaten-Sheet_41
+  - first:
+      213: 4218447294682819193
+    second: heavy_knight_main_flaten-Sheet_42
+  - first:
+      213: -7769985104839591456
+    second: heavy_knight_main_flaten-Sheet_43
+  - first:
+      213: -4807992683392235442
+    second: heavy_knight_main_flaten-Sheet_44
+  - first:
+      213: 9188832642570164553
+    second: heavy_knight_main_flaten-Sheet_45
+  - first:
+      213: -3139701376026938377
+    second: heavy_knight_main_flaten-Sheet_46
+  - first:
+      213: 1135867203557144284
+    second: heavy_knight_main_flaten-Sheet_47
+  - first:
+      213: 4687613160707395452
+    second: heavy_knight_main_flaten-Sheet_48
+  - first:
+      213: -4012949535655124874
+    second: heavy_knight_main_flaten-Sheet_49
+  - first:
+      213: -538280801519166591
+    second: heavy_knight_main_flaten-Sheet_50
+  - first:
+      213: 2667312954857589982
+    second: heavy_knight_main_flaten-Sheet_51
+  - first:
+      213: 6210556758687816725
+    second: heavy_knight_main_flaten-Sheet_52
+  - first:
+      213: -3028395135387306845
+    second: heavy_knight_main_flaten-Sheet_53
+  - first:
+      213: 5611000075767382011
+    second: heavy_knight_main_flaten-Sheet_54
+  - first:
+      213: 5217023743675638958
+    second: heavy_knight_main_flaten-Sheet_55
+  - first:
+      213: 5754916301315380490
+    second: heavy_knight_main_flaten-Sheet_56
+  - first:
+      213: -8948799765889076165
+    second: heavy_knight_main_flaten-Sheet_57
+  - first:
+      213: 6124252258708902147
+    second: heavy_knight_main_flaten-Sheet_58
+  - first:
+      213: -9002345811679893425
+    second: heavy_knight_main_flaten-Sheet_59
+  - first:
+      213: -3886441074912145173
+    second: heavy_knight_main_flaten-Sheet_60
+  - first:
+      213: 2168484730041250428
+    second: heavy_knight_main_flaten-Sheet_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 716
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd425fad632f6230800000000000000
+      internalID: 3634162378311093709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 716
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0ec7b25fed224c0800000000000000
+      internalID: -4313640348489555768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 716
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e86a7df049d0c10800000000000000
+      internalID: 2021434603522657845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 716
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c36a8333775ed70800000000000000
+      internalID: 9071788086285188167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 604
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 817da709708d4bd20800000000000000
+      internalID: 3293494754515015448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 604
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764993f2e4959b560800000000000000
+      internalID: 7329988060856816743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 604
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb53bb82ca4cc820800000000000000
+      internalID: 2939806856193989555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 604
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f9908878d96ff80800000000000000
+      internalID: -8073092076586557543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 604
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3cf6f10b43f6ef0800000000000000
+      internalID: -112813534614666334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 604
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94666a006428145f0800000000000000
+      internalID: -774194423760787895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 604
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ba2e93fe7284a00800000000000000
+      internalID: 740886047124269844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 604
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20a596c5e1ce9440800000000000000
+      internalID: 4944602633522749485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 492
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ab3fcf2abfd5670800000000000000
+      internalID: 8529249946756692516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 492
+        width: 55
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd08c33bbdb121aa0800000000000000
+      internalID: -6191855907262136100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 482
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9372de4cfd435c0800000000000000
+      internalID: -4236515312563439123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 476
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11df3a2f2b4713b30800000000000000
+      internalID: 4265318634020404497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 486
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8ca64cfeed8abc0800000000000000
+      internalID: -3771519566548907870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 492
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620a03d0a95ed0010800000000000000
+      internalID: 1156833129113100326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 492
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdb57bced8970520800000000000000
+      internalID: 2668269386903961024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 492
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741dbd8147a914c80800000000000000
+      internalID: -8340215211489504953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 492
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e67ab0499a786150800000000000000
+      internalID: 5866073313284617958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 492
+        width: 48
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2deba6bb85ce350800000000000000
+      internalID: 6047305961624752842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 492
+        width: 57
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada6fe5702a637a40800000000000000
+      internalID: 5364748268778515162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 492
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04ad652369061c50800000000000000
+      internalID: 6635501422411359244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 492
+        width: 53
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4709c427ff2c3c7a0800000000000000
+      internalID: -6358023846526939020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 492
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30512a6c710355b60800000000000000
+      internalID: 7734140813753586947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 380
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1563e8444812f2080800000000000000
+      internalID: -9210105860979804591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 380
+        width: 81
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760a5e1754c953be0800000000000000
+      internalID: -1498119478953271193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 383
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25964ad371a52f20800000000000000
+      internalID: 3397299012876277038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 380
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec646b14223f9ee80800000000000000
+      internalID: -8148714722293299506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 383
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bba76cbac829fa80800000000000000
+      internalID: -8432663976065127501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 380
+        width: 49
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37445ad09a12e36b0800000000000000
+      internalID: -5314773500288482189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 383
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f06bf5d67c87d60800000000000000
+      internalID: 7888274019910553391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 380
+        width: 39
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d0f8e5bd148f350800000000000000
+      internalID: 6050658509812338064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 380
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24d39bbbcd495460800000000000000
+      internalID: 7230896214140769323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 268
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6484e28da2d5d8470800000000000000
+      internalID: 8398471318712764486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 268
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5243fb9a2d8d6e7d0800000000000000
+      internalID: -2889383711608982491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 267
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61125592ee4041170800000000000000
+      internalID: 8148143046762242326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 265
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3df56cccf6520360800000000000000
+      internalID: 7134360403469270332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 258
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2624857c6c3a830800000000000000
+      internalID: 4081324246809338598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 268
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d887f8309215d20800000000000000
+      internalID: 3265436300089003362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 258
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f98f67c2ba9ffee0800000000000000
+      internalID: -1225090480980653582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 271
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ae647d67fea8a30800000000000000
+      internalID: 4218447294682819193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 268
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9b5fbd6b77b2490800000000000000
+      internalID: -7769985104839591456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 271
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e488ab7d024964db0800000000000000
+      internalID: -4807992683392235442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 271
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94998e89a9a458f70800000000000000
+      internalID: 9188832642570164553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 268
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3fb1dbb3a8d64d0800000000000000
+      internalID: -3139701376026938377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 271
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd63a0c143963cf00800000000000000
+      internalID: 1135867203557144284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 271
+        width: 53
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f0968655fbd0140800000000000000
+      internalID: 4687613160707395452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 268
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67025b9a8a32f48c0800000000000000
+      internalID: -4012949535655124874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 271
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b99048674a788f0800000000000000
+      internalID: -538280801519166591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 274
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc851b1003340520800000000000000
+      internalID: 2667312954857589982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 268
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c1df29774503650800000000000000
+      internalID: 6210556758687816725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 271
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4f7b36baaf8f5d0800000000000000
+      internalID: -3028395135387306845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 268
+        width: 47
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfffdce27d64edd40800000000000000
+      internalID: 5611000075767382011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 268
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4a0923477966840800000000000000
+      internalID: 5217023743675638958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 156
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05120c92e19ddf40800000000000000
+      internalID: 5754916301315380490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 156
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b343514960a7fc380800000000000000
+      internalID: -8948799765889076165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 156
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3015a3b4bf6bdf450800000000000000
+      internalID: 6124252258708902147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 44
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4828954e2e311380800000000000000
+      internalID: -9002345811679893425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 44
+        width: 31
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0df510f66901ac0800000000000000
+      internalID: -3886441074912145173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_main_flaten-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 44
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72b7f27f51081e10800000000000000
+      internalID: 2168484730041250428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

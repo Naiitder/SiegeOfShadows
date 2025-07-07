@@ -1,0 +1,3667 @@
+fileFormatVersion: 2
+guid: e59ada3ca146b3f49a1f03afe0e801ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4300374258913450370
+    second: winter_queen-Sheet_0
+  - first:
+      213: -2058733845946530748
+    second: winter_queen-Sheet_1
+  - first:
+      213: 220728321625634847
+    second: winter_queen-Sheet_2
+  - first:
+      213: -5804614364918491890
+    second: winter_queen-Sheet_3
+  - first:
+      213: -1330279630796605402
+    second: winter_queen-Sheet_4
+  - first:
+      213: -4905307706812528176
+    second: winter_queen-Sheet_5
+  - first:
+      213: -5016391902607557772
+    second: winter_queen-Sheet_6
+  - first:
+      213: 6495186839532232471
+    second: winter_queen-Sheet_7
+  - first:
+      213: -6963204509351165269
+    second: winter_queen-Sheet_8
+  - first:
+      213: 7360126495821556286
+    second: winter_queen-Sheet_9
+  - first:
+      213: -4432111540169795882
+    second: winter_queen-Sheet_10
+  - first:
+      213: 6227103465776422997
+    second: winter_queen-Sheet_11
+  - first:
+      213: -8727075937092469310
+    second: winter_queen-Sheet_12
+  - first:
+      213: -6445126231732310450
+    second: winter_queen-Sheet_13
+  - first:
+      213: -5642783349360713738
+    second: winter_queen-Sheet_14
+  - first:
+      213: 1993212059858664698
+    second: winter_queen-Sheet_15
+  - first:
+      213: -3029273176551599084
+    second: winter_queen-Sheet_16
+  - first:
+      213: -4712377616358467445
+    second: winter_queen-Sheet_17
+  - first:
+      213: -3795241810274014341
+    second: winter_queen-Sheet_18
+  - first:
+      213: -8102430731414611438
+    second: winter_queen-Sheet_19
+  - first:
+      213: 7177145700112797959
+    second: winter_queen-Sheet_20
+  - first:
+      213: 4617856191002371795
+    second: winter_queen-Sheet_21
+  - first:
+      213: -7771497526471442752
+    second: winter_queen-Sheet_22
+  - first:
+      213: -2833974070528634821
+    second: winter_queen-Sheet_23
+  - first:
+      213: -5028828678543377863
+    second: winter_queen-Sheet_24
+  - first:
+      213: 3978599345784349222
+    second: winter_queen-Sheet_25
+  - first:
+      213: -752106128746266220
+    second: winter_queen-Sheet_26
+  - first:
+      213: 3989698001213922674
+    second: winter_queen-Sheet_27
+  - first:
+      213: -4683316940068038925
+    second: winter_queen-Sheet_28
+  - first:
+      213: 8607444150090272782
+    second: winter_queen-Sheet_29
+  - first:
+      213: 4848630283510939281
+    second: winter_queen-Sheet_30
+  - first:
+      213: 4302008328653637373
+    second: winter_queen-Sheet_31
+  - first:
+      213: 7011499297463604237
+    second: winter_queen-Sheet_32
+  - first:
+      213: 6462686761403790331
+    second: winter_queen-Sheet_33
+  - first:
+      213: -8403286874233685626
+    second: winter_queen-Sheet_34
+  - first:
+      213: -2980764400119504900
+    second: winter_queen-Sheet_35
+  - first:
+      213: 859164739968507044
+    second: winter_queen-Sheet_36
+  - first:
+      213: 8181100735362853451
+    second: winter_queen-Sheet_37
+  - first:
+      213: -8093332172562694757
+    second: winter_queen-Sheet_38
+  - first:
+      213: 8092165337957745092
+    second: winter_queen-Sheet_39
+  - first:
+      213: -3748588239915802563
+    second: winter_queen-Sheet_40
+  - first:
+      213: 3352348202978834906
+    second: winter_queen-Sheet_41
+  - first:
+      213: 1528236096836057309
+    second: winter_queen-Sheet_42
+  - first:
+      213: -8094969589045568381
+    second: winter_queen-Sheet_43
+  - first:
+      213: -9221721948942508985
+    second: winter_queen-Sheet_44
+  - first:
+      213: 6142441808156757014
+    second: winter_queen-Sheet_45
+  - first:
+      213: 1354736337644613998
+    second: winter_queen-Sheet_46
+  - first:
+      213: 3268212147296969589
+    second: winter_queen-Sheet_47
+  - first:
+      213: -4411421809875273464
+    second: winter_queen-Sheet_48
+  - first:
+      213: -1160163231456413409
+    second: winter_queen-Sheet_49
+  - first:
+      213: -201168711982405198
+    second: winter_queen-Sheet_50
+  - first:
+      213: 1599726205574522298
+    second: winter_queen-Sheet_51
+  - first:
+      213: 3583124623684163858
+    second: winter_queen-Sheet_52
+  - first:
+      213: -8338000951330023369
+    second: winter_queen-Sheet_53
+  - first:
+      213: -2912570515742821094
+    second: winter_queen-Sheet_54
+  - first:
+      213: 8597382370440200616
+    second: winter_queen-Sheet_55
+  - first:
+      213: -4820897100682731465
+    second: winter_queen-Sheet_56
+  - first:
+      213: -8294998805562828134
+    second: winter_queen-Sheet_57
+  - first:
+      213: -3210123997280260263
+    second: winter_queen-Sheet_58
+  - first:
+      213: -3349827242244529058
+    second: winter_queen-Sheet_59
+  - first:
+      213: -3157559407688228566
+    second: winter_queen-Sheet_60
+  - first:
+      213: -1082981178282961334
+    second: winter_queen-Sheet_61
+  - first:
+      213: 3141815733735038243
+    second: winter_queen-Sheet_62
+  - first:
+      213: -4854899289867585688
+    second: winter_queen-Sheet_63
+  - first:
+      213: -2008566203960396176
+    second: winter_queen-Sheet_64
+  - first:
+      213: -5909274701435091043
+    second: winter_queen-Sheet_65
+  - first:
+      213: -5096510716365588130
+    second: winter_queen-Sheet_66
+  - first:
+      213: 7615859477427570770
+    second: winter_queen-Sheet_67
+  - first:
+      213: -450720013939322384
+    second: winter_queen-Sheet_68
+  - first:
+      213: 1378124970336153587
+    second: winter_queen-Sheet_69
+  - first:
+      213: -5451928994009557861
+    second: winter_queen-Sheet_70
+  - first:
+      213: -2787941420960104699
+    second: winter_queen-Sheet_71
+  - first:
+      213: -1799321554836114076
+    second: winter_queen-Sheet_72
+  - first:
+      213: 1572475439023420704
+    second: winter_queen-Sheet_73
+  - first:
+      213: 8667043544734853500
+    second: winter_queen-Sheet_74
+  - first:
+      213: -6360026894082946605
+    second: winter_queen-Sheet_75
+  - first:
+      213: -1264243692647391937
+    second: winter_queen-Sheet_76
+  - first:
+      213: 7369280837489819707
+    second: winter_queen-Sheet_77
+  - first:
+      213: -4518340488864958409
+    second: winter_queen-Sheet_78
+  - first:
+      213: -1161358237085515054
+    second: winter_queen-Sheet_79
+  - first:
+      213: 6229553932370600235
+    second: winter_queen-Sheet_80
+  - first:
+      213: -5522702299832388776
+    second: winter_queen-Sheet_81
+  - first:
+      213: 3794168419294576928
+    second: winter_queen-Sheet_82
+  - first:
+      213: 8938603025618859121
+    second: winter_queen-Sheet_83
+  - first:
+      213: 4576181543601430917
+    second: winter_queen-Sheet_84
+  - first:
+      213: -5831589083887094330
+    second: winter_queen-Sheet_85
+  - first:
+      213: -6412408448605906814
+    second: winter_queen-Sheet_86
+  - first:
+      213: 9029158467129549093
+    second: winter_queen-Sheet_87
+  - first:
+      213: 4653280331423177102
+    second: winter_queen-Sheet_88
+  - first:
+      213: -7462908930537208678
+    second: winter_queen-Sheet_89
+  - first:
+      213: 4830352268512278730
+    second: winter_queen-Sheet_90
+  - first:
+      213: -4961928200113431246
+    second: winter_queen-Sheet_91
+  - first:
+      213: 6228474160478815358
+    second: winter_queen-Sheet_92
+  - first:
+      213: 5887992112058171093
+    second: winter_queen-Sheet_93
+  - first:
+      213: -7050175345679768355
+    second: winter_queen-Sheet_94
+  - first:
+      213: -6920149567823064138
+    second: winter_queen-Sheet_95
+  - first:
+      213: 4060806433287320416
+    second: winter_queen-Sheet_96
+  - first:
+      213: -5488225152151396621
+    second: winter_queen-Sheet_97
+  - first:
+      213: 1052703168242446439
+    second: winter_queen-Sheet_98
+  - first:
+      213: -3450443659484937509
+    second: winter_queen-Sheet_99
+  - first:
+      213: -7689859070733081320
+    second: winter_queen-Sheet_100
+  - first:
+      213: -7904567070165934076
+    second: winter_queen-Sheet_101
+  - first:
+      213: 6905335828778494449
+    second: winter_queen-Sheet_102
+  - first:
+      213: -6085830828037174140
+    second: winter_queen-Sheet_103
+  - first:
+      213: 5404770678092869343
+    second: winter_queen-Sheet_104
+  - first:
+      213: -1810504663384832149
+    second: winter_queen-Sheet_105
+  - first:
+      213: -6134250421746829767
+    second: winter_queen-Sheet_106
+  - first:
+      213: 6040170152682404844
+    second: winter_queen-Sheet_107
+  - first:
+      213: -4513664986798177717
+    second: winter_queen-Sheet_108
+  - first:
+      213: 2286292914132930679
+    second: winter_queen-Sheet_109
+  - first:
+      213: 4091790133416111383
+    second: winter_queen-Sheet_110
+  - first:
+      213: -9004778950662685703
+    second: winter_queen-Sheet_111
+  - first:
+      213: -1977877258699099236
+    second: winter_queen-Sheet_112
+  - first:
+      213: -6191392575135669649
+    second: winter_queen-Sheet_113
+  - first:
+      213: -2133256336561166740
+    second: winter_queen-Sheet_114
+  - first:
+      213: -7916291800432510130
+    second: winter_queen-Sheet_115
+  - first:
+      213: -8364537035317432508
+    second: winter_queen-Sheet_116
+  - first:
+      213: 671881465526677007
+    second: winter_queen-Sheet_117
+  - first:
+      213: 5096726203450779634
+    second: winter_queen-Sheet_118
+  - first:
+      213: 1235920465947696255
+    second: winter_queen-Sheet_119
+  - first:
+      213: -1100440874202048559
+    second: winter_queen-Sheet_120
+  - first:
+      213: -8838766997899939988
+    second: winter_queen-Sheet_121
+  - first:
+      213: -8650053666719017729
+    second: winter_queen-Sheet_122
+  - first:
+      213: 28185963129204872
+    second: winter_queen-Sheet_123
+  - first:
+      213: 5149723370068037090
+    second: winter_queen-Sheet_124
+  - first:
+      213: -1928329889238905145
+    second: winter_queen-Sheet_125
+  - first:
+      213: 6691451245798990868
+    second: winter_queen-Sheet_126
+  - first:
+      213: -6954922796103756906
+    second: winter_queen-Sheet_127
+  - first:
+      213: -8178404625313929042
+    second: winter_queen-Sheet_128
+  - first:
+      213: 5546742349965755636
+    second: winter_queen-Sheet_129
+  - first:
+      213: 6114464008945235876
+    second: winter_queen-Sheet_130
+  - first:
+      213: 4494041161036508177
+    second: winter_queen-Sheet_131
+  - first:
+      213: -4868347689301306669
+    second: winter_queen-Sheet_132
+  - first:
+      213: 3477081530349808944
+    second: winter_queen-Sheet_133
+  - first:
+      213: -4723045466902748329
+    second: winter_queen-Sheet_134
+  - first:
+      213: -4814052391329831295
+    second: winter_queen-Sheet_135
+  - first:
+      213: -8780196203785604290
+    second: winter_queen-Sheet_136
+  - first:
+      213: 8347097378239394284
+    second: winter_queen-Sheet_137
+  - first:
+      213: -4217058257745722731
+    second: winter_queen-Sheet_138
+  - first:
+      213: 8818415714783637541
+    second: winter_queen-Sheet_139
+  - first:
+      213: -2760519198535454364
+    second: winter_queen-Sheet_140
+  - first:
+      213: 3239930318799730228
+    second: winter_queen-Sheet_141
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: winter_queen-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1052
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28915c7aa9ffdab30800000000000000
+      internalID: 4300374258913450370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1052
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44488498978ed63e0800000000000000
+      internalID: -2058733845946530748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1052
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f183d523d3f201300800000000000000
+      internalID: 220728321625634847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1052
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0557e04dfdd17fa0800000000000000
+      internalID: -5804614364918491890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 1052
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6283e6259b5e98de0800000000000000
+      internalID: -1330279630796605402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1052
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9047d41a8dcebb0800000000000000
+      internalID: -4905307706812528176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 1058
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b3eee7422326ab0800000000000000
+      internalID: -5016391902607557772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1052
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f5c10840a832a50800000000000000
+      internalID: 6495186839532232471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 1052
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2c9b1346abd5f90800000000000000
+      internalID: -6963204509351165269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1052
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a62656d0c642660800000000000000
+      internalID: 7360126495821556286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1052
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6154b590afd72c0800000000000000
+      internalID: -4432111540169795882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 946
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55025390c9d1b6650800000000000000
+      internalID: 6227103465776422997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 940
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd7eb95ca233e680800000000000000
+      internalID: -8727075937092469310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 940
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e2b0907df4e86a0800000000000000
+      internalID: -6445126231732310450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 940
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff9dd4c07ec0b1b0800000000000000
+      internalID: -5642783349360713738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 940
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc76e5decf49ab10800000000000000
+      internalID: 1993212059858664698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 950
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414d500881cd5f5d0800000000000000
+      internalID: -3029273176551599084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 961
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88937176854a9eb0800000000000000
+      internalID: -4712377616358467445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 961
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b28ed7ea7945bc0800000000000000
+      internalID: -3795241810274014341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 956
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ad2d4ad226e8f80800000000000000
+      internalID: -8102430731414611438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 949
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7011274fcf75a9360800000000000000
+      internalID: 7177145700112797959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 940
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6e8804dbbe51040800000000000000
+      internalID: 4617856191002371795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 940
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ceb7d1cc28162490800000000000000
+      internalID: -7771497526471442752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 940
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30197f0993bba8d0800000000000000
+      internalID: -2833974070528634821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 940
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93aff13f5f2063ab0800000000000000
+      internalID: -5028828678543377863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 828
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 622e3158603d63730800000000000000
+      internalID: 3978599345784349222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 828
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4914fa2f57bff85f0800000000000000
+      internalID: -752106128746266220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 828
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d117b91314e5730800000000000000
+      internalID: 3989698001213922674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 828
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6dca86e04810fb0800000000000000
+      internalID: -4683316940068038925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 828
+        width: 37
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00152ea9d8c37770800000000000000
+      internalID: 8607444150090272782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 828
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19efedfbd8bc94340800000000000000
+      internalID: 4848630283510939281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 828
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df60c2a28cdc3bb30800000000000000
+      internalID: 4302008328653637373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 828
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0418386679dd4160800000000000000
+      internalID: 7011499297463604237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 828
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3b7146e5310b950800000000000000
+      internalID: 6462686761403790331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 828
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68939934c17816b80800000000000000
+      internalID: -8403286874233685626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 716
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff1fb3229232a6d0800000000000000
+      internalID: -2980764400119504900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 716
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac1d5967cd5ceb00800000000000000
+      internalID: 859164739968507044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 716
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a6df206cb198170800000000000000
+      internalID: 8181100735362853451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 709
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9df825f445beaf80800000000000000
+      internalID: -8093332172562694757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 709
+        width: 43
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c143b030852d4070800000000000000
+      internalID: 8092165337957745092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 739
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30ac9e4bd65afbc0800000000000000
+      internalID: -3748588239915802563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 709
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9f8f9ddeee58e20800000000000000
+      internalID: 3352348202978834906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 707
+        width: 59
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8b7d412a2653510800000000000000
+      internalID: 1528236096836057309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 709
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c59593c04e8af80800000000000000
+      internalID: -8094969589045568381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 716
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74cdbd70fbcd50080800000000000000
+      internalID: -9221721948942508985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 716
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c01bcc7465e3550800000000000000
+      internalID: 6142441808156757014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 604
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61fe99758dfcc210800000000000000
+      internalID: 1354736337644613998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 604
+        width: 61
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573a04ad1a50b5d20800000000000000
+      internalID: 3268212147296969589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 604
+        width: 69
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80939f39c3b77c2c0800000000000000
+      internalID: -4411421809875273464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 604
+        width: 76
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19329310b546efe0800000000000000
+      internalID: -1160163231456413409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 604
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9ad5e4f1e453df0800000000000000
+      internalID: -201168711982405198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 613
+        width: 30
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5272d128e533610800000000000000
+      internalID: 1599726205574522298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 604
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21956ac6cd0d9b130800000000000000
+      internalID: 3583124623684163858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 609
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738da17bf48794c80800000000000000
+      internalID: -8338000951330023369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 604
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a157fd12c887497d0800000000000000
+      internalID: -2912570515742821094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 606
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a14b4c07b9005770800000000000000
+      internalID: 8597382370440200616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 604
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730681f01abb81db0800000000000000
+      internalID: -4820897100682731465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 601
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a532ef88e32ec80800000000000000
+      internalID: -8294998805562828134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 604
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f27218b395373d0800000000000000
+      internalID: -3210123997280260263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 599
+        width: 76
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54a61f0fd50381d0800000000000000
+      internalID: -3349827242244529058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 485
+        width: 78
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a21ec8bb2781e24d0800000000000000
+      internalID: -3157559407688228566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 492
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4692023b5a78f0f0800000000000000
+      internalID: -1082981178282961334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 492
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d920783c8f99b20800000000000000
+      internalID: 3141815733735038243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 492
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867752771deef9cb0800000000000000
+      internalID: -4854899289867585688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 517
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 076f519eda32024e0800000000000000
+      internalID: -2008566203960396176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 492
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9742ccb7f90efda0800000000000000
+      internalID: -5909274701435091043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 517
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59be05818e8549b0800000000000000
+      internalID: -5096510716365588130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 492
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258cc5b18d7f0b960800000000000000
+      internalID: 7615859477427570770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 514
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1dcfb0988beb9f0800000000000000
+      internalID: -450720013939322384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 492
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff6bf0eb55102310800000000000000
+      internalID: 1378124970336153587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 492
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94586b277bd654b0800000000000000
+      internalID: -5451928994009557861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 492
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f331d7c0e3f49d0800000000000000
+      internalID: -2787941420960104699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 492
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4653a4f34968707e0800000000000000
+      internalID: -1799321554836114076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 381
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0257409941e82d510800000000000000
+      internalID: 1572475439023420704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 380
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7963c81f26874870800000000000000
+      internalID: 8667043544734853500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 382
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d941489c35acb7a0800000000000000
+      internalID: -6360026894082946605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 380
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d593e4f01847ee0800000000000000
+      internalID: -1264243692647391937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 385
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b308ca8a0e1f44660800000000000000
+      internalID: 7369280837489819707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 380
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73870fab341ab41c0800000000000000
+      internalID: -4518340488864958409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 387
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d24b8526d602efe0800000000000000
+      internalID: -1161358237085515054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 380
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b216610cb42d37650800000000000000
+      internalID: 6229553932370600235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 387
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853f142d48b6b53b0800000000000000
+      internalID: -5522702299832388776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 380
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0210f02331897a430800000000000000
+      internalID: 3794168419294576928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 387
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1747e32d71c4c0c70800000000000000
+      internalID: 8938603025618859121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 380
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 581ef064edcd18f30800000000000000
+      internalID: 4576181543601430917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 387
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c53dd210a8021fa0800000000000000
+      internalID: -5831589083887094330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 380
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288912a8d7c8207a0800000000000000
+      internalID: -6412408448605906814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 387
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521a7fd89c30e4d70800000000000000
+      internalID: 9029158467129549093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 380
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e895acaaec5c39040800000000000000
+      internalID: 4653280331423177102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 385
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a944d3c2edb6e6890800000000000000
+      internalID: -7462908930537208678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 380
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac83da0cbcbd80340800000000000000
+      internalID: 4830352268512278730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 382
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23dde376790b32bb0800000000000000
+      internalID: -4961928200113431246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 397
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e740a04cf3cff6650800000000000000
+      internalID: 6228474160478815358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 382
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de778741a956b150800000000000000
+      internalID: 5887992112058171093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 388
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd46a8460eeb82e90800000000000000
+      internalID: -7050175345679768355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 380
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b35551f1a0b6ff90800000000000000
+      internalID: -6920149567823064138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 289
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06336bd9fe1ea5830800000000000000
+      internalID: 4060806433287320416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 303
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fed6ae4d48e5d3b0800000000000000
+      internalID: -5488225152151396621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 309
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760f40d34f3fb9e00800000000000000
+      internalID: 1052703168242446439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 267
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2c6eed5cf8d10d0800000000000000
+      internalID: -3450443659484937509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 271
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815a324fae1284590800000000000000
+      internalID: -7689859070733081320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 268
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 400628f31265d4290800000000000000
+      internalID: -7904567070165934076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 266
+        width: 72
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9ae19a95ea4df50800000000000000
+      internalID: 6905335828778494449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 276
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c09b32b19ca8ba0800000000000000
+      internalID: -6085830828037174140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 268
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fde2c28cb4a910b40800000000000000
+      internalID: 5404770678092869343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 277
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6742c2e99bcfd6e0800000000000000
+      internalID: -1810504663384832149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 268
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9367d78fdb3cedaa0800000000000000
+      internalID: -6134250421746829767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 268
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb3d8d60cef2d350800000000000000
+      internalID: 6040170152682404844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 282
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42c6c2eb9d3c51c0800000000000000
+      internalID: -4513664986798177717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 268
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770d267ca4b8abf10800000000000000
+      internalID: 2286292914132930679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 284
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d27b57275f8c830800000000000000
+      internalID: 4091790133416111383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 268
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fbf5d4f049980380800000000000000
+      internalID: -9004778950662685703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 268
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93bae9cc1b2d84e0800000000000000
+      internalID: -1977877258699099236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 268
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f622c0e9141c31aa0800000000000000
+      internalID: -6191392575135669649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 268
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66ab641aa62562e0800000000000000
+      internalID: -2133256336561166740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 194
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4bf1e0cc8ea32290800000000000000
+      internalID: -7916291800432510130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 191
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f2e4332e13beb80800000000000000
+      internalID: -8364537035317432508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 206
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ee2e312a0035900800000000000000
+      internalID: 671881465526677007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 191
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7eb1a7a753bb640800000000000000
+      internalID: 5096726203450779634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 197
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c92779d1fd62110800000000000000
+      internalID: 1235920465947696255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 188
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7ddd4fad27ab0f0800000000000000
+      internalID: -1100440874202048559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 192
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f6ab5ce34665580800000000000000
+      internalID: -8838766997899939988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 156
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4d5232506d4f780800000000000000
+      internalID: -8650053666719017729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 156
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880f7ffebf2246000800000000000000
+      internalID: 28185963129204872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 156
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edce64ee1e777740800000000000000
+      internalID: 5149723370068037090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 156
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ce8526be223d35e0800000000000000
+      internalID: -1928329889238905145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 156
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414a1b9847fccdc50800000000000000
+      internalID: 6691451245798990868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 156
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69318f1d0962b7f90800000000000000
+      internalID: -6954922796103756906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 156
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea860c60358708e80800000000000000
+      internalID: -8178404625313929042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 156
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4035687ccf9fc40800000000000000
+      internalID: 5546742349965755636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 156
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7771dce90fad450800000000000000
+      internalID: 6114464008945235876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 156
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ca09120aa0e5e30800000000000000
+      internalID: 4494041161036508177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 44
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d21a18f197207cb0800000000000000
+      internalID: -4868347689301306669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 44
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d629fba33114030800000000000000
+      internalID: 3477081530349808944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 44
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7532e3feb2f547eb0800000000000000
+      internalID: -4723045466902748329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 44
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1866aa42bdc013db0800000000000000
+      internalID: -4814052391329831295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 44
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e333027721a762680800000000000000
+      internalID: -8780196203785604290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 44
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1bd8737d8d6d370800000000000000
+      internalID: 8347097378239394284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 45
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59240f58bdff975c0800000000000000
+      internalID: -4217058257745722731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 45
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520b661ee5e416a70800000000000000
+      internalID: 8818415714783637541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 44
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461f5af2a6aa0b9d0800000000000000
+      internalID: -2760519198535454364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: winter_queen-Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 44
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4367315857b86fc20800000000000000
+      internalID: 3239930318799730228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

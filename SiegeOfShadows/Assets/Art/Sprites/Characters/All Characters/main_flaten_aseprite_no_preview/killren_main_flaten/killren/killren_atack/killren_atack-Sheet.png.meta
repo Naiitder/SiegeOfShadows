@@ -1,0 +1,1117 @@
+fileFormatVersion: 2
+guid: daa34c7a015be7f42b6f62307fbf01b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7702075843372906468
+    second: killren_atack-Sheet_0
+  - first:
+      213: 2843574566782614377
+    second: killren_atack-Sheet_1
+  - first:
+      213: -2404861725004641151
+    second: killren_atack-Sheet_2
+  - first:
+      213: -4167342837918934258
+    second: killren_atack-Sheet_3
+  - first:
+      213: 4110776121437391600
+    second: killren_atack-Sheet_4
+  - first:
+      213: 3513119375265720032
+    second: killren_atack-Sheet_5
+  - first:
+      213: 7373309838576203004
+    second: killren_atack-Sheet_6
+  - first:
+      213: 4479126759367021454
+    second: killren_atack-Sheet_7
+  - first:
+      213: -6864462063541842278
+    second: killren_atack-Sheet_8
+  - first:
+      213: 73202747699299090
+    second: killren_atack-Sheet_9
+  - first:
+      213: 2369203401052847563
+    second: killren_atack-Sheet_10
+  - first:
+      213: 4465974023253344927
+    second: killren_atack-Sheet_11
+  - first:
+      213: -5386568396914281586
+    second: killren_atack-Sheet_12
+  - first:
+      213: 1462068632981496052
+    second: killren_atack-Sheet_13
+  - first:
+      213: 8724670572985633422
+    second: killren_atack-Sheet_14
+  - first:
+      213: -5496829945181918344
+    second: killren_atack-Sheet_15
+  - first:
+      213: -2702998612288074348
+    second: killren_atack-Sheet_16
+  - first:
+      213: -7556401209192299993
+    second: killren_atack-Sheet_17
+  - first:
+      213: -2032569712201284240
+    second: killren_atack-Sheet_18
+  - first:
+      213: 4188037989983167734
+    second: killren_atack-Sheet_19
+  - first:
+      213: 3705893215927386280
+    second: killren_atack-Sheet_20
+  - first:
+      213: 5798976145954019666
+    second: killren_atack-Sheet_21
+  - first:
+      213: -5489868267381104942
+    second: killren_atack-Sheet_22
+  - first:
+      213: -8178221927911294634
+    second: killren_atack-Sheet_23
+  - first:
+      213: 6085840867706496994
+    second: killren_atack-Sheet_24
+  - first:
+      213: 8761442980158362714
+    second: killren_atack-Sheet_25
+  - first:
+      213: -7833600321688258495
+    second: killren_atack-Sheet_26
+  - first:
+      213: -5235902841178966093
+    second: killren_atack-Sheet_27
+  - first:
+      213: -550281809332429944
+    second: killren_atack-Sheet_28
+  - first:
+      213: -7237203212562266394
+    second: killren_atack-Sheet_29
+  - first:
+      213: 6126052456029930264
+    second: killren_atack-Sheet_30
+  - first:
+      213: 6950453151353500498
+    second: killren_atack-Sheet_31
+  - first:
+      213: 930772248598077093
+    second: killren_atack-Sheet_32
+  - first:
+      213: -1143712007411580940
+    second: killren_atack-Sheet_33
+  - first:
+      213: -8112050553987604080
+    second: killren_atack-Sheet_34
+  - first:
+      213: -5598806838473764915
+    second: killren_atack-Sheet_35
+  - first:
+      213: 1977692274506691416
+    second: killren_atack-Sheet_36
+  - first:
+      213: 7301221825629298602
+    second: killren_atack-Sheet_37
+  - first:
+      213: -4145642567865821739
+    second: killren_atack-Sheet_38
+  - first:
+      213: 6616936262644816155
+    second: killren_atack-Sheet_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: killren_atack-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 9
+        width: 48
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1804aae3dabc1590800000000000000
+      internalID: -7702075843372906468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 9
+        width: 54
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bb969a008667720800000000000000
+      internalID: 2843574566782614377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 9
+        width: 53
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c4a2ba00730aed0800000000000000
+      internalID: -2404861725004641151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 9
+        width: 54
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bd298b4cf9a26c0800000000000000
+      internalID: -4167342837918934258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 4
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa0f654a196c0930800000000000000
+      internalID: 4110776121437391600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 6
+        width: 59
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e66140657b11c030800000000000000
+      internalID: 3513119375265720032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 8
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf43a339b32435660800000000000000
+      internalID: 7373309838576203004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 9
+        width: 68
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8394046e0e092e30800000000000000
+      internalID: 4479126759367021454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 16
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e81786f188cb0a0800000000000000
+      internalID: -6864462063541842278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 24
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213033dd281140100800000000000000
+      internalID: 73202747699299090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 16
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdf660d0f911e020800000000000000
+      internalID: 2369203401052847563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 26
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92432066b35afd30800000000000000
+      internalID: 4465974023253344927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1727
+        y: 15
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83349f05901f35b0800000000000000
+      internalID: -5386568396914281586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 9
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f06a12ecaf4a4410800000000000000
+      internalID: 1462068632981496052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 18
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8acc1d29a1441970800000000000000
+      internalID: 8724670572985633422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 26
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ba3bec94657b3b0800000000000000
+      internalID: -5496829945181918344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 18
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49d023e45150d7ad0800000000000000
+      internalID: -2702998612288074348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 18
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722c2c1c225422790800000000000000
+      internalID: -7556401209192299993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 26
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0754603ad9cdac3e0800000000000000
+      internalID: -2032569712201284240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 18
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4a9cadc56ee1a30800000000000000
+      internalID: 4188037989983167734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 9
+        width: 63
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0c1e6ce3afd6330800000000000000
+      internalID: 3705893215927386280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 14
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2599d88941a1a7050800000000000000
+      internalID: 5798976145954019666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 15
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de5f0bb5e110d3b0800000000000000
+      internalID: -5489868267381104942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 23
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65979849c7e118e80800000000000000
+      internalID: -8178221927911294634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 13
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e763376600457450800000000000000
+      internalID: 6085840867706496994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 23
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54dd2868f5e69970800000000000000
+      internalID: 8761442980158362714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2045
+        y: 14
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148b269f206794390800000000000000
+      internalID: -7833600321688258495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 19
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7b1116b165657b0800000000000000
+      internalID: -5235902841178966093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 23
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b91642c910d58f0800000000000000
+      internalID: -550281809332429944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 18
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e609e3c50a409b90800000000000000
+      internalID: -7237203212562266394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 18
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813c215604c140550800000000000000
+      internalID: 6126052456029930264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 26
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2537b6ae058f47060800000000000000
+      internalID: 6950453151353500498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2101
+        y: 18
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aeda7cbd64caec00800000000000000
+      internalID: 930772248598077093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 18
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff32e82df7b020f0800000000000000
+      internalID: -1143712007411580940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 26
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091ee8920053c6f80800000000000000
+      internalID: -8112050553987604080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 9
+        width: 58
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf4eba18da0d42b0800000000000000
+      internalID: -5598806838473764915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 0
+        width: 389
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853710935ac227b10800000000000000
+      internalID: 1977692274506691416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 9
+        width: 189
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf96fe1196235560800000000000000
+      internalID: 7301221825629298602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2799
+        y: 9
+        width: 189
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d59e909c08b776c0800000000000000
+      internalID: -4145642567865821739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: killren_atack-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 9
+        width: 189
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19585c097414db50800000000000000
+      internalID: 6616936262644816155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

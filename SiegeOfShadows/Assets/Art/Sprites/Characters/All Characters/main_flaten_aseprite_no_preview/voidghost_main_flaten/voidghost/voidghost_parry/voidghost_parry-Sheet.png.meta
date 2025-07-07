@@ -1,0 +1,1192 @@
+fileFormatVersion: 2
+guid: a779f3307d0c759479d102c3b5b17018
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4658618109047362547
+    second: voidghost_parry-Sheet_0
+  - first:
+      213: 1613443695862095053
+    second: voidghost_parry-Sheet_1
+  - first:
+      213: -2019960282973003607
+    second: voidghost_parry-Sheet_2
+  - first:
+      213: 5682001549995191681
+    second: voidghost_parry-Sheet_3
+  - first:
+      213: -8626002546359015741
+    second: voidghost_parry-Sheet_4
+  - first:
+      213: 2833463659116901311
+    second: voidghost_parry-Sheet_5
+  - first:
+      213: 645145810235276024
+    second: voidghost_parry-Sheet_6
+  - first:
+      213: 3635808072725902480
+    second: voidghost_parry-Sheet_7
+  - first:
+      213: 6605067347705249208
+    second: voidghost_parry-Sheet_8
+  - first:
+      213: -8553045803843280552
+    second: voidghost_parry-Sheet_9
+  - first:
+      213: -2669479051915695734
+    second: voidghost_parry-Sheet_10
+  - first:
+      213: 1646731857015448808
+    second: voidghost_parry-Sheet_11
+  - first:
+      213: 7374531156452272544
+    second: voidghost_parry-Sheet_12
+  - first:
+      213: 3295867903423555092
+    second: voidghost_parry-Sheet_13
+  - first:
+      213: -382557000354575964
+    second: voidghost_parry-Sheet_14
+  - first:
+      213: 8131476649735351340
+    second: voidghost_parry-Sheet_15
+  - first:
+      213: 4485649052763255689
+    second: voidghost_parry-Sheet_16
+  - first:
+      213: -2180216350328147185
+    second: voidghost_parry-Sheet_17
+  - first:
+      213: 525086053784062100
+    second: voidghost_parry-Sheet_18
+  - first:
+      213: 7126736428592001049
+    second: voidghost_parry-Sheet_19
+  - first:
+      213: 4474177924752187810
+    second: voidghost_parry-Sheet_20
+  - first:
+      213: 2149650239921544606
+    second: voidghost_parry-Sheet_21
+  - first:
+      213: 7917588630054106766
+    second: voidghost_parry-Sheet_22
+  - first:
+      213: 8146006377518560325
+    second: voidghost_parry-Sheet_23
+  - first:
+      213: 6080654459439192010
+    second: voidghost_parry-Sheet_24
+  - first:
+      213: -7508471109636035717
+    second: voidghost_parry-Sheet_25
+  - first:
+      213: 1025032709949697979
+    second: voidghost_parry-Sheet_26
+  - first:
+      213: -8343121722559387044
+    second: voidghost_parry-Sheet_27
+  - first:
+      213: 1539714938653477617
+    second: voidghost_parry-Sheet_28
+  - first:
+      213: -2163341716525714921
+    second: voidghost_parry-Sheet_29
+  - first:
+      213: 3920265313919919700
+    second: voidghost_parry-Sheet_30
+  - first:
+      213: -1001031346914176688
+    second: voidghost_parry-Sheet_31
+  - first:
+      213: -6409891406197958992
+    second: voidghost_parry-Sheet_32
+  - first:
+      213: -152528667375460099
+    second: voidghost_parry-Sheet_33
+  - first:
+      213: -5885659671930578633
+    second: voidghost_parry-Sheet_34
+  - first:
+      213: -3457854620173123605
+    second: voidghost_parry-Sheet_35
+  - first:
+      213: 5204844677644434272
+    second: voidghost_parry-Sheet_36
+  - first:
+      213: 4547480739315335098
+    second: voidghost_parry-Sheet_37
+  - first:
+      213: -4344261350466562436
+    second: voidghost_parry-Sheet_38
+  - first:
+      213: -4483592241547816754
+    second: voidghost_parry-Sheet_39
+  - first:
+      213: -4835253308803919044
+    second: voidghost_parry-Sheet_40
+  - first:
+      213: 7626275796309959382
+    second: voidghost_parry-Sheet_41
+  - first:
+      213: -7124818910377239954
+    second: voidghost_parry-Sheet_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 8
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ca7022383495fb0800000000000000
+      internalID: -4658618109047362547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 8
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc14f43e7a146610800000000000000
+      internalID: 1613443695862095053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 8
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a02ff823d8a7f3e0800000000000000
+      internalID: -2019960282973003607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 8
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18daea02e468ade40800000000000000
+      internalID: 5682001549995191681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 8
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6e7a8f2684a4880800000000000000
+      internalID: -8626002546359015741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 12
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb334a58f2c725720800000000000000
+      internalID: 2833463659116901311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 8
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fab76f32b404f800800000000000000
+      internalID: 645145810235276024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 10
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0943356cd2cf47230800000000000000
+      internalID: 3635808072725902480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 8
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bdb081f1c9e9ab50800000000000000
+      internalID: 6605067347705249208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 10
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851a64a482a7d4980800000000000000
+      internalID: -8553045803843280552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 8
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89e73f12fa14fad0800000000000000
+      internalID: -2669479051915695734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 8
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4a9b136ed5ad610800000000000000
+      internalID: 1646731857015448808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 8
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9636dc309975660800000000000000
+      internalID: 7374531156452272544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 8
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4162c2a55664dbd20800000000000000
+      internalID: 3295867903423555092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 8
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9c68f5f62e0baf0800000000000000
+      internalID: -382557000354575964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 8
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cebd63eeec8d070800000000000000
+      internalID: 8131476649735351340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 8
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98375092c0a304e30800000000000000
+      internalID: 4485649052763255689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 8
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f033139d7c05eb1e0800000000000000
+      internalID: -2180216350328147185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 8
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4988f40ebfa794700800000000000000
+      internalID: 525086053784062100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 8
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910ff02d50147e260800000000000000
+      internalID: 7126736428592001049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 8
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1afba0e19771e30800000000000000
+      internalID: 4474177924752187810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 8
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d5bddf08715dd10800000000000000
+      internalID: 2149650239921544606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 8
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86fb0ce8ece0ed60800000000000000
+      internalID: 7917588630054106766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 8
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5447f0614ad6c0170800000000000000
+      internalID: 8146006377518560325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 8
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac794c0a303d26450800000000000000
+      internalID: 6080654459439192010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 9
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b6cdfae4d8cc790800000000000000
+      internalID: -7508471109636035717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 8
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf25bf91d5a93e00800000000000000
+      internalID: 1025032709949697979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 10
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5aa0014ff6473c80800000000000000
+      internalID: -8343121722559387044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 8
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa8dc5349a2e5510800000000000000
+      internalID: 1539714938653477617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 11
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71273b2bb244af1e0800000000000000
+      internalID: -2163341716525714921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 8
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4566b755884976630800000000000000
+      internalID: 3920265313919919700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 12
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051562e2b4f9b12f0800000000000000
+      internalID: -1001031346914176688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 8
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6ddb42abd7b07a0800000000000000
+      internalID: -6409891406197958992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0a5033cfb12edf0800000000000000
+      internalID: -152528667375460099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 8
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7395cb146bfe15ea0800000000000000
+      internalID: -5885659671930578633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 8
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef33af1b8b3300d0800000000000000
+      internalID: -3457854620173123605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 8
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b341a68a25b3840800000000000000
+      internalID: 5204844677644434272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 8
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf32d983a5eb1f30800000000000000
+      internalID: 4547480739315335098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 8
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c765bf1915516b3c0800000000000000
+      internalID: -4344261350466562436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 8
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec058d48c9417c1c0800000000000000
+      internalID: -4483592241547816754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 8
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33d5b1ebbab5ecb0800000000000000
+      internalID: -4835253308803919044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 8
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2e6365e69f5d960800000000000000
+      internalID: 7626275796309959382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: voidghost_parry-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 8
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a9afd23fe8f1d90800000000000000
+      internalID: -7124818910377239954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2267 @@
+fileFormatVersion: 2
+guid: e0f7713e97058334c852cad04ed99950
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3840123808268606668
+    second: holy_berserker_knight_main_flaten-Sheet_0
+  - first:
+      213: 578404822566161595
+    second: holy_berserker_knight_main_flaten-Sheet_1
+  - first:
+      213: 4187548041958917647
+    second: holy_berserker_knight_main_flaten-Sheet_2
+  - first:
+      213: 46724116354710203
+    second: holy_berserker_knight_main_flaten-Sheet_3
+  - first:
+      213: 1386662801420362514
+    second: holy_berserker_knight_main_flaten-Sheet_4
+  - first:
+      213: 1815862565047461481
+    second: holy_berserker_knight_main_flaten-Sheet_5
+  - first:
+      213: -6991620142935402308
+    second: holy_berserker_knight_main_flaten-Sheet_6
+  - first:
+      213: -992945270957496903
+    second: holy_berserker_knight_main_flaten-Sheet_7
+  - first:
+      213: 5066085453474976342
+    second: holy_berserker_knight_main_flaten-Sheet_8
+  - first:
+      213: -3633823496286301713
+    second: holy_berserker_knight_main_flaten-Sheet_9
+  - first:
+      213: 4978986842191391291
+    second: holy_berserker_knight_main_flaten-Sheet_10
+  - first:
+      213: 6621222168887611782
+    second: holy_berserker_knight_main_flaten-Sheet_11
+  - first:
+      213: 6130613978252795947
+    second: holy_berserker_knight_main_flaten-Sheet_12
+  - first:
+      213: -1691583487162378483
+    second: holy_berserker_knight_main_flaten-Sheet_13
+  - first:
+      213: -2481499990608917617
+    second: holy_berserker_knight_main_flaten-Sheet_14
+  - first:
+      213: 5759999699680230651
+    second: holy_berserker_knight_main_flaten-Sheet_15
+  - first:
+      213: -8585152526691230645
+    second: holy_berserker_knight_main_flaten-Sheet_16
+  - first:
+      213: 3845712436207006586
+    second: holy_berserker_knight_main_flaten-Sheet_17
+  - first:
+      213: 8526198153823649695
+    second: holy_berserker_knight_main_flaten-Sheet_18
+  - first:
+      213: -4735070223813403801
+    second: holy_berserker_knight_main_flaten-Sheet_19
+  - first:
+      213: -790050856096435494
+    second: holy_berserker_knight_main_flaten-Sheet_20
+  - first:
+      213: -2809644386757183643
+    second: holy_berserker_knight_main_flaten-Sheet_21
+  - first:
+      213: 8681449589901480571
+    second: holy_berserker_knight_main_flaten-Sheet_22
+  - first:
+      213: -8020956049519549188
+    second: holy_berserker_knight_main_flaten-Sheet_23
+  - first:
+      213: -3827352150290142141
+    second: holy_berserker_knight_main_flaten-Sheet_24
+  - first:
+      213: 6451182589359823388
+    second: holy_berserker_knight_main_flaten-Sheet_25
+  - first:
+      213: -6067626166757481850
+    second: holy_berserker_knight_main_flaten-Sheet_26
+  - first:
+      213: 2357089119298052350
+    second: holy_berserker_knight_main_flaten-Sheet_27
+  - first:
+      213: 7109516472121657587
+    second: holy_berserker_knight_main_flaten-Sheet_28
+  - first:
+      213: 1232546797346055638
+    second: holy_berserker_knight_main_flaten-Sheet_29
+  - first:
+      213: 5536539604516681751
+    second: holy_berserker_knight_main_flaten-Sheet_30
+  - first:
+      213: 4135419814807463077
+    second: holy_berserker_knight_main_flaten-Sheet_31
+  - first:
+      213: 6478355850872797890
+    second: holy_berserker_knight_main_flaten-Sheet_32
+  - first:
+      213: -1710584172664082306
+    second: holy_berserker_knight_main_flaten-Sheet_33
+  - first:
+      213: 7303365725020038418
+    second: holy_berserker_knight_main_flaten-Sheet_34
+  - first:
+      213: -122285232553069543
+    second: holy_berserker_knight_main_flaten-Sheet_35
+  - first:
+      213: -1499810941031417389
+    second: holy_berserker_knight_main_flaten-Sheet_36
+  - first:
+      213: 2743198043173881837
+    second: holy_berserker_knight_main_flaten-Sheet_37
+  - first:
+      213: 2123082846543935463
+    second: holy_berserker_knight_main_flaten-Sheet_38
+  - first:
+      213: -6317610765773119454
+    second: holy_berserker_knight_main_flaten-Sheet_39
+  - first:
+      213: -8343129704077263597
+    second: holy_berserker_knight_main_flaten-Sheet_40
+  - first:
+      213: -5589179408079731638
+    second: holy_berserker_knight_main_flaten-Sheet_41
+  - first:
+      213: -3119173950204422596
+    second: holy_berserker_knight_main_flaten-Sheet_42
+  - first:
+      213: 5548380382511050586
+    second: holy_berserker_knight_main_flaten-Sheet_43
+  - first:
+      213: 5471057200339264145
+    second: holy_berserker_knight_main_flaten-Sheet_44
+  - first:
+      213: -1086945856906226078
+    second: holy_berserker_knight_main_flaten-Sheet_45
+  - first:
+      213: 8857133015557938669
+    second: holy_berserker_knight_main_flaten-Sheet_46
+  - first:
+      213: 3803143585540598560
+    second: holy_berserker_knight_main_flaten-Sheet_47
+  - first:
+      213: 8846935342116610839
+    second: holy_berserker_knight_main_flaten-Sheet_48
+  - first:
+      213: 329588606734332673
+    second: holy_berserker_knight_main_flaten-Sheet_49
+  - first:
+      213: -1609132198404221568
+    second: holy_berserker_knight_main_flaten-Sheet_50
+  - first:
+      213: 1402537260134948214
+    second: holy_berserker_knight_main_flaten-Sheet_51
+  - first:
+      213: -5132388655044376255
+    second: holy_berserker_knight_main_flaten-Sheet_52
+  - first:
+      213: -8849926616797240961
+    second: holy_berserker_knight_main_flaten-Sheet_53
+  - first:
+      213: -2774616729675744922
+    second: holy_berserker_knight_main_flaten-Sheet_54
+  - first:
+      213: 5676406372725402858
+    second: holy_berserker_knight_main_flaten-Sheet_55
+  - first:
+      213: -8005720149015046353
+    second: holy_berserker_knight_main_flaten-Sheet_56
+  - first:
+      213: 9200210810386639113
+    second: holy_berserker_knight_main_flaten-Sheet_57
+  - first:
+      213: -81887639803476370
+    second: holy_berserker_knight_main_flaten-Sheet_58
+  - first:
+      213: -6147729002097628499
+    second: holy_berserker_knight_main_flaten-Sheet_59
+  - first:
+      213: 7066239576962338033
+    second: holy_berserker_knight_main_flaten-Sheet_60
+  - first:
+      213: -3266021778037447076
+    second: holy_berserker_knight_main_flaten-Sheet_61
+  - first:
+      213: 8526349101780861248
+    second: holy_berserker_knight_main_flaten-Sheet_62
+  - first:
+      213: 4528050264740394102
+    second: holy_berserker_knight_main_flaten-Sheet_63
+  - first:
+      213: -8654044300568117314
+    second: holy_berserker_knight_main_flaten-Sheet_64
+  - first:
+      213: 2119757822399342473
+    second: holy_berserker_knight_main_flaten-Sheet_65
+  - first:
+      213: 7000568705679246993
+    second: holy_berserker_knight_main_flaten-Sheet_66
+  - first:
+      213: 6901532379564146750
+    second: holy_berserker_knight_main_flaten-Sheet_67
+  - first:
+      213: 5493780527718308814
+    second: holy_berserker_knight_main_flaten-Sheet_68
+  - first:
+      213: -6818255697246156397
+    second: holy_berserker_knight_main_flaten-Sheet_69
+  - first:
+      213: -5552539886352343616
+    second: holy_berserker_knight_main_flaten-Sheet_70
+  - first:
+      213: -2252326861843993919
+    second: holy_berserker_knight_main_flaten-Sheet_71
+  - first:
+      213: -7793248021916306115
+    second: holy_berserker_knight_main_flaten-Sheet_72
+  - first:
+      213: 5302316683513145921
+    second: holy_berserker_knight_main_flaten-Sheet_73
+  - first:
+      213: -2389203858620332977
+    second: holy_berserker_knight_main_flaten-Sheet_74
+  - first:
+      213: 1433211053642579381
+    second: holy_berserker_knight_main_flaten-Sheet_75
+  - first:
+      213: -8929882171067284724
+    second: holy_berserker_knight_main_flaten-Sheet_76
+  - first:
+      213: 4425246067808689573
+    second: holy_berserker_knight_main_flaten-Sheet_77
+  - first:
+      213: 8747361120257280355
+    second: holy_berserker_knight_main_flaten-Sheet_78
+  - first:
+      213: 5045915191340555255
+    second: holy_berserker_knight_main_flaten-Sheet_79
+  - first:
+      213: 4046829475030730766
+    second: holy_berserker_knight_main_flaten-Sheet_80
+  - first:
+      213: 8365210395285261364
+    second: holy_berserker_knight_main_flaten-Sheet_81
+  - first:
+      213: 1736270672428634503
+    second: holy_berserker_knight_main_flaten-Sheet_82
+  - first:
+      213: 5672858120670357500
+    second: holy_berserker_knight_main_flaten-Sheet_83
+  - first:
+      213: -7401177954269970007
+    second: holy_berserker_knight_main_flaten-Sheet_84
+  - first:
+      213: 5892006633790943729
+    second: holy_berserker_knight_main_flaten-Sheet_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 941
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43321a20eb325bac0800000000000000
+      internalID: -3840123808268606668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 941
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbccd612f18e60800800000000000000
+      internalID: 578404822566161595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 941
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0608d0f1c82d1a30800000000000000
+      internalID: 4187548041958917647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 941
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba34c5165ff5a000800000000000000
+      internalID: 46724116354710203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 941
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213a8e5987a6e3310800000000000000
+      internalID: 1386662801420362514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 941
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966659ec16d333910800000000000000
+      internalID: 1815862565047461481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 941
+        width: 41
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb89edfe586c8fe90800000000000000
+      internalID: -6991620142935402308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 941
+        width: 46
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5ac2379895832f0800000000000000
+      internalID: -992945270957496903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 941
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6525620f0e95e4640800000000000000
+      internalID: 5066085453474976342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 829
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1136f68c0129dc0800000000000000
+      internalID: -3633823496286301713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 829
+        width: 44
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a6926372ae81540800000000000000
+      internalID: 4978986842191391291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 829
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681dc7b5b7e43eb50800000000000000
+      internalID: 6621222168887611782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 829
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b206dcc8ee0541550800000000000000
+      internalID: 6130613978252795947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 836
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0715c3e7c94688e0800000000000000
+      internalID: -1691583487162378483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 842
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bce95f7e0ff8dd0800000000000000
+      internalID: -2481499990608917617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 840
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfcfbc58531afef40800000000000000
+      internalID: 5759999699680230651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 835
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c950853496bd880800000000000000
+      internalID: -8585152526691230645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 829
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73bb64d517be5530800000000000000
+      internalID: 3845712436207006586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 829
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fff331c04235670800000000000000
+      internalID: 8526198153823649695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 829
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b921b08b6a94eb0800000000000000
+      internalID: -4735070223813403801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 829
+        width: 20
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2f0e7aeec2905f0800000000000000
+      internalID: -790050856096435494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 717
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567fa2ef0532209d0800000000000000
+      internalID: -2809644386757183643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 717
+        width: 41
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72d98dd764ba7870800000000000000
+      internalID: 8681449589901480571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 717
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4ed5548f6dfa090800000000000000
+      internalID: -8020956049519549188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 717
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ce0ab5f7382eac0800000000000000
+      internalID: -3827352150290142141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 717
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a1afb9264378950800000000000000
+      internalID: 6451182589359823388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 701
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6822e8426267bcba0800000000000000
+      internalID: -6067626166757481850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 701
+        width: 65
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0e2bbc01016b020800000000000000
+      internalID: 2357089119298052350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 703
+        width: 39
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8899540931aa260800000000000000
+      internalID: 7109516472121657587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 710
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d56bd828c2ea1110800000000000000
+      internalID: 1232546797346055638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 605
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718391cbf6db5dc40800000000000000
+      internalID: 5536539604516681751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 605
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4e5b24966f36930800000000000000
+      internalID: 4135419814807463077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 592
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cab8d3925eb7e950800000000000000
+      internalID: 6478355850872797890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 593
+        width: 57
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e70b3fd02c8c248e0800000000000000
+      internalID: -1710584172664082306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 605
+        width: 55
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21525989e64ca5560800000000000000
+      internalID: 7303365725020038418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 605
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914f5689a3e8d4ef0800000000000000
+      internalID: -122285232553069543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 605
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9f39d35e99f2be0800000000000000
+      internalID: -1499810941031417389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 605
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de70def061cc11620800000000000000
+      internalID: 2743198043173881837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 605
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7f9f0b994b67d10800000000000000
+      internalID: 2123082846543935463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 492
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220e8ec0b765358a0800000000000000
+      internalID: -6317610765773119454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 492
+        width: 61
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31df679ecbf373c80800000000000000
+      internalID: -8343129704077263597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 493
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44ca7be0fe3f62b0800000000000000
+      internalID: -5589179408079731638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 493
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36d96181d776b4d0800000000000000
+      internalID: -3119173950204422596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 493
+        width: 69
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f2152bf8ecffc40800000000000000
+      internalID: 5548380382511050586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 493
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192a01c69891deb40800000000000000
+      internalID: 5471057200339264145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 493
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266950580846ae0f0800000000000000
+      internalID: -1086945856906226078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 488
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded17b0fc8bdaea70800000000000000
+      internalID: 8857133015557938669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 489
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02be3fde0fa77c430800000000000000
+      internalID: 3803143585540598560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 493
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713a5b112d0a6ca70800000000000000
+      internalID: 8846935342116610839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 381
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1037a62771fe29400800000000000000
+      internalID: 329588606734332673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 379
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08519758ac63ba9e0800000000000000
+      internalID: -1609132198404221568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 379
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dd7960530d67310800000000000000
+      internalID: 1402537260134948214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 379
+        width: 51
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149c5d6f5b716c8b0800000000000000
+      internalID: -5132388655044376255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 378
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71a68581aebe2580800000000000000
+      internalID: -8849926616797240961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 378
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66932dfe8c49e79d0800000000000000
+      internalID: -2774616729675744922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 379
+        width: 50
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecaf076585a6ce40800000000000000
+      internalID: 5676406372725402858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 379
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2755cac0f7f5e090800000000000000
+      internalID: -8005720149015046353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 380
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909edcbbcf6bdaf70800000000000000
+      internalID: 9200210810386639113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 381
+        width: 70
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66c40e10a31ddef0800000000000000
+      internalID: -81887639803476370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 381
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daaaa9e6b01eeaaa0800000000000000
+      internalID: -6147729002097628499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 381
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc85aae473501260800000000000000
+      internalID: 7066239576962338033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 381
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56636b3f72cca2d0800000000000000
+      internalID: -3266021778037447076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 254
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0418e92655da35670800000000000000
+      internalID: 8526349101780861248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 254
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674f6f2a9bdd6de30800000000000000
+      internalID: 4528050264740394102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 269
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfb42a4f88a6e780800000000000000
+      internalID: -8654044300568117314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 269
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987e7fd2284ea6d10800000000000000
+      internalID: 2119757822399342473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 269
+        width: 41
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1964abfa524072160800000000000000
+      internalID: 7000568705679246993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 269
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3007c1222b27cf50800000000000000
+      internalID: 6901532379564146750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 269
+        width: 38
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb9b9c5844dd3c40800000000000000
+      internalID: 5493780527718308814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 269
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3990cd96190b061a0800000000000000
+      internalID: -6818255697246156397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 269
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdd7c8546a61f2b0800000000000000
+      internalID: -5552539886352343616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 157
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cae7b907a02eb0e0800000000000000
+      internalID: -2252326861843993919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 157
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35b927e632d8d390800000000000000
+      internalID: -7793248021916306115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 157
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14aad674eec959940800000000000000
+      internalID: 5302316683513145921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 157
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4441f6cfb7d7ded0800000000000000
+      internalID: -2389203858620332977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 158
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd778c1cd9c3e310800000000000000
+      internalID: 1433211053642579381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 159
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03c07b5a7fa21480800000000000000
+      internalID: -8929882171067284724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 157
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad5e6b4ad1a96d30800000000000000
+      internalID: 4425246067808689573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 157
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3698ff6e79ed46970800000000000000
+      internalID: 8747361120257280355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 157
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbd992d121b60640800000000000000
+      internalID: 5045915191340555255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 45
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0889cd67f9392830800000000000000
+      internalID: 4046829475030730766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 45
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c0262a882371470800000000000000
+      internalID: 8365210395285261364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 45
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78199083af8781810800000000000000
+      internalID: 1736270672428634503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 39
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf72fb7976a0abe40800000000000000
+      internalID: 5672858120670357500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 35
+        width: 41
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1494c1ddbb94990800000000000000
+      internalID: -7401177954269970007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: holy_berserker_knight_main_flaten-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 45
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1ba55f0dc94c150800000000000000
+      internalID: 5892006633790943729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

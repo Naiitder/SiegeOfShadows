@@ -1,0 +1,817 @@
+fileFormatVersion: 2
+guid: 7dc27523f7ea1954592bf0e19dda0a29
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5605032081890961166
+    second: heavy_knight_charged_atack-Sheet_0
+  - first:
+      213: 3590481939654370925
+    second: heavy_knight_charged_atack-Sheet_1
+  - first:
+      213: -166421349902143588
+    second: heavy_knight_charged_atack-Sheet_2
+  - first:
+      213: -7157113857983942981
+    second: heavy_knight_charged_atack-Sheet_3
+  - first:
+      213: 2413056385242528737
+    second: heavy_knight_charged_atack-Sheet_4
+  - first:
+      213: 6616445859591630938
+    second: heavy_knight_charged_atack-Sheet_5
+  - first:
+      213: 5282923441238482668
+    second: heavy_knight_charged_atack-Sheet_6
+  - first:
+      213: 7411022885938961069
+    second: heavy_knight_charged_atack-Sheet_7
+  - first:
+      213: -8552364122753495008
+    second: heavy_knight_charged_atack-Sheet_8
+  - first:
+      213: 286437869401975685
+    second: heavy_knight_charged_atack-Sheet_9
+  - first:
+      213: -2915512809360293250
+    second: heavy_knight_charged_atack-Sheet_10
+  - first:
+      213: 5147363497282560498
+    second: heavy_knight_charged_atack-Sheet_11
+  - first:
+      213: 2188124056754979990
+    second: heavy_knight_charged_atack-Sheet_12
+  - first:
+      213: -2765140921445431814
+    second: heavy_knight_charged_atack-Sheet_13
+  - first:
+      213: -6904553721829004225
+    second: heavy_knight_charged_atack-Sheet_14
+  - first:
+      213: -786102072817475882
+    second: heavy_knight_charged_atack-Sheet_15
+  - first:
+      213: 451886456768776541
+    second: heavy_knight_charged_atack-Sheet_16
+  - first:
+      213: 2476469378849276137
+    second: heavy_knight_charged_atack-Sheet_17
+  - first:
+      213: -6830614173234004294
+    second: heavy_knight_charged_atack-Sheet_18
+  - first:
+      213: 6242930373229494239
+    second: heavy_knight_charged_atack-Sheet_19
+  - first:
+      213: -8360390268205706477
+    second: heavy_knight_charged_atack-Sheet_20
+  - first:
+      213: -5194442049245373233
+    second: heavy_knight_charged_atack-Sheet_21
+  - first:
+      213: 4497897653037047443
+    second: heavy_knight_charged_atack-Sheet_22
+  - first:
+      213: -2092791611682878563
+    second: heavy_knight_charged_atack-Sheet_23
+  - first:
+      213: 3433122056128434692
+    second: heavy_knight_charged_atack-Sheet_24
+  - first:
+      213: 7985124941148293222
+    second: heavy_knight_charged_atack-Sheet_25
+  - first:
+      213: 2296986463365553012
+    second: heavy_knight_charged_atack-Sheet_26
+  - first:
+      213: -3345295419468830463
+    second: heavy_knight_charged_atack-Sheet_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 15
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8983ca40de632b0800000000000000
+      internalID: -5605032081890961166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 15
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66ed890d44f3d130800000000000000
+      internalID: 3590481939654370925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 15
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9faa0cf9a0c0bdf0800000000000000
+      internalID: -166421349902143588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 14
+        width: 81
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe67ddbdd2dcac90800000000000000
+      internalID: -7157113857983942981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 15
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eb7e595ff5ec7120800000000000000
+      internalID: 2413056385242528737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 14
+        width: 49
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a503090347652db50800000000000000
+      internalID: 6616445859591630938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 15
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee9a9231e6b05940800000000000000
+      internalID: 5282923441238482668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 14
+        width: 45
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa9eaaac0e39d660800000000000000
+      internalID: 7411022885938961069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 15
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0209b798426ef4980800000000000000
+      internalID: -8552364122753495008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 15
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bacef79b1a9f300800000000000000
+      internalID: 286437869401975685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 15
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e728af30c840a87d0800000000000000
+      internalID: -2915512809360293250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 15
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1e65134db1f6740800000000000000
+      internalID: 5147363497282560498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 15
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6940e578c37cd5e10800000000000000
+      internalID: 2188124056754979990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 15
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af549577bfe30a9d0800000000000000
+      internalID: -2765140921445431814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 11
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ce7cdc8f81e20a0800000000000000
+      internalID: -6904553721829004225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 9
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de148864543715f0800000000000000
+      internalID: -786102072817475882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 2
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d594386965c654600800000000000000
+      internalID: 451886456768776541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 2
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0817777cf2e5220800000000000000
+      internalID: 2476469378849276137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 15
+        width: 80
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe73ae7998c431a0800000000000000
+      internalID: -6830614173234004294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 15
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf37d5191853a650800000000000000
+      internalID: 6242930373229494239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 15
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31357f7a85de9fb80800000000000000
+      internalID: -8360390268205706477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 15
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc90604a72a9e7b0800000000000000
+      internalID: -5194442049245373233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 15
+        width: 53
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39e1655a51ebb6e30800000000000000
+      internalID: 4497897653037047443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 15
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b89b40e19e4f2e0800000000000000
+      internalID: -2092791611682878563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 18
+        width: 44
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40218121256e4af20800000000000000
+      internalID: 3433122056128434692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 15
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6688144b3dcd0de60800000000000000
+      internalID: 7985124941148293222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 14
+        width: 47
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bd8cab40980ef10800000000000000
+      internalID: 2296986463365553012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heavy_knight_charged_atack-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 15
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 109a1d54a8f1391d0800000000000000
+      internalID: -3345295419468830463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

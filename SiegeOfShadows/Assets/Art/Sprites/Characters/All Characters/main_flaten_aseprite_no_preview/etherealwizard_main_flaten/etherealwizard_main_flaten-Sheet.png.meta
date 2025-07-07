@@ -1,0 +1,5942 @@
+fileFormatVersion: 2
+guid: cef965de35cd0df44b43ef832a93635a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -193812460219097783
+    second: etherealwizard_main_flaten-Sheet_0
+  - first:
+      213: 2840862701851371052
+    second: etherealwizard_main_flaten-Sheet_1
+  - first:
+      213: -5537994573798458083
+    second: etherealwizard_main_flaten-Sheet_2
+  - first:
+      213: 5992454752914282611
+    second: etherealwizard_main_flaten-Sheet_3
+  - first:
+      213: 6286399279258098502
+    second: etherealwizard_main_flaten-Sheet_4
+  - first:
+      213: 5221390411848074542
+    second: etherealwizard_main_flaten-Sheet_5
+  - first:
+      213: 376545785634195231
+    second: etherealwizard_main_flaten-Sheet_6
+  - first:
+      213: -5089814533763972496
+    second: etherealwizard_main_flaten-Sheet_7
+  - first:
+      213: -6844361908413527212
+    second: etherealwizard_main_flaten-Sheet_8
+  - first:
+      213: 5398537814461540957
+    second: etherealwizard_main_flaten-Sheet_9
+  - first:
+      213: 4207706738439058681
+    second: etherealwizard_main_flaten-Sheet_10
+  - first:
+      213: 1731953907876579297
+    second: etherealwizard_main_flaten-Sheet_11
+  - first:
+      213: 4134907176030338101
+    second: etherealwizard_main_flaten-Sheet_12
+  - first:
+      213: -9189765081424971085
+    second: etherealwizard_main_flaten-Sheet_13
+  - first:
+      213: 8357514646777269988
+    second: etherealwizard_main_flaten-Sheet_14
+  - first:
+      213: 3215591964798039397
+    second: etherealwizard_main_flaten-Sheet_15
+  - first:
+      213: -7473088293554770788
+    second: etherealwizard_main_flaten-Sheet_16
+  - first:
+      213: 8246791380681872002
+    second: etherealwizard_main_flaten-Sheet_17
+  - first:
+      213: 3914253479918686012
+    second: etherealwizard_main_flaten-Sheet_18
+  - first:
+      213: 3043421736469300284
+    second: etherealwizard_main_flaten-Sheet_19
+  - first:
+      213: 3958355149891384000
+    second: etherealwizard_main_flaten-Sheet_20
+  - first:
+      213: 1999239998444843868
+    second: etherealwizard_main_flaten-Sheet_21
+  - first:
+      213: 2778458076137806156
+    second: etherealwizard_main_flaten-Sheet_22
+  - first:
+      213: -1112032413136366093
+    second: etherealwizard_main_flaten-Sheet_23
+  - first:
+      213: 3279293316901263435
+    second: etherealwizard_main_flaten-Sheet_24
+  - first:
+      213: 3691449369736699965
+    second: etherealwizard_main_flaten-Sheet_25
+  - first:
+      213: -8665300412962942762
+    second: etherealwizard_main_flaten-Sheet_26
+  - first:
+      213: -8994609221414370104
+    second: etherealwizard_main_flaten-Sheet_27
+  - first:
+      213: -2743300197750011591
+    second: etherealwizard_main_flaten-Sheet_28
+  - first:
+      213: -3229087395070606857
+    second: etherealwizard_main_flaten-Sheet_29
+  - first:
+      213: -8816317323945460009
+    second: etherealwizard_main_flaten-Sheet_30
+  - first:
+      213: -4938857809507645097
+    second: etherealwizard_main_flaten-Sheet_31
+  - first:
+      213: 4612258005174835844
+    second: etherealwizard_main_flaten-Sheet_32
+  - first:
+      213: -1638413131068253119
+    second: etherealwizard_main_flaten-Sheet_33
+  - first:
+      213: 5234153129839285309
+    second: etherealwizard_main_flaten-Sheet_34
+  - first:
+      213: 4771597493824150978
+    second: etherealwizard_main_flaten-Sheet_35
+  - first:
+      213: 7548369127392993634
+    second: etherealwizard_main_flaten-Sheet_36
+  - first:
+      213: 6096735457468243552
+    second: etherealwizard_main_flaten-Sheet_37
+  - first:
+      213: 2254686349470095725
+    second: etherealwizard_main_flaten-Sheet_38
+  - first:
+      213: -2858754815382492560
+    second: etherealwizard_main_flaten-Sheet_39
+  - first:
+      213: 5259059245912557748
+    second: etherealwizard_main_flaten-Sheet_40
+  - first:
+      213: -2530929789391890261
+    second: etherealwizard_main_flaten-Sheet_41
+  - first:
+      213: -4034800726371148560
+    second: etherealwizard_main_flaten-Sheet_42
+  - first:
+      213: -8376996375700069785
+    second: etherealwizard_main_flaten-Sheet_43
+  - first:
+      213: 3548994743797084658
+    second: etherealwizard_main_flaten-Sheet_44
+  - first:
+      213: 4297717828366548843
+    second: etherealwizard_main_flaten-Sheet_45
+  - first:
+      213: 111450103243007098
+    second: etherealwizard_main_flaten-Sheet_46
+  - first:
+      213: -4763323023159461012
+    second: etherealwizard_main_flaten-Sheet_47
+  - first:
+      213: 6747069942464768449
+    second: etherealwizard_main_flaten-Sheet_48
+  - first:
+      213: -1807075746544619123
+    second: etherealwizard_main_flaten-Sheet_49
+  - first:
+      213: 5847442445562775080
+    second: etherealwizard_main_flaten-Sheet_50
+  - first:
+      213: 6448974629428774960
+    second: etherealwizard_main_flaten-Sheet_51
+  - first:
+      213: -3949358949660904273
+    second: etherealwizard_main_flaten-Sheet_52
+  - first:
+      213: 5448940708264581367
+    second: etherealwizard_main_flaten-Sheet_53
+  - first:
+      213: 6221630720760655010
+    second: etherealwizard_main_flaten-Sheet_54
+  - first:
+      213: 5636548504200054056
+    second: etherealwizard_main_flaten-Sheet_55
+  - first:
+      213: -8970277361596278955
+    second: etherealwizard_main_flaten-Sheet_56
+  - first:
+      213: -3185728411192263813
+    second: etherealwizard_main_flaten-Sheet_57
+  - first:
+      213: -6356131454985042818
+    second: etherealwizard_main_flaten-Sheet_58
+  - first:
+      213: -2215615602879653481
+    second: etherealwizard_main_flaten-Sheet_59
+  - first:
+      213: 558219387265003661
+    second: etherealwizard_main_flaten-Sheet_60
+  - first:
+      213: -6782039228201320737
+    second: etherealwizard_main_flaten-Sheet_61
+  - first:
+      213: -5066895367210848758
+    second: etherealwizard_main_flaten-Sheet_62
+  - first:
+      213: -2713040804316688916
+    second: etherealwizard_main_flaten-Sheet_63
+  - first:
+      213: -6321852071936357804
+    second: etherealwizard_main_flaten-Sheet_64
+  - first:
+      213: -2930091320677554322
+    second: etherealwizard_main_flaten-Sheet_65
+  - first:
+      213: 1134455820027488611
+    second: etherealwizard_main_flaten-Sheet_66
+  - first:
+      213: -3421968548776311915
+    second: etherealwizard_main_flaten-Sheet_67
+  - first:
+      213: 5320936091341303877
+    second: etherealwizard_main_flaten-Sheet_68
+  - first:
+      213: 2844084624958159341
+    second: etherealwizard_main_flaten-Sheet_69
+  - first:
+      213: 1917747371420254274
+    second: etherealwizard_main_flaten-Sheet_70
+  - first:
+      213: -5248417344779847126
+    second: etherealwizard_main_flaten-Sheet_71
+  - first:
+      213: -3362926016615425121
+    second: etherealwizard_main_flaten-Sheet_72
+  - first:
+      213: 5206893460555256433
+    second: etherealwizard_main_flaten-Sheet_73
+  - first:
+      213: -4227580831740349909
+    second: etherealwizard_main_flaten-Sheet_74
+  - first:
+      213: 5674124940712290115
+    second: etherealwizard_main_flaten-Sheet_75
+  - first:
+      213: -2776262530560915004
+    second: etherealwizard_main_flaten-Sheet_76
+  - first:
+      213: 9147574913248547965
+    second: etherealwizard_main_flaten-Sheet_77
+  - first:
+      213: 5315469287663325593
+    second: etherealwizard_main_flaten-Sheet_78
+  - first:
+      213: 732339288483223491
+    second: etherealwizard_main_flaten-Sheet_79
+  - first:
+      213: 139831292352066883
+    second: etherealwizard_main_flaten-Sheet_80
+  - first:
+      213: -612240026614520834
+    second: etherealwizard_main_flaten-Sheet_81
+  - first:
+      213: 3803156983655073295
+    second: etherealwizard_main_flaten-Sheet_82
+  - first:
+      213: -3896321088748036584
+    second: etherealwizard_main_flaten-Sheet_83
+  - first:
+      213: -4932338433901622746
+    second: etherealwizard_main_flaten-Sheet_84
+  - first:
+      213: -4178528817676626187
+    second: etherealwizard_main_flaten-Sheet_85
+  - first:
+      213: -3502780789390524720
+    second: etherealwizard_main_flaten-Sheet_86
+  - first:
+      213: -4418866038070422528
+    second: etherealwizard_main_flaten-Sheet_87
+  - first:
+      213: 9000930880701818509
+    second: etherealwizard_main_flaten-Sheet_88
+  - first:
+      213: 8728310149946498216
+    second: etherealwizard_main_flaten-Sheet_89
+  - first:
+      213: 525253066365445131
+    second: etherealwizard_main_flaten-Sheet_90
+  - first:
+      213: -4807628801303245108
+    second: etherealwizard_main_flaten-Sheet_91
+  - first:
+      213: 4596420121988282244
+    second: etherealwizard_main_flaten-Sheet_92
+  - first:
+      213: -2344109264272003771
+    second: etherealwizard_main_flaten-Sheet_93
+  - first:
+      213: 5669938659131165069
+    second: etherealwizard_main_flaten-Sheet_94
+  - first:
+      213: -6852923034396174618
+    second: etherealwizard_main_flaten-Sheet_95
+  - first:
+      213: -5996707812019000538
+    second: etherealwizard_main_flaten-Sheet_96
+  - first:
+      213: 8831709337922934989
+    second: etherealwizard_main_flaten-Sheet_97
+  - first:
+      213: -6979229507623414908
+    second: etherealwizard_main_flaten-Sheet_98
+  - first:
+      213: -5628135831413723532
+    second: etherealwizard_main_flaten-Sheet_99
+  - first:
+      213: 4240985289565129513
+    second: etherealwizard_main_flaten-Sheet_100
+  - first:
+      213: -7742885563633635125
+    second: etherealwizard_main_flaten-Sheet_101
+  - first:
+      213: 3900932219559548573
+    second: etherealwizard_main_flaten-Sheet_102
+  - first:
+      213: 578723287630972722
+    second: etherealwizard_main_flaten-Sheet_103
+  - first:
+      213: -3472156323375336571
+    second: etherealwizard_main_flaten-Sheet_104
+  - first:
+      213: 6901303404652046388
+    second: etherealwizard_main_flaten-Sheet_105
+  - first:
+      213: 2776814530978653208
+    second: etherealwizard_main_flaten-Sheet_106
+  - first:
+      213: 1828720259581090454
+    second: etherealwizard_main_flaten-Sheet_107
+  - first:
+      213: 3172555124709874684
+    second: etherealwizard_main_flaten-Sheet_108
+  - first:
+      213: 740912239132011645
+    second: etherealwizard_main_flaten-Sheet_109
+  - first:
+      213: -4227249542768127776
+    second: etherealwizard_main_flaten-Sheet_110
+  - first:
+      213: -635364850572435128
+    second: etherealwizard_main_flaten-Sheet_111
+  - first:
+      213: -8508776164099998715
+    second: etherealwizard_main_flaten-Sheet_112
+  - first:
+      213: -8731973868755043714
+    second: etherealwizard_main_flaten-Sheet_113
+  - first:
+      213: 2435570986563751639
+    second: etherealwizard_main_flaten-Sheet_114
+  - first:
+      213: -927649980553549608
+    second: etherealwizard_main_flaten-Sheet_115
+  - first:
+      213: -4460449625285290430
+    second: etherealwizard_main_flaten-Sheet_116
+  - first:
+      213: 2876866095787435731
+    second: etherealwizard_main_flaten-Sheet_117
+  - first:
+      213: 2304099251887083068
+    second: etherealwizard_main_flaten-Sheet_118
+  - first:
+      213: -6910197609111937057
+    second: etherealwizard_main_flaten-Sheet_119
+  - first:
+      213: -1241496085963604940
+    second: etherealwizard_main_flaten-Sheet_120
+  - first:
+      213: 4202224916367928176
+    second: etherealwizard_main_flaten-Sheet_121
+  - first:
+      213: -6009117159903766496
+    second: etherealwizard_main_flaten-Sheet_122
+  - first:
+      213: -5503301615716638891
+    second: etherealwizard_main_flaten-Sheet_123
+  - first:
+      213: 7454727115616271644
+    second: etherealwizard_main_flaten-Sheet_124
+  - first:
+      213: -6600926417027255206
+    second: etherealwizard_main_flaten-Sheet_125
+  - first:
+      213: 1744887877552160441
+    second: etherealwizard_main_flaten-Sheet_126
+  - first:
+      213: 6999163522258623860
+    second: etherealwizard_main_flaten-Sheet_127
+  - first:
+      213: 7051211309663014022
+    second: etherealwizard_main_flaten-Sheet_128
+  - first:
+      213: -2235378491579117070
+    second: etherealwizard_main_flaten-Sheet_129
+  - first:
+      213: -8611662490806289339
+    second: etherealwizard_main_flaten-Sheet_130
+  - first:
+      213: 4388529510675873668
+    second: etherealwizard_main_flaten-Sheet_131
+  - first:
+      213: -5319436419428327164
+    second: etherealwizard_main_flaten-Sheet_132
+  - first:
+      213: 2682925272828840611
+    second: etherealwizard_main_flaten-Sheet_133
+  - first:
+      213: -7592574537535173163
+    second: etherealwizard_main_flaten-Sheet_134
+  - first:
+      213: 3820080211596793558
+    second: etherealwizard_main_flaten-Sheet_135
+  - first:
+      213: 5096410838076721073
+    second: etherealwizard_main_flaten-Sheet_136
+  - first:
+      213: -6966320418762158473
+    second: etherealwizard_main_flaten-Sheet_137
+  - first:
+      213: -4293183933092264475
+    second: etherealwizard_main_flaten-Sheet_138
+  - first:
+      213: -3332535319160236428
+    second: etherealwizard_main_flaten-Sheet_139
+  - first:
+      213: 299561106529581625
+    second: etherealwizard_main_flaten-Sheet_140
+  - first:
+      213: -3459089231137216433
+    second: etherealwizard_main_flaten-Sheet_141
+  - first:
+      213: -7003613444901197028
+    second: etherealwizard_main_flaten-Sheet_142
+  - first:
+      213: -690261675913246072
+    second: etherealwizard_main_flaten-Sheet_143
+  - first:
+      213: 2034586069896711614
+    second: etherealwizard_main_flaten-Sheet_144
+  - first:
+      213: 6371798159464140412
+    second: etherealwizard_main_flaten-Sheet_145
+  - first:
+      213: -3596899330141383360
+    second: etherealwizard_main_flaten-Sheet_146
+  - first:
+      213: -5520079117376919432
+    second: etherealwizard_main_flaten-Sheet_147
+  - first:
+      213: 7816184002867192119
+    second: etherealwizard_main_flaten-Sheet_148
+  - first:
+      213: 5544544907976294377
+    second: etherealwizard_main_flaten-Sheet_149
+  - first:
+      213: 15425766317181157
+    second: etherealwizard_main_flaten-Sheet_150
+  - first:
+      213: 3108172929954080017
+    second: etherealwizard_main_flaten-Sheet_151
+  - first:
+      213: -4126883825634229809
+    second: etherealwizard_main_flaten-Sheet_152
+  - first:
+      213: -8101536954514718942
+    second: etherealwizard_main_flaten-Sheet_153
+  - first:
+      213: 1712037667338305108
+    second: etherealwizard_main_flaten-Sheet_154
+  - first:
+      213: 2113811535739434898
+    second: etherealwizard_main_flaten-Sheet_155
+  - first:
+      213: 7601450011511299512
+    second: etherealwizard_main_flaten-Sheet_156
+  - first:
+      213: 4304274057660785544
+    second: etherealwizard_main_flaten-Sheet_157
+  - first:
+      213: 9096623181094852682
+    second: etherealwizard_main_flaten-Sheet_158
+  - first:
+      213: 8044428500134067845
+    second: etherealwizard_main_flaten-Sheet_159
+  - first:
+      213: -5517819532081006981
+    second: etherealwizard_main_flaten-Sheet_160
+  - first:
+      213: -8644090167754780373
+    second: etherealwizard_main_flaten-Sheet_161
+  - first:
+      213: -5374855690039148852
+    second: etherealwizard_main_flaten-Sheet_162
+  - first:
+      213: 2983539525372268142
+    second: etherealwizard_main_flaten-Sheet_163
+  - first:
+      213: -1437910811679289857
+    second: etherealwizard_main_flaten-Sheet_164
+  - first:
+      213: 3717787982723649349
+    second: etherealwizard_main_flaten-Sheet_165
+  - first:
+      213: -7996650422943031863
+    second: etherealwizard_main_flaten-Sheet_166
+  - first:
+      213: -8894549224596339251
+    second: etherealwizard_main_flaten-Sheet_167
+  - first:
+      213: -1158593230075961304
+    second: etherealwizard_main_flaten-Sheet_168
+  - first:
+      213: -4403653571127937819
+    second: etherealwizard_main_flaten-Sheet_169
+  - first:
+      213: 8494250173572574818
+    second: etherealwizard_main_flaten-Sheet_170
+  - first:
+      213: 8349029930667045273
+    second: etherealwizard_main_flaten-Sheet_171
+  - first:
+      213: 7025357476402916056
+    second: etherealwizard_main_flaten-Sheet_172
+  - first:
+      213: -4016451607325111712
+    second: etherealwizard_main_flaten-Sheet_173
+  - first:
+      213: 3549235351205516118
+    second: etherealwizard_main_flaten-Sheet_174
+  - first:
+      213: 1912597691341904335
+    second: etherealwizard_main_flaten-Sheet_175
+  - first:
+      213: 8762066907493245980
+    second: etherealwizard_main_flaten-Sheet_176
+  - first:
+      213: -3384007869188405890
+    second: etherealwizard_main_flaten-Sheet_177
+  - first:
+      213: 319227716163752576
+    second: etherealwizard_main_flaten-Sheet_178
+  - first:
+      213: -4245670196539670358
+    second: etherealwizard_main_flaten-Sheet_179
+  - first:
+      213: 6005122062735511271
+    second: etherealwizard_main_flaten-Sheet_180
+  - first:
+      213: 9097823421099598999
+    second: etherealwizard_main_flaten-Sheet_181
+  - first:
+      213: 521581040229761459
+    second: etherealwizard_main_flaten-Sheet_182
+  - first:
+      213: -7000811380773624440
+    second: etherealwizard_main_flaten-Sheet_183
+  - first:
+      213: -3447388097988310426
+    second: etherealwizard_main_flaten-Sheet_184
+  - first:
+      213: 7302932415606684029
+    second: etherealwizard_main_flaten-Sheet_185
+  - first:
+      213: 8694691790705055095
+    second: etherealwizard_main_flaten-Sheet_186
+  - first:
+      213: 8497256039658804878
+    second: etherealwizard_main_flaten-Sheet_187
+  - first:
+      213: 6933824359629738096
+    second: etherealwizard_main_flaten-Sheet_188
+  - first:
+      213: -3635930640945981092
+    second: etherealwizard_main_flaten-Sheet_189
+  - first:
+      213: -5741230213368109042
+    second: etherealwizard_main_flaten-Sheet_190
+  - first:
+      213: -718670903112562219
+    second: etherealwizard_main_flaten-Sheet_191
+  - first:
+      213: -8218431485956321659
+    second: etherealwizard_main_flaten-Sheet_192
+  - first:
+      213: 2334141511978869863
+    second: etherealwizard_main_flaten-Sheet_193
+  - first:
+      213: -8905111773314302074
+    second: etherealwizard_main_flaten-Sheet_194
+  - first:
+      213: -6918633803867435406
+    second: etherealwizard_main_flaten-Sheet_195
+  - first:
+      213: 612036905524953413
+    second: etherealwizard_main_flaten-Sheet_196
+  - first:
+      213: 3776977951762973732
+    second: etherealwizard_main_flaten-Sheet_197
+  - first:
+      213: 2002094401323520135
+    second: etherealwizard_main_flaten-Sheet_198
+  - first:
+      213: -272732974028545715
+    second: etherealwizard_main_flaten-Sheet_199
+  - first:
+      213: 1180917400201702239
+    second: etherealwizard_main_flaten-Sheet_200
+  - first:
+      213: -7768797995304381238
+    second: etherealwizard_main_flaten-Sheet_201
+  - first:
+      213: -8509670598020250812
+    second: etherealwizard_main_flaten-Sheet_202
+  - first:
+      213: -1552236636009301505
+    second: etherealwizard_main_flaten-Sheet_203
+  - first:
+      213: 3335871655641640616
+    second: etherealwizard_main_flaten-Sheet_204
+  - first:
+      213: 2423615206432177119
+    second: etherealwizard_main_flaten-Sheet_205
+  - first:
+      213: -3497781710235419848
+    second: etherealwizard_main_flaten-Sheet_206
+  - first:
+      213: -1265863909256860760
+    second: etherealwizard_main_flaten-Sheet_207
+  - first:
+      213: -720247492857778183
+    second: etherealwizard_main_flaten-Sheet_208
+  - first:
+      213: -3305966301313439548
+    second: etherealwizard_main_flaten-Sheet_209
+  - first:
+      213: 3499085511481076208
+    second: etherealwizard_main_flaten-Sheet_210
+  - first:
+      213: 1250421462067804988
+    second: etherealwizard_main_flaten-Sheet_211
+  - first:
+      213: -1337561937191576032
+    second: etherealwizard_main_flaten-Sheet_212
+  - first:
+      213: -6969149361504128659
+    second: etherealwizard_main_flaten-Sheet_213
+  - first:
+      213: -7168454495832076108
+    second: etherealwizard_main_flaten-Sheet_214
+  - first:
+      213: -8401438097111764020
+    second: etherealwizard_main_flaten-Sheet_215
+  - first:
+      213: 7723950705456766072
+    second: etherealwizard_main_flaten-Sheet_216
+  - first:
+      213: -6872490765531658901
+    second: etherealwizard_main_flaten-Sheet_217
+  - first:
+      213: -9021945682764948550
+    second: etherealwizard_main_flaten-Sheet_218
+  - first:
+      213: 5058401579889323195
+    second: etherealwizard_main_flaten-Sheet_219
+  - first:
+      213: 3282404061689644629
+    second: etherealwizard_main_flaten-Sheet_220
+  - first:
+      213: 1167219138461015107
+    second: etherealwizard_main_flaten-Sheet_221
+  - first:
+      213: 2635361208004831211
+    second: etherealwizard_main_flaten-Sheet_222
+  - first:
+      213: -6724437451534891207
+    second: etherealwizard_main_flaten-Sheet_223
+  - first:
+      213: 1769899332006045690
+    second: etherealwizard_main_flaten-Sheet_224
+  - first:
+      213: -3438520395027160166
+    second: etherealwizard_main_flaten-Sheet_225
+  - first:
+      213: 8638372061007766381
+    second: etherealwizard_main_flaten-Sheet_226
+  - first:
+      213: 6664319057512073200
+    second: etherealwizard_main_flaten-Sheet_227
+  - first:
+      213: -1263155189614670191
+    second: etherealwizard_main_flaten-Sheet_228
+  - first:
+      213: 6665887208970714713
+    second: etherealwizard_main_flaten-Sheet_229
+  - first:
+      213: -319246256769469273
+    second: etherealwizard_main_flaten-Sheet_230
+  - first:
+      213: 4632541585938923254
+    second: etherealwizard_main_flaten-Sheet_231
+  - first:
+      213: 138519466835401184
+    second: etherealwizard_main_flaten-Sheet_232
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 828
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d989328907f4df0800000000000000
+      internalID: -193812460219097783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 828
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26e1876395cc6720800000000000000
+      internalID: 2840862701851371052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 828
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1db3b4d6471523b0800000000000000
+      internalID: -5537994573798458083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 828
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3789e0039d9792350800000000000000
+      internalID: 5992454752914282611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 716
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b537476d6cd3750800000000000000
+      internalID: 6286399279258098502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 716
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25c5db5aea167840800000000000000
+      internalID: 5221390411848074542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 716
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f178562a562c93500800000000000000
+      internalID: 376545785634195231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 716
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072c06606a85d59b0800000000000000
+      internalID: -5089814533763972496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 716
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b0cc67b11f301a0800000000000000
+      internalID: -6844361908413527212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 716
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a6e712a857bea40800000000000000
+      internalID: 5398537814461540957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 716
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f47da73cf6c46a30800000000000000
+      internalID: 4207706738439058681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 716
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7455627e2290810800000000000000
+      internalID: 1731953907876579297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 604
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c708e3b24226930800000000000000
+      internalID: 4134907176030338101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 615
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba30601955677080800000000000000
+      internalID: -9189765081424971085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 600
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee884e8a4bdbf370800000000000000
+      internalID: 8357514646777269988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 602
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5653364ead310ac20800000000000000
+      internalID: 3215591964798039397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 604
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ca9878ac14a4890800000000000000
+      internalID: -7473088293554770788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 604
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282db4e311d727270800000000000000
+      internalID: 8246791380681872002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 604
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3fc3672dc8325630800000000000000
+      internalID: 3914253479918686012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 604
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3484ffc1f76c3a20800000000000000
+      internalID: 3043421736469300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 606
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c23d1c5907eee630800000000000000
+      internalID: 3958355149891384000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 604
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53be08af2abebb10800000000000000
+      internalID: 1999239998444843868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 606
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49528b36e01f8620800000000000000
+      internalID: 2778458076137806156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 604
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5594c79644190f0800000000000000
+      internalID: -1112032413136366093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 605
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b485634b5e3628d20800000000000000
+      internalID: 3279293316901263435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 604
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30ee75c4a9aa3330800000000000000
+      internalID: 3691449369736699965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 604
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d05c456f2baeb780800000000000000
+      internalID: -8665300412962942762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 604
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4c420919abc2380800000000000000
+      internalID: -8994609221414370104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 602
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9390ad83107dde9d0800000000000000
+      internalID: -2743300197750011591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 604
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f100246f1aff23d0800000000000000
+      internalID: -3229087395070606857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 601
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7debb1fca1626a580800000000000000
+      internalID: -8816317323945460009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 604
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 759022c4df6a57bb0800000000000000
+      internalID: -4938857809507645097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 600
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ad5ea0838020040800000000000000
+      internalID: 4612258005174835844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 604
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c575f10ff2349e0800000000000000
+      internalID: -1638413131068253119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1574
+        y: 600
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34d1143a8273a840800000000000000
+      internalID: 5234153129839285309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 604
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd588eb3ae183240800000000000000
+      internalID: 4771597493824150978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 604
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261e8c77ab131c860800000000000000
+      internalID: 7548369127392993634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 604
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e5cefb894fb9450800000000000000
+      internalID: 6096735457468243552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 600
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69561cf9414a4f10800000000000000
+      internalID: 2254686349470095725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 492
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a603944a9a358d0800000000000000
+      internalID: -2858754815382492560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 492
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b80a5d358eebf840800000000000000
+      internalID: 5259059245912557748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 492
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba897d714c450ecd0800000000000000
+      internalID: -2530929789391890261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 492
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcd82ddd128108c0800000000000000
+      internalID: -4034800726371148560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 492
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762a9a5fd2eeebb80800000000000000
+      internalID: -8376996375700069785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 492
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1f0c58aef804130800000000000000
+      internalID: 3548994743797084658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 495
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6fb6a8389f84ab30800000000000000
+      internalID: 4297717828366548843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 492
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74eaf54743fb8100800000000000000
+      internalID: 111450103243007098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 495
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bf32692f645edb0800000000000000
+      internalID: -4763323023159461012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 492
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9e35b7d5862ad50800000000000000
+      internalID: 6747069942464768449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 495
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81fbfcce2afbe6e0800000000000000
+      internalID: -1807075746544619123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 492
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8268f445ce9462150800000000000000
+      internalID: 5847442445562775080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 495
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038cb90e14c5f7950800000000000000
+      internalID: 6448974629428774960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 492
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4b3fab5fe0139c0800000000000000
+      internalID: -3949358949660904273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 495
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8964654b68e9b40800000000000000
+      internalID: 5448940708264581367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 492
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aca89a4d2ca75650800000000000000
+      internalID: 6221630720760655010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 495
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8258a18300b093e40800000000000000
+      internalID: 5636548504200054056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 492
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5575355244c238380800000000000000
+      internalID: -8970277361596278955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 491
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bf30483e40ac3d0800000000000000
+      internalID: -3185728411192263813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 492
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e740eef2e1c7ac7a0800000000000000
+      internalID: -6356131454985042818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 492
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7999b87195d8041e0800000000000000
+      internalID: -2215615602879653481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 492
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80baac33913fb700800000000000000
+      internalID: 558219387265003661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 509
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdebb46314b51e1a0800000000000000
+      internalID: -6782039228201320737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 511
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e23535285cea9b0800000000000000
+      internalID: -5066895367210848758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 492
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced409543c7595ad0800000000000000
+      internalID: -2713040804316688916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 495
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a8aa109054448a0800000000000000
+      internalID: -6321852071936357804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 495
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e672f87d7793657d0800000000000000
+      internalID: -2930091320677554322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 492
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369ec16ce856ebf00800000000000000
+      internalID: 1134455820027488611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 488
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59301a93cb9b280d0800000000000000
+      internalID: -3421968548776311915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 492
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54034fcfe23c7d940800000000000000
+      internalID: 5320936091341303877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 416
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9f7c5d5e7387720800000000000000
+      internalID: 2844084624958159341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 422
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240817ad2153d9a10800000000000000
+      internalID: 1917747371420254274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 423
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2af5637b30e927b0800000000000000
+      internalID: -5248417344779847126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 384
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bd7bdfa9c7451d0800000000000000
+      internalID: -3362926016615425121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 416
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17253bbd30a924840800000000000000
+      internalID: 5206893460555256433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 413
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22bdd8d1ad9455c0800000000000000
+      internalID: -4227580831740349909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 415
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347275e129a8ebe40800000000000000
+      internalID: 5674124940712290115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 415
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c980be00fbb879d0800000000000000
+      internalID: -2776262530560915004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 413
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74547ceae6b2fe70800000000000000
+      internalID: 9147574913248547965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 411
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991dba1972754c940800000000000000
+      internalID: 5315469287663325593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 413
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7da19e3bac92a00800000000000000
+      internalID: 732339288483223491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 411
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345f02dc1d7c0f100800000000000000
+      internalID: 139831292352066883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 413
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3ad5880f2e087f0800000000000000
+      internalID: -612240026614520834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 411
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f068ecb602787c430800000000000000
+      internalID: 3803156983655073295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 413
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e5f460d9c7de9c0800000000000000
+      internalID: -3896321088748036584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 411
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a8947b350dc8bb0800000000000000
+      internalID: -4932338433901622746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 413
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6d6aadd22e206c0800000000000000
+      internalID: -4178528817676626187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 411
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0deb05a3e6f936fc0800000000000000
+      internalID: -3502780789390524720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 389
+        width: 95
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00456c220c80da2c0800000000000000
+      internalID: -4418866038070422528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 411
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86631072fab9ec70800000000000000
+      internalID: 9000930880701818509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 411
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac5ff836df212970800000000000000
+      internalID: 8728310149946498216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 405
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04a5e581e21a4700800000000000000
+      internalID: 525253066365445131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 380
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce026eb31fd74db0800000000000000
+      internalID: -4807628801303245108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 382
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487b1918fb3c9cf30800000000000000
+      internalID: 4596420121988282244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 381
+        width: 40
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d6d543b0d087fd0800000000000000
+      internalID: -2344109264272003771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 404
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8984cb7b2bafae40800000000000000
+      internalID: 5669938659131165069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 405
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e659bdfec685e0a0800000000000000
+      internalID: -6852923034396174618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 391
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b2cc2540a67cca0800000000000000
+      internalID: -5996707812019000538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 406
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc89566b9d8809a70800000000000000
+      internalID: 8831709337922934989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 391
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4839e288dbbc42f90800000000000000
+      internalID: -6979229507623414908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 405
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47eefecc748d4e1b0800000000000000
+      internalID: -5628135831413723532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 396
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bcf22b6a10bda30800000000000000
+      internalID: 4240985289565129513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 391
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0fd1b7a9ebb8490800000000000000
+      internalID: -7742885563633635125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 407
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9619b78f25e22630800000000000000
+      internalID: 3900932219559548573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 398
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2378d7e83c9080800800000000000000
+      internalID: 578723287630972722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 392
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583369c583c60dfc0800000000000000
+      internalID: -3472156323375336571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 406
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438aa71c1ea56cf50800000000000000
+      internalID: 6901303404652046388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 395
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814202e8a1a398620800000000000000
+      internalID: 2776814530978653208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 389
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a14e9136be06910800000000000000
+      internalID: 1828720259581090454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 404
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb5da6b31e270c20800000000000000
+      internalID: 3172555124709874684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 395
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ce33781cf384a00800000000000000
+      internalID: 740912239132011645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 389
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e09f5210fac555c0800000000000000
+      internalID: -4227249542768127776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 395
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8416cd2e80bbe27f0800000000000000
+      internalID: -635364850572435128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 389
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c32810921cae980800000000000000
+      internalID: -8508776164099998715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 404
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7abcd4c70cc1d680800000000000000
+      internalID: -8731973868755043714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 395
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de416778e2ecc120800000000000000
+      internalID: 2435570986563751639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 389
+        width: 54
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d82531f1435023f0800000000000000
+      internalID: -927649980553549608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 404
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2469852c2bc4912c0800000000000000
+      internalID: -4460449625285290430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 389
+        width: 84
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d666c9c87eace720800000000000000
+      internalID: 2876866095787435731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 404
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e09fbdf0ec9ff10800000000000000
+      internalID: 2304099251887083068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 373
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf1125e2eb0a10a0800000000000000
+      internalID: -6910197609111937057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 389
+        width: 54
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cf91633e155cee0800000000000000
+      internalID: -1241496085963604940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 404
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07be76e0c4d415a30800000000000000
+      internalID: 4202224916367928176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 403
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0285b3ed7c35b9ca0800000000000000
+      internalID: -6009117159903766496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 389
+        width: 54
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f5067965850a3b0800000000000000
+      internalID: -5503301615716638891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 404
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1db7c790d2847760800000000000000
+      internalID: 7454727115616271644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 373
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54399c956cc464a0800000000000000
+      internalID: -6600926417027255206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 402
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9beb162a746173810800000000000000
+      internalID: 1744887877552160441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 2053
+        y: 376
+        width: 57
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dd81de326022160800000000000000
+      internalID: 6999163522258623860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 404
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c4ea4c35fead160800000000000000
+      internalID: 7051211309663014022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 390
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1d0eefa175af0e0800000000000000
+      internalID: -2235378491579117070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 373
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c7fe5579a3d7880800000000000000
+      internalID: -8611662490806289339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 2279
+        y: 391
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f772aa65037ec30800000000000000
+      internalID: 4388529510675873668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 2393
+        y: 392
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401e2b692c09d26b0800000000000000
+      internalID: -5319436419428327164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 391
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa81e5225aab3520800000000000000
+      internalID: 2682925272828840611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 390
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd4a8f6fa1c1a690800000000000000
+      internalID: -7592574537535173163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 380
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6d9b976b6a30530800000000000000
+      internalID: 3820080211596793558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 380
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b78301c7a61ab640800000000000000
+      internalID: 5096410838076721073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 380
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e81200d78a25f90800000000000000
+      internalID: -6966320418762158473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 390
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e50f9885fb8b64c0800000000000000
+      internalID: -4293183933092264475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 390
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476d204a8c470c1d0800000000000000
+      internalID: -3332535319160236428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 386
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93af73f3d31482400800000000000000
+      internalID: 299561106529581625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 395
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48efabdba8deffc0800000000000000
+      internalID: -3459089231137216433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 396
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ba388bdaa2ece90800000000000000
+      internalID: -7003613444901197028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 383
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a0025b9a2bb66f0800000000000000
+      internalID: -690261675913246072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 386
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdc629304d4c3c10800000000000000
+      internalID: 2034586069896711614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 388
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e0953baac2d6850800000000000000
+      internalID: 6371798159464140412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 387
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045151ecd1f351ec0800000000000000
+      internalID: -3596899330141383360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 389
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87862b41a4db463b0800000000000000
+      internalID: -5520079117376919432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 385
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7316dfd40f9a87c60800000000000000
+      internalID: 7816184002867192119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 385
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efb021b73e22fc40800000000000000
+      internalID: 5544544907976294377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_150
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 385
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e849b917adc63000800000000000000
+      internalID: 15425766317181157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_151
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 385
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115e56edfc2722b20800000000000000
+      internalID: 3108172929954080017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_152
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 385
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc144c7960d5ab6c0800000000000000
+      internalID: -4126883825634229809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_153
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 385
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f337b401f819f80800000000000000
+      internalID: -8101536954514718942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_154
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 385
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45eb9cb003162c710800000000000000
+      internalID: 1712037667338305108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 373
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2973fdd6464c55d10800000000000000
+      internalID: 2113811535739434898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 385
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd1502e286cd7960800000000000000
+      internalID: 7601450011511299512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 373
+        width: 57
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883ecce437adbbb30800000000000000
+      internalID: 4304274057660785544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 2352
+        y: 373
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a481eb45692bd3e70800000000000000
+      internalID: 9096623181094852682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 373
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ef483891d83af60800000000000000
+      internalID: 8044428500134067845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 373
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b767997ce54cc63b0800000000000000
+      internalID: -5517819532081006981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_161
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 380
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2197807ac50a0880800000000000000
+      internalID: -8644090167754780373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_162
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 381
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cceba342a3da865b0800000000000000
+      internalID: -5374855690039148852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_163
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 381
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ec62f0469a76920800000000000000
+      internalID: 2983539525372268142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_164
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 268
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd89233cb38b0ce0800000000000000
+      internalID: -1437910811679289857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_165
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 268
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54f857cf87c389330800000000000000
+      internalID: 3717787982723649349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_166
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 156
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdd083fec0360190800000000000000
+      internalID: -7996650422943031863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_167
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 156
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc585b60b96309480800000000000000
+      internalID: -8894549224596339251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_168
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 159
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82066228899dbefe0800000000000000
+      internalID: -1158593230075961304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_169
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 156
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4f90b986413e2c0800000000000000
+      internalID: -4403653571127937819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_170
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 159
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ee7154783a1e570800000000000000
+      internalID: 8494250173572574818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_171
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 156
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9917384ac76bdd370800000000000000
+      internalID: 8349029930667045273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_172
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 159
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da612127651f7160800000000000000
+      internalID: 7025357476402916056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_173
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 157
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a07df0b82b248c0800000000000000
+      internalID: -4016451607325111712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_174
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 159
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6531ddc4fba614130800000000000000
+      internalID: 3549235351205516118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_175
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 157
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc99aa68779ea8a10800000000000000
+      internalID: 1912597691341904335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_176
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 159
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14275fcd6d199970800000000000000
+      internalID: 8762066907493245980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_177
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 158
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7506efa5c69901d0800000000000000
+      internalID: -3384007869188405890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_178
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 159
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0825660aaef1e6400800000000000000
+      internalID: 319227716163752576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_179
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 159
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa04ac563795415c0800000000000000
+      internalID: -4245670196539670358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_180
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 44
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee063613ba765350800000000000000
+      internalID: 6005122062735511271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_181
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 44
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794eedbf236f14e70800000000000000
+      internalID: 9097823421099598999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_182
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 44
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1497051370d3700800000000000000
+      internalID: 521581040229761459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_183
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 44
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885e97d142f18de90800000000000000
+      internalID: -7000811380773624440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_184
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 44
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a4f783aca6820d0800000000000000
+      internalID: -3447388097988310426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_185
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 44
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79fbe2e65a395560800000000000000
+      internalID: 7302932415606684029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_186
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 44
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775da700e10c9a870800000000000000
+      internalID: 8694691790705055095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_187
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 44
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86d76109515ce570800000000000000
+      internalID: 8497256039658804878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_188
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 44
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0705ea2a484e93060800000000000000
+      internalID: 6933824359629738096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_189
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 44
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59d47698549a8dc0800000000000000
+      internalID: -3635930640945981092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_190
+      rect:
+        serializedVersion: 2
+        x: 1272
+        y: 44
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08247e0a8d0350b0800000000000000
+      internalID: -5741230213368109042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_191
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 47
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9019d0f94c606f0800000000000000
+      internalID: -718670903112562219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_192
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 47
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e00bc4b1442fd80800000000000000
+      internalID: -8218431485956321659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_193
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 60
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7646efc9659846020800000000000000
+      internalID: 2334141511978869863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_194
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 65
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68fb3720600ba6480800000000000000
+      internalID: -8905111773314302074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_195
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 57
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ec87d36331cff90800000000000000
+      internalID: -6918633803867435406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_196
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 61
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5418e37a2546e7800800000000000000
+      internalID: 612036905524953413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_197
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 59
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42480539f658a6430800000000000000
+      internalID: 3776977951762973732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_198
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 56
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780dfad104ed8cb10800000000000000
+      internalID: 2002094401323520135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_199
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 44
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d412e7c1ece073cf0800000000000000
+      internalID: -272732974028545715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_200
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 49
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ba9146e16736010800000000000000
+      internalID: 1180917400201702239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_201
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 54
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac49d16526faf2490800000000000000
+      internalID: -7768797995304381238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_202
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443ca616da397e980800000000000000
+      internalID: -8509670598020250812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_203
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 52
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9715fe009557ae0800000000000000
+      internalID: -1552236636009301505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_204
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 47
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae60dab8956b4e20800000000000000
+      internalID: 3335871655641640616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_205
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 53
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbff9b703962a120800000000000000
+      internalID: 2423615206432177119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_206
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 52
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b3f8b0112657fc0800000000000000
+      internalID: -3497781710235419848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_207
+      rect:
+        serializedVersion: 2
+        x: 1752
+        y: 50
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abe1ca3b7fbe6ee0800000000000000
+      internalID: -1265863909256860760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_208
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 52
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffa8d5a8ba2106f0800000000000000
+      internalID: -720247492857778183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_209
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 47
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8ecca2a29de12d0800000000000000
+      internalID: -3305966301313439548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_210
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 49
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9ab86dbbf3f8030800000000000000
+      internalID: 3499085511481076208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_211
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 53
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b731ad1b36a5110800000000000000
+      internalID: 1250421462067804988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_212
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 47
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02edc9c3186007de0800000000000000
+      internalID: -1337561937191576032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_213
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 48
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61f7e0749b984f90800000000000000
+      internalID: -6969149361504128659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_214
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 48
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0906bbd98848c90800000000000000
+      internalID: -7168454495832076108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_215
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 47
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3383b3098186b80800000000000000
+      internalID: -8401438097111764020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_216
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 49
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cd06d4e3cf03b60800000000000000
+      internalID: 7723950705456766072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_217
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 47
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65455e8f0200a0a0800000000000000
+      internalID: -6872490765531658901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_218
+      rect:
+        serializedVersion: 2
+        x: 2027
+        y: 47
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb1deba33c9bc280800000000000000
+      internalID: -9021945682764948550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_219
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 47
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbce394bf6d033640800000000000000
+      internalID: 5058401579889323195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_220
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 47
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5568f4a6a117d8d20800000000000000
+      internalID: 3282404061689644629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_221
+      rect:
+        serializedVersion: 2
+        x: 2087
+        y: 47
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c910b4f9bc23010800000000000000
+      internalID: 1167219138461015107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_222
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 47
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7e8f15e0fa29420800000000000000
+      internalID: 2635361208004831211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_223
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 47
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9370ee2f3cffda2a0800000000000000
+      internalID: -6724437451534891207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_224
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 47
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7eb6ca012ff8810800000000000000
+      internalID: 1769899332006045690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_225
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 47
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9368753bebe740d0800000000000000
+      internalID: -3438520395027160166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_226
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 47
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63e6061f99a1e770800000000000000
+      internalID: 8638372061007766381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_227
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 47
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f78fdcafda6c7c50800000000000000
+      internalID: 6664319057512073200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_228
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 47
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e83da2c0f587ee0800000000000000
+      internalID: -1263155189614670191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_229
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 47
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ef483691df18c50800000000000000
+      internalID: 6665887208970714713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_230
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 47
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4f16d883fc19bf0800000000000000
+      internalID: -319246256769469273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_231
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 47
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe3d1537081a4040800000000000000
+      internalID: 4632541585938923254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: etherealwizard_main_flaten-Sheet_232
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 47
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9533f98be1ce100800000000000000
+      internalID: 138519466835401184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

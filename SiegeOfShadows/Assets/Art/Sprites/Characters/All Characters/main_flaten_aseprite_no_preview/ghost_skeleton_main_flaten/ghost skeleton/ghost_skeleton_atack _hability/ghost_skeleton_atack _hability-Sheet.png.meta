@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: af58eb83253344f4292318eeac3c15f0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2245068690448692769
+    second: ghost_skeleton_atack _hability-Sheet_0
+  - first:
+      213: 5262370780761440348
+    second: ghost_skeleton_atack _hability-Sheet_1
+  - first:
+      213: -3650773122430690796
+    second: ghost_skeleton_atack _hability-Sheet_2
+  - first:
+      213: 5144862477905143129
+    second: ghost_skeleton_atack _hability-Sheet_3
+  - first:
+      213: 1432020241408168974
+    second: ghost_skeleton_atack _hability-Sheet_4
+  - first:
+      213: -926824843785579791
+    second: ghost_skeleton_atack _hability-Sheet_5
+  - first:
+      213: 7227847003169972376
+    second: ghost_skeleton_atack _hability-Sheet_6
+  - first:
+      213: 268040033378267331
+    second: ghost_skeleton_atack _hability-Sheet_7
+  - first:
+      213: -3548273087211122738
+    second: ghost_skeleton_atack _hability-Sheet_8
+  - first:
+      213: -3409587450708666582
+    second: ghost_skeleton_atack _hability-Sheet_9
+  - first:
+      213: -6335235287584770628
+    second: ghost_skeleton_atack _hability-Sheet_10
+  - first:
+      213: 3744731115635729974
+    second: ghost_skeleton_atack _hability-Sheet_11
+  - first:
+      213: 4147461757026623616
+    second: ghost_skeleton_atack _hability-Sheet_12
+  - first:
+      213: -7432435317858100232
+    second: ghost_skeleton_atack _hability-Sheet_13
+  - first:
+      213: -6543890063804184575
+    second: ghost_skeleton_atack _hability-Sheet_14
+  - first:
+      213: 5921721816673893106
+    second: ghost_skeleton_atack _hability-Sheet_15
+  - first:
+      213: 8940796887706477698
+    second: ghost_skeleton_atack _hability-Sheet_16
+  - first:
+      213: -1595623258710832065
+    second: ghost_skeleton_atack _hability-Sheet_17
+  - first:
+      213: -3725861793026952373
+    second: ghost_skeleton_atack _hability-Sheet_18
+  - first:
+      213: 9209527568128833797
+    second: ghost_skeleton_atack _hability-Sheet_19
+  - first:
+      213: -6319266481254109028
+    second: ghost_skeleton_atack _hability-Sheet_20
+  - first:
+      213: 1661963867416844749
+    second: ghost_skeleton_atack _hability-Sheet_21
+  - first:
+      213: -5570346914637210729
+    second: ghost_skeleton_atack _hability-Sheet_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 24
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126bb8e3416182f10800000000000000
+      internalID: 2245068690448692769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 23
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c504ea70852b70940800000000000000
+      internalID: 5262370780761440348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 25
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a99f11039d55dc0800000000000000
+      internalID: -3650773122430690796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 26
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955a5cd3a29366740800000000000000
+      internalID: 5144862477905143129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 27
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e049d4882de8fd310800000000000000
+      internalID: 1432020241408168974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 28
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2572117b14323f0800000000000000
+      internalID: -926824843785579791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 19
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89061dafd887e4460800000000000000
+      internalID: 7227847003169972376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 19
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0781f7df448b300800000000000000
+      internalID: 268040033378267331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 19
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfc3be3d6002cec0800000000000000
+      internalID: -3548273087211122738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 18
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2751e14746bea0d0800000000000000
+      internalID: -3409587450708666582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 19
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb57dfa4219b418a0800000000000000
+      internalID: -6335235287584770628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 18
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636e1d6fb15f7f330800000000000000
+      internalID: 3744731115635729974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 19
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080e61b6e7ebe8930800000000000000
+      internalID: 4147461757026623616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 20
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb1007057faad890800000000000000
+      internalID: -7432435317858100232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 23
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1084eb178ae6f25a0800000000000000
+      internalID: -6543890063804184575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 24
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa378d1e9e2e2250800000000000000
+      internalID: 5921721816673893106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 32
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284a9a42667141c70800000000000000
+      internalID: 8940796887706477698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 27
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c8035a9153bd9e0800000000000000
+      internalID: -1595623258710832065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 25
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43bd6090741b4cc0800000000000000
+      internalID: -3725861793026952373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 22
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5097c7f6780decf70800000000000000
+      internalID: 9209527568128833797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 23
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90f0dfbd947d48a0800000000000000
+      internalID: -6319266481254109028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 19
+        width: 36
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc95aeaf45b701710800000000000000
+      internalID: 1661963867416844749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghost_skeleton_atack _hability-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 18
+        width: 37
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b1b5d7ef622b2b0800000000000000
+      internalID: -5570346914637210729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
