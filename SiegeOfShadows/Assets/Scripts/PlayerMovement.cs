@@ -1,17 +1,8 @@
 using System;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : CharacterMovement
 {
-    private Animator _animator;
-    private int _isMovingHash;
-
-    private void Awake()
-    {
-        _animator = GetComponent<Animator>();
-        _isMovingHash = Animator.StringToHash("IsMoving");
-    }
-
     private void Update()
     {
         HandleMovement();
@@ -19,6 +10,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void HandleMovement()
     {
-        
+        if (InputController.instance != null)
+        {
+            rb.linearVelocity = InputController.instance.moveInput * moveSpeed;
+            
+            UpdateAnimation();
+        }
     }
 }
