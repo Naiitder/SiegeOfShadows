@@ -3,26 +3,32 @@ using UnityEngine;
 
 public class EnemyMovement : CharacterMovement
 {
-    private Transform player;
+    private Transform _player;
+    [SerializeField] private LayerMask layerMask;
 
     public void Initialize(Transform playerTarget)
     {
-        this.player = playerTarget;
+        this._player = playerTarget;
     }
     
-    private void Update()
+    public void HandleMovement()
     {
-        HandleMovement();
-    }
+        if (_player == null) return;
 
-    private void HandleMovement()
-    {
-        if (player != null)
+        Vector2 direction = (_player.position - transform.position).normalized;
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, layerMask);
+
+        if (hit.collider == null)
         {
-            Vector2 direction = (player.position - transform.position).normalized;
             rb.linearVelocity = direction * moveSpeed;
-            
-            UpdateAnimation();
         }
+        else
+        {
+            Vector2 perpDirection = Vector2.Perpendicular(direction);
+            Vector2 newDirection = perpDirection; 
+            rb.linearVelocity = newDirection * moveSpeed * 0.5f; 
+        }
+
+        UpdateAnimation();
     }
 }

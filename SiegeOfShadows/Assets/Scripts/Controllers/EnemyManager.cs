@@ -18,4 +18,12 @@ public class EnemyManager : MonoBehaviour
             em.Initialize(player.transform);
         }
     }
+
+    private void Update()
+    {
+        foreach (EnemyMovement em in enemies)
+        {
+            em.HandleMovement();
+        }
+    }
 }

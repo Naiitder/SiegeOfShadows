@@ -3,6 +3,12 @@ using UnityEngine;
 
 public class PlayerMovement : CharacterMovement
 {
+    protected override void Awake()
+    {
+        base.Awake();
+        Stats.OnDeath += Die;
+    }
+
     private void Update()
     {
         HandleMovement();
@@ -16,5 +22,10 @@ public class PlayerMovement : CharacterMovement
             
             UpdateAnimation();
         }
+    }
+
+    private void Die()
+    {
+        
     }
 }
