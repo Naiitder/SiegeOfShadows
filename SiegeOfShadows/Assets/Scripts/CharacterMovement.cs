@@ -10,7 +10,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] protected float moveSpeed;
     [SerializeField] protected Rigidbody2D rb;
     
-    protected CharacterStats Stats;
+    public CharacterStats Stats;
 
     protected virtual void Awake()
     {

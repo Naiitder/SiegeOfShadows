@@ -16,7 +16,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterStats.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Abilities/AbilityLevelData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Abilities/EquippedAbilitySlot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Abilities/PassiveAbilities/PassiveAbility.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -104,7 +106,20 @@
       <workItem from="1752365977944" duration="385000" />
       <workItem from="1752420255805" duration="5042000" />
       <workItem from="1752440627919" duration="1822000" />
-      <workItem from="1752590333893" duration="3091000" />
+      <workItem from="1752590333893" duration="4356000" />
+      <workItem from="1752626134574" duration="7000" />
+      <workItem from="1752626176093" duration="764000" />
+      <workItem from="1752677576979" duration="1191000" />
+      <workItem from="1753136799443" duration="6771000" />
+      <workItem from="1753233432568" duration="590000" />
+      <workItem from="1753316705286" duration="29000" />
+      <workItem from="1753316746767" duration="3566000" />
+      <workItem from="1753392496362" duration="7829000" />
+      <workItem from="1753653997421" duration="2680000" />
+      <workItem from="1753657061790" duration="1321000" />
+      <workItem from="1753715428676" duration="4102000" />
+      <workItem from="1753743943103" duration="1825000" />
+      <workItem from="1756557435884" duration="5293000" />
     </task>
     <servers />
   </component>

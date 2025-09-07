@@ -6,9 +6,16 @@ public class EnemyMovement : CharacterMovement
     private Transform _player;
     [SerializeField] private LayerMask layerMask;
 
+    protected override void Awake()
+    {
+        base.Awake();
+        Stats.OnDeath += Die;
+    }
+
     public void Initialize(Transform playerTarget)
     {
         this._player = playerTarget;
+        if(!EnemyManager.instance.IsInList(this))EnemyManager.instance.RegisterEnemy(this);
     }
     
     public void HandleMovement()
@@ -30,5 +37,15 @@ public class EnemyMovement : CharacterMovement
         }
 
         UpdateAnimation();
+    }
+
+    private void OnDestroy()
+    {
+        if(EnemyManager.instance.IsInList(this)) EnemyManager.instance.UnregisterEnemy(this);
+    }
+
+    private void Die()
+    {
+        Destroy(this.gameObject);
     }
 }

@@ -340,6 +340,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &699049655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 699049656}
+  m_Layer: 0
+  m_Name: ------ENEMIES------
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &699049656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 699049655}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &912114508
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,6 +516,7 @@ GameObject:
   - component: {fileID: 1357860490}
   - component: {fileID: 1357860489}
   - component: {fileID: 1357860491}
+  - component: {fileID: 1357860492}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -514,7 +546,7 @@ Transform:
   m_GameObject: {fileID: 1357860488}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.75968206, y: -0.15834948, z: 0.06018298}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -530,6 +562,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9206cd2de8d9c954c8ec4a1086a5bb5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies: []
+--- !u!114 &1357860492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357860488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 255df0ed2a0d22143bcd5b885a6279d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!95 &1160356262155778343
@@ -586,7 +631,7 @@ GameObject:
   - component: {fileID: 8812853899177687630}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -720,6 +765,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 0}
+  Stats: {fileID: 0}
+  upgrades:
+  - ability: {fileID: 11400000, guid: 3b94baaa012c3be42a6073423780923a, type: 2}
+    level: 1
+    cooldownTimer: 5
+  - ability: {fileID: 0}
+    level: 0
+    cooldownTimer: 0
+  - ability: {fileID: 0}
+    level: 0
+    cooldownTimer: 0
+  - ability: {fileID: 0}
+    level: 0
+    cooldownTimer: 0
+  - ability: {fileID: 0}
+    level: 0
+    cooldownTimer: 0
+  - ability: {fileID: 0}
+    level: 0
+    cooldownTimer: 0
+  - ability: {fileID: 0}
+    level: 0
+    cooldownTimer: 0
+  - ability: {fileID: 0}
+    level: 0
+    cooldownTimer: 0
 --- !u!50 &7878350318812318692
 Rigidbody2D:
   serializedVersion: 5
@@ -802,11 +873,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6969460405980849031}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b77055ae53494d499641d7330ceef04, type: 3}
+  m_Script: {fileID: 11500000, guid: 4cd20ba23657ea4458c6e742d944a24c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 0
+  maxHealth: 100
 --- !u!212 &8812853899177687626
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -903,9 +974,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   rb: {fileID: 0}
+  Stats: {fileID: 0}
   layerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
 --- !u!114 &8812853899177687629
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -918,8 +990,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b77055ae53494d499641d7330ceef04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 100
-  maxHealth: 100
+  currentHealth: 0
+  maxHealth: 20
 --- !u!61 &8812853899177687630
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -927,7 +999,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2927499749389647302}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -950,7 +1022,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -974,4 +1046,5 @@ SceneRoots:
   - {fileID: 7878350318812318690}
   - {fileID: 1357860490}
   - {fileID: 912114510}
+  - {fileID: 699049656}
   - {fileID: 2687922257869510051}
