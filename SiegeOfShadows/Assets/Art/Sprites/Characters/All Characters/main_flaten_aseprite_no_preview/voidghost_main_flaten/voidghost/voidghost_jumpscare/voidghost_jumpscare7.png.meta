@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      voidghost_jumpscare7_0: -6038126626287503539
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

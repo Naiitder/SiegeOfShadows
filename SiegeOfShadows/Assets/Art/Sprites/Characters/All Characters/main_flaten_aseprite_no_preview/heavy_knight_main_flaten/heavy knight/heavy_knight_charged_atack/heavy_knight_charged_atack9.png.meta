@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      heavy_knight_charged_atack9_0: 7741256075292087595
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

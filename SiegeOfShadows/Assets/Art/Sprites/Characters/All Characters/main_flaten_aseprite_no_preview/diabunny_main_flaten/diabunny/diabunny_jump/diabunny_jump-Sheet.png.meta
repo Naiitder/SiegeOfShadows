@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      diabunny_jump-Sheet_0: 538170992435736296
+      diabunny_jump-Sheet_1: 7345539920373595038
+      diabunny_jump-Sheet_2: -6824613311260504579
+      diabunny_jump-Sheet_3: -6870760556617460381
+      diabunny_jump-Sheet_4: 1069765104552662884
+      diabunny_jump-Sheet_5: 5064380706272261662
+      diabunny_jump-Sheet_6: 267463602915116163
+      diabunny_jump-Sheet_7: -6809180493259720621
+      diabunny_jump-Sheet_8: -5673910318520004310
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

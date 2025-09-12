@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      drami_main_flaten_0: -879153634949472632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

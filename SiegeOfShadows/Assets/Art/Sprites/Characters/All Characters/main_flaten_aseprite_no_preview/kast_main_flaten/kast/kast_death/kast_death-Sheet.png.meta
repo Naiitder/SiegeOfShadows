@@ -284,7 +284,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kast_death-Sheet_0: -6129705114892505477
+      kast_death-Sheet_1: -7478820199354077403
+      kast_death-Sheet_2: 1719949827486222439
+      kast_death-Sheet_3: 3209978840329051209
+      kast_death-Sheet_4: 4672944628372131399
+      kast_death-Sheet_5: 8072508911616684117
+      kast_death-Sheet_6: 4031704009481856697
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

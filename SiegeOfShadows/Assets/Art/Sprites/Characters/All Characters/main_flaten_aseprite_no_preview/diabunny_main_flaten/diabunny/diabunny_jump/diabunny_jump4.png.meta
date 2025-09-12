@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      diabunny_jump4_0: -3963045618501722461
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -384,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      deathslime_punch-Sheet_0: 8712093130498954921
+      deathslime_punch-Sheet_1: -413237008326461448
+      deathslime_punch-Sheet_10: 6660372735569601733
+      deathslime_punch-Sheet_2: -3053575149812565544
+      deathslime_punch-Sheet_3: -5467099957202993823
+      deathslime_punch-Sheet_4: -885030689728377658
+      deathslime_punch-Sheet_5: 6524754169905916817
+      deathslime_punch-Sheet_6: -2011090804080382460
+      deathslime_punch-Sheet_7: 4935737853023882077
+      deathslime_punch-Sheet_8: -7642088487918484275
+      deathslime_punch-Sheet_9: 836784504355227548
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

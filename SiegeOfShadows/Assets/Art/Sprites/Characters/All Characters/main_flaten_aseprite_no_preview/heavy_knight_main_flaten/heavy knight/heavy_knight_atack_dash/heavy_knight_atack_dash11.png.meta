@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      heavy_knight_atack_dash11_0: -1021717237947718125
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

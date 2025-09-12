@@ -434,7 +434,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      heavy_knight_atack_dash-Sheet_0: -8102658913612743908
+      heavy_knight_atack_dash-Sheet_1: 2715735873959758244
+      heavy_knight_atack_dash-Sheet_10: 8382199699945887083
+      heavy_knight_atack_dash-Sheet_11: 1357562231820134080
+      heavy_knight_atack_dash-Sheet_12: 4046218675837229093
+      heavy_knight_atack_dash-Sheet_2: 7415908169111643570
+      heavy_knight_atack_dash-Sheet_3: 6690678927103845029
+      heavy_knight_atack_dash-Sheet_4: 6399088484902656557
+      heavy_knight_atack_dash-Sheet_5: 5041980322355455163
+      heavy_knight_atack_dash-Sheet_6: 8918019518486583599
+      heavy_knight_atack_dash-Sheet_7: 3306890701280996779
+      heavy_knight_atack_dash-Sheet_8: 1976598060812165755
+      heavy_knight_atack_dash-Sheet_9: 7386391408605563441
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

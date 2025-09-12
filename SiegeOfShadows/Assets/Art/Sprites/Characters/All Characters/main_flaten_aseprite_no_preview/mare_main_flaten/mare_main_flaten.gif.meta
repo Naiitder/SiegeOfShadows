@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mare_main_flaten_0: -1882275040067974229
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

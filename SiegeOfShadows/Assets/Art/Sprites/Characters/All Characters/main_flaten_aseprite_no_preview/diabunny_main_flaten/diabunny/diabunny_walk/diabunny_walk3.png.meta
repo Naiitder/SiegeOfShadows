@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      diabunny_walk3_0: 7774762605365272895
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

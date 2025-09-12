@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      diabunny_idle-Sheet_0: 4367001314964000807
+      diabunny_idle-Sheet_1: 6911322580657067266
+      diabunny_idle-Sheet_2: -2669979875431132377
+      diabunny_idle-Sheet_3: 9043848425371104331
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

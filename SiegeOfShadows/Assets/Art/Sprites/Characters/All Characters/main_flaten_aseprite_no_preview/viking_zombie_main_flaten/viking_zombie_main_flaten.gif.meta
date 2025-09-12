@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      viking_zombie_main_flaten_0: 4844851564131831080
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

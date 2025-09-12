@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spearGoblin_walk3_0: -7714400443571301531
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

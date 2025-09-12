@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      deathslime_walk-Sheet_0: 4611545940570438351
+      deathslime_walk-Sheet_1: -6656842582990069970
+      deathslime_walk-Sheet_10: -906669378450868991
+      deathslime_walk-Sheet_11: -1273047976108309958
+      deathslime_walk-Sheet_2: -587402040402062277
+      deathslime_walk-Sheet_3: 8372179713353344141
+      deathslime_walk-Sheet_4: -6812210992499592340
+      deathslime_walk-Sheet_5: -5466890081460959670
+      deathslime_walk-Sheet_6: -937100304975503873
+      deathslime_walk-Sheet_7: -7640516312533459788
+      deathslime_walk-Sheet_8: 2234318320692577230
+      deathslime_walk-Sheet_9: 5355204689566436196
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

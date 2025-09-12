@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      heavy_knight_run-Sheet_0: 7564204188233935672
+      heavy_knight_run-Sheet_1: -3123985317363941712
+      heavy_knight_run-Sheet_2: 6101019203320558407
+      heavy_knight_run-Sheet_3: -8076883787876019994
+      heavy_knight_run-Sheet_4: -4294328909570981105
+      heavy_knight_run-Sheet_5: 1708602720569786804
+      heavy_knight_run-Sheet_6: -9147689459610481344
+      heavy_knight_run-Sheet_7: -7851495466016935487
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -684,7 +684,30 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ghost_skeleton_atack _hability-Sheet_0: 2245068690448692769
+      ghost_skeleton_atack _hability-Sheet_1: 5262370780761440348
+      ghost_skeleton_atack _hability-Sheet_10: -6335235287584770628
+      ghost_skeleton_atack _hability-Sheet_11: 3744731115635729974
+      ghost_skeleton_atack _hability-Sheet_12: 4147461757026623616
+      ghost_skeleton_atack _hability-Sheet_13: -7432435317858100232
+      ghost_skeleton_atack _hability-Sheet_14: -6543890063804184575
+      ghost_skeleton_atack _hability-Sheet_15: 5921721816673893106
+      ghost_skeleton_atack _hability-Sheet_16: 8940796887706477698
+      ghost_skeleton_atack _hability-Sheet_17: -1595623258710832065
+      ghost_skeleton_atack _hability-Sheet_18: -3725861793026952373
+      ghost_skeleton_atack _hability-Sheet_19: 9209527568128833797
+      ghost_skeleton_atack _hability-Sheet_2: -3650773122430690796
+      ghost_skeleton_atack _hability-Sheet_20: -6319266481254109028
+      ghost_skeleton_atack _hability-Sheet_21: 1661963867416844749
+      ghost_skeleton_atack _hability-Sheet_22: -5570346914637210729
+      ghost_skeleton_atack _hability-Sheet_3: 5144862477905143129
+      ghost_skeleton_atack _hability-Sheet_4: 1432020241408168974
+      ghost_skeleton_atack _hability-Sheet_5: -926824843785579791
+      ghost_skeleton_atack _hability-Sheet_6: 7227847003169972376
+      ghost_skeleton_atack _hability-Sheet_7: 268040033378267331
+      ghost_skeleton_atack _hability-Sheet_8: -3548273087211122738
+      ghost_skeleton_atack _hability-Sheet_9: -3409587450708666582
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

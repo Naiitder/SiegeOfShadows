@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ghost_skeleton_main_flaten_0: 1559756220998938254
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

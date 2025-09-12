@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Aura_breath-Sheet_0: 6524775092697915607
+      Aura_breath-Sheet_1: 5422076309147728046
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

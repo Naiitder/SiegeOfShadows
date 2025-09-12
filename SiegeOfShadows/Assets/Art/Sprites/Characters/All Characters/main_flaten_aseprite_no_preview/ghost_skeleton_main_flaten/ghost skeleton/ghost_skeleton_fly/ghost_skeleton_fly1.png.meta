@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ghost_skeleton_fly1_0: 403562661990344388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

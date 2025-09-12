@@ -484,7 +484,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aura_up_and_down_atack-Sheet_0: -534993118944884636
+      aura_up_and_down_atack-Sheet_1: -157625701406694397
+      aura_up_and_down_atack-Sheet_10: 5044101995311997614
+      aura_up_and_down_atack-Sheet_11: 8762773044962966112
+      aura_up_and_down_atack-Sheet_12: -331697232641956358
+      aura_up_and_down_atack-Sheet_13: -7951158675058923246
+      aura_up_and_down_atack-Sheet_14: 2517638106176336739
+      aura_up_and_down_atack-Sheet_2: -5123910802507766357
+      aura_up_and_down_atack-Sheet_3: 5306162891794386150
+      aura_up_and_down_atack-Sheet_4: -6084193455282238890
+      aura_up_and_down_atack-Sheet_5: -7874718057376815130
+      aura_up_and_down_atack-Sheet_6: -5718199826993342139
+      aura_up_and_down_atack-Sheet_7: -4680345617218606059
+      aura_up_and_down_atack-Sheet_8: 5034176855882199253
+      aura_up_and_down_atack-Sheet_9: 7564320342089884016
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

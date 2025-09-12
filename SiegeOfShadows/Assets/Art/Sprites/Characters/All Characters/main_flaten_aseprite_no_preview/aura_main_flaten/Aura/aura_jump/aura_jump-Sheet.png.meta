@@ -434,7 +434,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aura_jump-Sheet_0: -4094846006391105197
+      aura_jump-Sheet_1: -6250561959717197558
+      aura_jump-Sheet_10: -5647082971864009818
+      aura_jump-Sheet_11: 4588554119909941260
+      aura_jump-Sheet_12: -6224780170177152037
+      aura_jump-Sheet_2: 4087840865265082573
+      aura_jump-Sheet_3: -2447781650822520603
+      aura_jump-Sheet_4: 6585453956505096693
+      aura_jump-Sheet_5: -3066350963987706489
+      aura_jump-Sheet_6: 2349534792959574390
+      aura_jump-Sheet_7: -1283024898481040177
+      aura_jump-Sheet_8: -880659737527150855
+      aura_jump-Sheet_9: -7411918136120828448
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

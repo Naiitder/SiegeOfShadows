@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      diabunny_basic_combo11_0: -3446736513437877175
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

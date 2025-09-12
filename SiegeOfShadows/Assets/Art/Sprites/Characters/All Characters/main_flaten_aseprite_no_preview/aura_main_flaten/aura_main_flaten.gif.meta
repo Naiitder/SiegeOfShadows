@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aura_main_flaten_0: -6097763566801386131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

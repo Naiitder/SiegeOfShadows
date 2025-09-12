@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aura_jump2_0: 221445766062703400
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

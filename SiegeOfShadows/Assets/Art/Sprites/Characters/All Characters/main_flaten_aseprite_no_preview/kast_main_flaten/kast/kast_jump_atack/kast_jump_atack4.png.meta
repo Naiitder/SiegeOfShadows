@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kast_jump_atack4_0: -1688317965152755839
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

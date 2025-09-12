@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      deathslime_eating10_0: -2682949838671180896
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

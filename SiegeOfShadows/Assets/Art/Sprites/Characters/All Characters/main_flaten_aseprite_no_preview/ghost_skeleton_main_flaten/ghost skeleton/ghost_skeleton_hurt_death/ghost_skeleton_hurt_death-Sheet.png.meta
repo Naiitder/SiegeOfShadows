@@ -709,7 +709,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ghost_skeleton_hurt_death-Sheet_0: 6900545682125304816
+      ghost_skeleton_hurt_death-Sheet_1: 3267861501301711024
+      ghost_skeleton_hurt_death-Sheet_10: -3570560190580892140
+      ghost_skeleton_hurt_death-Sheet_11: -6131383529190955695
+      ghost_skeleton_hurt_death-Sheet_12: 5430453128063981433
+      ghost_skeleton_hurt_death-Sheet_13: 8265471399405862565
+      ghost_skeleton_hurt_death-Sheet_14: -6568413369973497862
+      ghost_skeleton_hurt_death-Sheet_15: -8368477931587282741
+      ghost_skeleton_hurt_death-Sheet_16: -1738967148010887311
+      ghost_skeleton_hurt_death-Sheet_17: -2723948670813011577
+      ghost_skeleton_hurt_death-Sheet_18: 153234305959668959
+      ghost_skeleton_hurt_death-Sheet_19: -94700474430049450
+      ghost_skeleton_hurt_death-Sheet_2: -4456581995814738151
+      ghost_skeleton_hurt_death-Sheet_20: 7384808634501019023
+      ghost_skeleton_hurt_death-Sheet_21: 7941637965174063966
+      ghost_skeleton_hurt_death-Sheet_22: -1872759187356912407
+      ghost_skeleton_hurt_death-Sheet_23: 7622935335933981727
+      ghost_skeleton_hurt_death-Sheet_3: 3043155091987696807
+      ghost_skeleton_hurt_death-Sheet_4: 2526661324243860971
+      ghost_skeleton_hurt_death-Sheet_5: 5427574845781445431
+      ghost_skeleton_hurt_death-Sheet_6: 2053256022646280558
+      ghost_skeleton_hurt_death-Sheet_7: 6952110790751349456
+      ghost_skeleton_hurt_death-Sheet_8: 5128565277431104744
+      ghost_skeleton_hurt_death-Sheet_9: -5796164818844691995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

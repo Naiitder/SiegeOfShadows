@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aura_walk-Sheet_0: -4112302771233588367
+      aura_walk-Sheet_1: -8220744803431388436
+      aura_walk-Sheet_10: 2766380362806234325
+      aura_walk-Sheet_11: -7449999406903129030
+      aura_walk-Sheet_2: -8155142154364672547
+      aura_walk-Sheet_3: -6752645496964187474
+      aura_walk-Sheet_4: 6556734284705121497
+      aura_walk-Sheet_5: -1521324674040048910
+      aura_walk-Sheet_6: -6638388477576096755
+      aura_walk-Sheet_7: 8129768121933925550
+      aura_walk-Sheet_8: -7315932332828238117
+      aura_walk-Sheet_9: 2252065692422657832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

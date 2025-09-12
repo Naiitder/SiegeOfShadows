@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      voidghost_death-Sheet_0: 7023879779773281711
+      voidghost_death-Sheet_1: -5119145281334563463
+      voidghost_death-Sheet_10: 4182892505744664504
+      voidghost_death-Sheet_11: -2534380029965876224
+      voidghost_death-Sheet_2: -7275527448169839157
+      voidghost_death-Sheet_3: 8586168063217891421
+      voidghost_death-Sheet_4: -7014981657677806134
+      voidghost_death-Sheet_5: 498793621495037011
+      voidghost_death-Sheet_6: 4415123775144534856
+      voidghost_death-Sheet_7: 1588000851485625016
+      voidghost_death-Sheet_8: -3088199728739443584
+      voidghost_death-Sheet_9: 1962695394527469414
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

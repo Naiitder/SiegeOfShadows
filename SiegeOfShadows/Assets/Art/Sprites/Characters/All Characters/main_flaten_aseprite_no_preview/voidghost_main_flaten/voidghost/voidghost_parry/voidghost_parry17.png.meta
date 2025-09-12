@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      voidghost_parry17_0: 4069359433664824202
+      voidghost_parry17_1: 1477019745838673419
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

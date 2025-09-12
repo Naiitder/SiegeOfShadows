@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      etherealwizard_main_flaten_0: 4157811744147888094
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

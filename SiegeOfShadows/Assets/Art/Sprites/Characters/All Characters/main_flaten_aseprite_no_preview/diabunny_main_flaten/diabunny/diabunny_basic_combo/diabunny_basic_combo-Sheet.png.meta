@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      diabunny_basic_combo-Sheet_0: 8059369349371754690
+      diabunny_basic_combo-Sheet_1: 6681645933077545402
+      diabunny_basic_combo-Sheet_10: 7648242817082941987
+      diabunny_basic_combo-Sheet_11: 3987059541157352436
+      diabunny_basic_combo-Sheet_2: 5131817597492466330
+      diabunny_basic_combo-Sheet_3: 4111064776471096525
+      diabunny_basic_combo-Sheet_4: 2761358425035705573
+      diabunny_basic_combo-Sheet_5: 8513796713618583837
+      diabunny_basic_combo-Sheet_6: 1327521750651379109
+      diabunny_basic_combo-Sheet_7: -5992871087931119448
+      diabunny_basic_combo-Sheet_8: -3010745267895418858
+      diabunny_basic_combo-Sheet_9: -8603595257523150914
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

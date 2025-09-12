@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      heavy_knight_hurt_death8_0: -5164464789111590505
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

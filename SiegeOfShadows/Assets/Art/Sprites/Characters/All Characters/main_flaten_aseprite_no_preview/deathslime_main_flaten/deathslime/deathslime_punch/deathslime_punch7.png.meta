@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      deathslime_punch7_0: 8124035860104461327
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

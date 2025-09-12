@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spearGoblin_death-Sheet_0: -2918980938657799523
+      spearGoblin_death-Sheet_1: 166426398877243401
+      spearGoblin_death-Sheet_10: 2673098904922943412
+      spearGoblin_death-Sheet_11: -3207083190845597467
+      spearGoblin_death-Sheet_12: 4974852697123311030
+      spearGoblin_death-Sheet_13: -639767049467868324
+      spearGoblin_death-Sheet_14: 4757046590293227165
+      spearGoblin_death-Sheet_15: -8273970002139347240
+      spearGoblin_death-Sheet_2: -217969451412824542
+      spearGoblin_death-Sheet_3: -1743543496224235699
+      spearGoblin_death-Sheet_4: -5550510504823551910
+      spearGoblin_death-Sheet_5: -610879676953152952
+      spearGoblin_death-Sheet_6: -3693025199704841253
+      spearGoblin_death-Sheet_7: -2175724622579866667
+      spearGoblin_death-Sheet_8: -1279518510559234
+      spearGoblin_death-Sheet_9: 7913007753270533058
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

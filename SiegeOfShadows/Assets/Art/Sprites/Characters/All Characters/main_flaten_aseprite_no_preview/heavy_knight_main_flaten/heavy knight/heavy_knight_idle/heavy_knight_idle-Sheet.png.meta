@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      heavy_knight_idle-Sheet_0: 4898054820641674084
+      heavy_knight_idle-Sheet_1: -1071582036427905631
+      heavy_knight_idle-Sheet_2: 436142135168095609
+      heavy_knight_idle-Sheet_3: 3615010508405633690
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

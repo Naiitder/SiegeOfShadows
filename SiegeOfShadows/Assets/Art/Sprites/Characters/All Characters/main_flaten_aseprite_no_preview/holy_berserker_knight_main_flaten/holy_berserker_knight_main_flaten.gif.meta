@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      holy_berserker_knight_main_flaten_0: 8843384494218024138
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

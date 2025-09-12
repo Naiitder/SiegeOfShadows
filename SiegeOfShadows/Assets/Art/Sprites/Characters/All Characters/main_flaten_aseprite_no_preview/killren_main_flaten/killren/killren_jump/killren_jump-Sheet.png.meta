@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      killren_jump-Sheet_0: -6878019384589995375
+      killren_jump-Sheet_1: 2914439887542137224
+      killren_jump-Sheet_2: -9205494166800802612
+      killren_jump-Sheet_3: -155220114526014247
+      killren_jump-Sheet_4: -1844489968026285009
+      killren_jump-Sheet_5: 7272562565163779812
+      killren_jump-Sheet_6: -6917272235605836160
+      killren_jump-Sheet_7: 516616269100781942
+      killren_jump-Sheet_8: 5499504128491399863
+      killren_jump-Sheet_9: 8480893170518329800
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

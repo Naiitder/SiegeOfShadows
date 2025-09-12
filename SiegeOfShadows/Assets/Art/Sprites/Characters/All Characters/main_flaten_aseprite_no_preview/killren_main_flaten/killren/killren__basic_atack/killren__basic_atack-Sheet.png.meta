@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      killren__basic_atack-Sheet_0: 8011638702765902683
+      killren__basic_atack-Sheet_1: 945229126667255171
+      killren__basic_atack-Sheet_10: 1150349058058759103
+      killren__basic_atack-Sheet_11: -3009701262632888641
+      killren__basic_atack-Sheet_12: 2860048579367455308
+      killren__basic_atack-Sheet_13: 9017716508693484229
+      killren__basic_atack-Sheet_14: 8722965174977893964
+      killren__basic_atack-Sheet_15: 7751528650485619069
+      killren__basic_atack-Sheet_2: -889612096067065129
+      killren__basic_atack-Sheet_3: 6887229916650281120
+      killren__basic_atack-Sheet_4: 1685405814330059178
+      killren__basic_atack-Sheet_5: 5260436755723416386
+      killren__basic_atack-Sheet_6: 200988703856564435
+      killren__basic_atack-Sheet_7: -4854601159686519351
+      killren__basic_atack-Sheet_8: 212431917559029866
+      killren__basic_atack-Sheet_9: 6211004708151436383
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

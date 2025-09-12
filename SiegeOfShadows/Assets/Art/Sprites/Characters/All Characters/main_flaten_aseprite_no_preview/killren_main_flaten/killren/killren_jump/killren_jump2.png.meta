@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      killren_jump2_0: 4877501305560097492
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

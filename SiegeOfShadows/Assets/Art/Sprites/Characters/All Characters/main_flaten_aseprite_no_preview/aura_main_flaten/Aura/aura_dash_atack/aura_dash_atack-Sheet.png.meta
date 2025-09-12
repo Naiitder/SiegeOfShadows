@@ -484,7 +484,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aura_dash_atack-Sheet_0: -2941912555096875281
+      aura_dash_atack-Sheet_1: 4116032499280497859
+      aura_dash_atack-Sheet_10: -8623375271399555445
+      aura_dash_atack-Sheet_11: 5787868773477695531
+      aura_dash_atack-Sheet_12: 1554357012032199579
+      aura_dash_atack-Sheet_13: 4493553023606711082
+      aura_dash_atack-Sheet_14: -485748051514151373
+      aura_dash_atack-Sheet_2: -4785290724777649275
+      aura_dash_atack-Sheet_3: 948902110250563744
+      aura_dash_atack-Sheet_4: 5443916725348653259
+      aura_dash_atack-Sheet_5: 8492364943931889095
+      aura_dash_atack-Sheet_6: -7357093231518062026
+      aura_dash_atack-Sheet_7: -7071210605676973559
+      aura_dash_atack-Sheet_8: 8460634431924084040
+      aura_dash_atack-Sheet_9: -3637831261090779172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

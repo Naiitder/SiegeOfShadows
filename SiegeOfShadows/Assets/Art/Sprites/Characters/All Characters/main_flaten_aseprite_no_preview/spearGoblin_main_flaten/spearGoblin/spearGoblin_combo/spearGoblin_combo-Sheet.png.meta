@@ -734,7 +734,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spearGoblin_combo-Sheet_0: -2221617334584870439
+      spearGoblin_combo-Sheet_1: -5497183646268277196
+      spearGoblin_combo-Sheet_10: -3296283896254950099
+      spearGoblin_combo-Sheet_11: 7500370707281596456
+      spearGoblin_combo-Sheet_12: -7401399400029943735
+      spearGoblin_combo-Sheet_13: 1177694404771973410
+      spearGoblin_combo-Sheet_14: -4790282200935653600
+      spearGoblin_combo-Sheet_15: -1921760852011937643
+      spearGoblin_combo-Sheet_16: 6625810472758792186
+      spearGoblin_combo-Sheet_17: -485344828319979728
+      spearGoblin_combo-Sheet_18: -6788369647785711549
+      spearGoblin_combo-Sheet_19: -7781014066159880823
+      spearGoblin_combo-Sheet_2: -7812215754786477752
+      spearGoblin_combo-Sheet_20: 7390095276571108429
+      spearGoblin_combo-Sheet_21: -8829885286908345553
+      spearGoblin_combo-Sheet_22: 6314992654881517865
+      spearGoblin_combo-Sheet_23: -5015377623574215108
+      spearGoblin_combo-Sheet_24: 5195991038011312950
+      spearGoblin_combo-Sheet_3: -6805288815497127640
+      spearGoblin_combo-Sheet_4: -5176844306167413302
+      spearGoblin_combo-Sheet_5: 335244256589744045
+      spearGoblin_combo-Sheet_6: 7277517167799596249
+      spearGoblin_combo-Sheet_7: 5677602388614365084
+      spearGoblin_combo-Sheet_8: -3228353598133036323
+      spearGoblin_combo-Sheet_9: 7703203678671486337
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

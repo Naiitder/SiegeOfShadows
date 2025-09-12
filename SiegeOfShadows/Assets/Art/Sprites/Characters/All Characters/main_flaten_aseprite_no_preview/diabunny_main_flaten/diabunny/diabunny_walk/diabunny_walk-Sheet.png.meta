@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      diabunny_walk-Sheet_0: -1516383912480539235
+      diabunny_walk-Sheet_1: 7722185346932727267
+      diabunny_walk-Sheet_2: 4454257875174720370
+      diabunny_walk-Sheet_3: -7699183289308927476
+      diabunny_walk-Sheet_4: -8251470422373865007
+      diabunny_walk-Sheet_5: 6123110208339022920
+      diabunny_walk-Sheet_6: 1210734685326732092
+      diabunny_walk-Sheet_7: 8992393795390229305
+      diabunny_walk-Sheet_8: 4082986115214231043
+      diabunny_walk-Sheet_9: -375765861758894463
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

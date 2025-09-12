@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ghost_skeleton_atack9_0: -3945981982416330237
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

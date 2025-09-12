@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ghost_skeleton_hurt_death5_0: -1781559292751080433
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

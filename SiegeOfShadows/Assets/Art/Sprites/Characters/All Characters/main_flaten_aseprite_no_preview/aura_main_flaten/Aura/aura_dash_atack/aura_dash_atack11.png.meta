@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aura_dash_atack11_0: -8191682456039450754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

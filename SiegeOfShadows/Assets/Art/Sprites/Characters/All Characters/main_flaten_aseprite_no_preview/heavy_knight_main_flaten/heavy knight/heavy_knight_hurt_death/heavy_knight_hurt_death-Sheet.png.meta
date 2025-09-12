@@ -309,7 +309,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      heavy_knight_hurt_death-Sheet_0: -7075280802145074910
+      heavy_knight_hurt_death-Sheet_1: 4866732286602648411
+      heavy_knight_hurt_death-Sheet_2: -3176716604577609098
+      heavy_knight_hurt_death-Sheet_3: -1829336134010639334
+      heavy_knight_hurt_death-Sheet_4: 8656673780361084216
+      heavy_knight_hurt_death-Sheet_5: 5851863452932084145
+      heavy_knight_hurt_death-Sheet_6: 3870779555792389491
+      heavy_knight_hurt_death-Sheet_7: -2593645397415236757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -384,7 +384,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      kast_jump-Sheet_0: 8492321401828919591
+      kast_jump-Sheet_1: -7165102020534259703
+      kast_jump-Sheet_10: -2576938925792131700
+      kast_jump-Sheet_2: -4416726872840710573
+      kast_jump-Sheet_3: -116919944028918876
+      kast_jump-Sheet_4: 5960753878459794534
+      kast_jump-Sheet_5: 4030166282278458602
+      kast_jump-Sheet_6: -7219972676354997534
+      kast_jump-Sheet_7: 7800273385680167897
+      kast_jump-Sheet_8: -205302623363886060
+      kast_jump-Sheet_9: -6505226963762422698
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

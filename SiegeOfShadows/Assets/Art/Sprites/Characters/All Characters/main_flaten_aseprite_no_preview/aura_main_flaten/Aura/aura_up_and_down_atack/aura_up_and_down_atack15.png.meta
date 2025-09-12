@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aura_up_and_down_atack15_0: 6066991173251743218
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      aura_walk4_0: -2519802006318722322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

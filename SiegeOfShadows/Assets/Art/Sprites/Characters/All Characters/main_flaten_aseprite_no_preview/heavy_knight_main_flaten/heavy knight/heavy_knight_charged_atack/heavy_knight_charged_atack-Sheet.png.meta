@@ -809,7 +809,35 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      heavy_knight_charged_atack-Sheet_0: -5605032081890961166
+      heavy_knight_charged_atack-Sheet_1: 3590481939654370925
+      heavy_knight_charged_atack-Sheet_10: -2915512809360293250
+      heavy_knight_charged_atack-Sheet_11: 5147363497282560498
+      heavy_knight_charged_atack-Sheet_12: 2188124056754979990
+      heavy_knight_charged_atack-Sheet_13: -2765140921445431814
+      heavy_knight_charged_atack-Sheet_14: -6904553721829004225
+      heavy_knight_charged_atack-Sheet_15: -786102072817475882
+      heavy_knight_charged_atack-Sheet_16: 451886456768776541
+      heavy_knight_charged_atack-Sheet_17: 2476469378849276137
+      heavy_knight_charged_atack-Sheet_18: -6830614173234004294
+      heavy_knight_charged_atack-Sheet_19: 6242930373229494239
+      heavy_knight_charged_atack-Sheet_2: -166421349902143588
+      heavy_knight_charged_atack-Sheet_20: -8360390268205706477
+      heavy_knight_charged_atack-Sheet_21: -5194442049245373233
+      heavy_knight_charged_atack-Sheet_22: 4497897653037047443
+      heavy_knight_charged_atack-Sheet_23: -2092791611682878563
+      heavy_knight_charged_atack-Sheet_24: 3433122056128434692
+      heavy_knight_charged_atack-Sheet_25: 7985124941148293222
+      heavy_knight_charged_atack-Sheet_26: 2296986463365553012
+      heavy_knight_charged_atack-Sheet_27: -3345295419468830463
+      heavy_knight_charged_atack-Sheet_3: -7157113857983942981
+      heavy_knight_charged_atack-Sheet_4: 2413056385242528737
+      heavy_knight_charged_atack-Sheet_5: 6616445859591630938
+      heavy_knight_charged_atack-Sheet_6: 5282923441238482668
+      heavy_knight_charged_atack-Sheet_7: 7411022885938961069
+      heavy_knight_charged_atack-Sheet_8: -8552364122753495008
+      heavy_knight_charged_atack-Sheet_9: 286437869401975685
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

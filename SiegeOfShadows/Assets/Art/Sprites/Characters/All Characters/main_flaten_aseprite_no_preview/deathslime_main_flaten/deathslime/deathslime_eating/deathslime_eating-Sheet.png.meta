@@ -434,7 +434,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      deathslime_eating-Sheet_0: -6229784523824968143
+      deathslime_eating-Sheet_1: 7323421773366806803
+      deathslime_eating-Sheet_10: 9098469811709236090
+      deathslime_eating-Sheet_11: -1264253882459970423
+      deathslime_eating-Sheet_12: -8027263837234347761
+      deathslime_eating-Sheet_2: 222190363832040911
+      deathslime_eating-Sheet_3: -6740585735330577410
+      deathslime_eating-Sheet_4: 1844956095639757505
+      deathslime_eating-Sheet_5: -7067161105318715758
+      deathslime_eating-Sheet_6: 943772669837403814
+      deathslime_eating-Sheet_7: 5378361306994423122
+      deathslime_eating-Sheet_8: 390609013206177160
+      deathslime_eating-Sheet_9: -856645955258697679
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

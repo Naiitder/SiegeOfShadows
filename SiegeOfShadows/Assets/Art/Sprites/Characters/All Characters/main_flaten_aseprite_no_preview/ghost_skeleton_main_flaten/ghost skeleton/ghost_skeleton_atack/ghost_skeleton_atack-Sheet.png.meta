@@ -334,7 +334,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ghost_skeleton_atack-Sheet_0: -1853017142933285191
+      ghost_skeleton_atack-Sheet_1: 6549876936884040189
+      ghost_skeleton_atack-Sheet_2: -8556018146609488275
+      ghost_skeleton_atack-Sheet_3: -7795561456131117465
+      ghost_skeleton_atack-Sheet_4: 704055934120031620
+      ghost_skeleton_atack-Sheet_5: -4453942430005296932
+      ghost_skeleton_atack-Sheet_6: 4498618125446267846
+      ghost_skeleton_atack-Sheet_7: 3712424860203831397
+      ghost_skeleton_atack-Sheet_8: 6253877922083913993
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

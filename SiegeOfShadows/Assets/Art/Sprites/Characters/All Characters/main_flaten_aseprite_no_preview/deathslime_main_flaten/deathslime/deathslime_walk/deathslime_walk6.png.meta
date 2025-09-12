@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      deathslime_walk6_0: 2579219505847213804
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

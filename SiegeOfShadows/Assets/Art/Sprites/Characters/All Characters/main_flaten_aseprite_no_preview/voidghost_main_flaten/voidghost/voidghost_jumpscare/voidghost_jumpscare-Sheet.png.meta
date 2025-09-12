@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      voidghost_jumpscare-Sheet_0: -8833955579497072803
+      voidghost_jumpscare-Sheet_1: 3836990068200154941
+      voidghost_jumpscare-Sheet_10: -3050272090336458096
+      voidghost_jumpscare-Sheet_11: 8187768298973121681
+      voidghost_jumpscare-Sheet_12: 8838297356897318723
+      voidghost_jumpscare-Sheet_13: 4775111902067161206
+      voidghost_jumpscare-Sheet_14: -1700696597898428360
+      voidghost_jumpscare-Sheet_15: -2018591497287561853
+      voidghost_jumpscare-Sheet_2: -4490386882317202586
+      voidghost_jumpscare-Sheet_3: 1234097526248563468
+      voidghost_jumpscare-Sheet_4: 7823893467476287122
+      voidghost_jumpscare-Sheet_5: -1245089813045896119
+      voidghost_jumpscare-Sheet_6: 6820507047834658345
+      voidghost_jumpscare-Sheet_7: 5083477128729118728
+      voidghost_jumpscare-Sheet_8: -4671779854401196041
+      voidghost_jumpscare-Sheet_9: -1584867397235444099
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

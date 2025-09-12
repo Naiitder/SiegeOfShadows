@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spearGoblin_combo8_0: 8682357841406544856
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
