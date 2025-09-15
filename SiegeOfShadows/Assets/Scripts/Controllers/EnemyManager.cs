@@ -23,6 +23,7 @@ public class EnemyManager : MonoBehaviour
         else Destroy(this);
         
         player = FindAnyObjectByType<PlayerMovement>();
+        
         enemies = FindObjectsByType<EnemyMovement>(FindObjectsSortMode.None).ToList();
         
         foreach (var em in enemies) if (em) em.Initialize(player.transform, flow);
@@ -61,7 +62,7 @@ public class EnemyManager : MonoBehaviour
                 sep += delta / d2;
             }
 
-            em.HandleMovement(desired + separationWeight * sep);
+            em.HandleMovement(desired + separationWeight * sep, Time.fixedDeltaTime);
         }
 
     }

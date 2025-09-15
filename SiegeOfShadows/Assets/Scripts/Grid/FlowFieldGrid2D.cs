@@ -29,6 +29,12 @@ public class FlowFieldGrid2D : MonoBehaviour
     private Vector2Int lastPlayerCell = new Vector2Int(int.MinValue, int.MinValue);
     private float timer;
     
+    static readonly int[] DX   = {  1, -1,  0,  0,  1, -1,  1, -1 };
+    static readonly int[] DY   = {  0,  0,  1, -1,  1,  1, -1, -1 };
+    static readonly ushort[] COST = { 10, 10, 10, 10, 14, 14, 14, 14 };
+    const int ORTH_COUNT = 4;  
+    const int ALL_COUNT  = 8;  
+    
     [Header("Gizmos")]
     public bool drawGrid = true;
     public bool drawBlocked = true;
@@ -96,19 +102,18 @@ public class FlowFieldGrid2D : MonoBehaviour
     {
         for (int i = 0; i < distance.Length; i++) distance[i] = v;
     }
-
-void ComputeFlowFieldFrom(Vector2Int targetCell)
+    void ComputeFlowFieldFrom(Vector2Int targetCell)
 {
     FillDistance(ushort.MaxValue);
 
     int tIdx = Idx(targetCell.x, targetCell.y);
     if (!InBounds(targetCell.x, targetCell.y)) return;
     if (blocked[tIdx]) return;
-    
+
     MinHeap heap = new MinHeap();
     distance[tIdx] = 0;
     heap.Push(tIdx, 0);
-
+    
     while (heap.Count > 0)
     {
         heap.Pop(out int curIdx, out int curDist);
@@ -117,24 +122,25 @@ void ComputeFlowFieldFrom(Vector2Int targetCell)
         int cx = curIdx % width;
         int cy = curIdx / width;
 
-        foreach (var nb in Neigh8(cx, cy))
+        int nCount = ALL_COUNT; 
+        for (int k = 0; k < nCount; k++)
         {
-            int nx = nb.x, ny = nb.y;
-            ushort cost = nb.cost;
-            bool isDiag = nb.isDiagonal;
-
+            int nx = cx + DX[k];
+            int ny = cy + DY[k];
             if (!InBounds(nx, ny)) continue;
+
             int nIdx = Idx(nx, ny);
             if (blocked[nIdx]) continue;
-            
+
+            bool isDiag = k >= ORTH_COUNT;
             if (isDiag)
             {
-                int ix1 = Idx(nx, cy); 
-                int ix2 = Idx(cx, ny); 
+                int ix1 = Idx(nx, cy);
+                int ix2 = Idx(cx, ny);
                 if (blocked[ix1] || blocked[ix2]) continue;
             }
 
-            int newDist = curDist + cost;
+            int newDist = curDist + COST[k];
             if (newDist < distance[nIdx])
             {
                 distance[nIdx] = (ushort)Mathf.Min(newDist, ushort.MaxValue);
@@ -152,10 +158,13 @@ void ComputeFlowFieldFrom(Vector2Int targetCell)
         ushort best = distance[i];
         Vector2 bestDir = Vector2.zero;
 
-        foreach (var nb in Neigh8(x, y))
+        int nCount = ALL_COUNT; 
+        for (int k = 0; k < nCount; k++)
         {
-            int nx = nb.x, ny = nb.y;
+            int nx = x + DX[k];
+            int ny = y + DY[k];
             if (!InBounds(nx, ny)) continue;
+
             int ni = Idx(nx, ny);
             if (distance[ni] < best)
             {
@@ -166,23 +175,7 @@ void ComputeFlowFieldFrom(Vector2Int targetCell)
         dir[i] = bestDir;
     }
 }
-
-IEnumerable<(int x, int y, ushort cost, bool isDiagonal)> Neigh8(int cx, int cy)
-{
-    const ushort ORTH = 10;
-    const ushort DIAG = 14;
     
-    yield return (cx + 1, cy    , ORTH, false);
-    yield return (cx - 1, cy    , ORTH, false);
-    yield return (cx    , cy + 1, ORTH, false);
-    yield return (cx    , cy - 1, ORTH, false);
-    
-    yield return (cx + 1, cy + 1, DIAG, true);
-    yield return (cx - 1, cy + 1, DIAG, true);
-    yield return (cx + 1, cy - 1, DIAG, true);
-    yield return (cx - 1, cy - 1, DIAG, true);
-}
-
     public Vector2 GetFlowDir(Vector2 worldPos)
     {
         var c = WorldToCell(worldPos);

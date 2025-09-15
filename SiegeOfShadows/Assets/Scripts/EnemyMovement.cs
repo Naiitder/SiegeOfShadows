@@ -5,6 +5,7 @@ public class EnemyMovement : CharacterMovement
 {
     private Transform _player;
     private FlowFieldGrid2D _flow;
+    [SerializeField] private float maxDtClamp = 1f / 30f;
 
     protected override void Awake()
     {
@@ -19,20 +20,21 @@ public class EnemyMovement : CharacterMovement
         if(!EnemyManager.instance.IsInList(this)) EnemyManager.instance.RegisterEnemy(this);
     }
     
-  public void HandleMovement(Vector2 desired)
+public void HandleMovement(Vector2 desired, float dt)
 {
     if (_flow == null || !_player) return;
+    
+    dt = Mathf.Min(dt, maxDtClamp);
     
     Vector2 dir = desired.sqrMagnitude > 1e-6f ? desired.normalized : Vector2.zero;
     float speed = moveSpeed;
     
-    float maxStep = _flow != null ? _flow.cellSize * 0.45f : 0.25f;
-    Vector2 total = dir * speed * Time.deltaTime;
+    float maxStep = _flow.cellSize * 0.45f;
+    Vector2 total = dir * speed * dt;
     int steps = Mathf.Max(1, Mathf.CeilToInt(total.magnitude / maxStep));
     Vector2 step = (steps > 0) ? total / steps : Vector2.zero;
 
     Vector2 pos = rb.position;
-    Vector2 startPos = pos;
 
     for (int i = 0; i < steps; i++)
     {

@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0d56f8a2-5c03-4cf4-9309-b4d3cc9af555" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SiegeOfShadows/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SiegeOfShadows/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/EnemyManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/FlowFieldGrid2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid/FlowFieldGrid2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,7 @@
       <workItem from="1753743943103" duration="1825000" />
       <workItem from="1756557435884" duration="5293000" />
       <workItem from="1757679575713" duration="1365000" />
-      <workItem from="1757933016764" duration="9943000" />
+      <workItem from="1757933016764" duration="11691000" />
     </task>
     <servers />
   </component>
