@@ -4,7 +4,7 @@ using UnityEngine;
 public class EnemyMovement : CharacterMovement
 {
     private Transform _player;
-    [SerializeField] private LayerMask layerMask;
+    private FlowFieldGrid2D _flow;
 
     protected override void Awake()
     {
@@ -12,29 +12,26 @@ public class EnemyMovement : CharacterMovement
         Stats.OnDeath += Die;
     }
 
-    public void Initialize(Transform playerTarget)
+    public void Initialize(Transform playerTarget, FlowFieldGrid2D flow)
     {
-        this._player = playerTarget;
-        if(!EnemyManager.instance.IsInList(this))EnemyManager.instance.RegisterEnemy(this);
+        _player = playerTarget;
+        _flow = flow;
+        if(!EnemyManager.instance.IsInList(this)) EnemyManager.instance.RegisterEnemy(this);
     }
     
-    public void HandleMovement()
+    public void HandleMovement(Vector2 desired)
     {
-        if (_player == null) return;
+        if (!_player) return;
 
-        Vector2 direction = (_player.position - transform.position).normalized;
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, 1f, layerMask);
-
-        if (hit.collider == null)
+        Vector2 v = desired.normalized * moveSpeed;
+        
+        if (_flow && _flow.IsBlocked(transform.position))
         {
-            rb.linearVelocity = direction * moveSpeed;
+            Vector2 toFree = (_player.position - transform.position).normalized;
+            v += toFree * (moveSpeed * 0.5f);
         }
-        else
-        {
-            Vector2 perpDirection = Vector2.Perpendicular(direction);
-            Vector2 newDirection = perpDirection; 
-            rb.linearVelocity = newDirection * moveSpeed * 0.5f; 
-        }
+        
+        rb.linearVelocity = v;
 
         UpdateAnimation();
     }

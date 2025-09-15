@@ -9,6 +9,13 @@ public class EnemyManager : MonoBehaviour
     
     [SerializeField] private List<EnemyMovement> enemies = new List<EnemyMovement>();
     private PlayerMovement player;
+    [SerializeField] private FlowFieldGrid2D flow;
+    [SerializeField] private float separationRadius = 0.5f;
+    [SerializeField] private float separationWeight = 0.6f;
+    [SerializeField] private float hashCellSize = 1.0f;
+
+    private SpatialHash2D<EnemyMovement> hash;
+    private readonly List<EnemyMovement> tmp = new();
 
     private void Awake()
     {
@@ -18,20 +25,45 @@ public class EnemyManager : MonoBehaviour
         player = FindAnyObjectByType<PlayerMovement>();
         enemies = FindObjectsByType<EnemyMovement>(FindObjectsSortMode.None).ToList();
         
-        foreach (EnemyMovement em in enemies)
-        {
-            if (em != null)
-                em.Initialize(player.transform);
-        }
+        foreach (var em in enemies) if (em) em.Initialize(player.transform, flow);
+        hash = new SpatialHash2D<EnemyMovement>(hashCellSize);
     }
 
     private void Update()
     {
-        foreach (EnemyMovement em in enemies)
+        hash.Clear();
+        for (int i = 0; i < enemies.Count; i++)
         {
-            if (em != null)
-                em.HandleMovement();
+            var em = enemies[i];
+            if (!em) continue;
+            hash.Insert(em.transform.position, em);
         }
+        
+        for (int i = 0; i < enemies.Count; i++)
+        {
+            var em = enemies[i];
+            if (!em) continue;
+
+            Vector2 desired = flow ? flow.GetFlowDir(em.transform.position) : Vector2.zero;
+            if (desired == Vector2.zero)
+            {
+                desired = ((Vector2)player.transform.position - (Vector2)em.transform.position).normalized;
+            }
+            
+            hash.QueryRadius(em.transform.position, separationRadius, tmp, e => e.transform.position);
+            Vector2 sep = Vector2.zero;
+            for (int t = 0; t < tmp.Count; t++)
+            {
+                var other = tmp[t];
+                if (other == em) continue;
+                var delta = (Vector2)(em.transform.position - other.transform.position);
+                float d2 = delta.sqrMagnitude + 1e-4f;
+                sep += delta / d2;
+            }
+
+            em.HandleMovement(desired + separationWeight * sep);
+        }
+
     }
 
     public void RegisterEnemy(EnemyMovement em)
@@ -68,6 +100,11 @@ public class EnemyManager : MonoBehaviour
         }
 
         return closestEnemy;
+    }
+    
+    public void GetEnemiesInRadius(Vector2 center, float radius, List<EnemyMovement> outList)
+    {
+        hash.QueryRadius(center, radius, outList, e => e.transform.position);
     }
 
 }
