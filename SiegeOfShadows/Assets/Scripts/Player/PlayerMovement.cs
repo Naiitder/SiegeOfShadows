@@ -33,12 +33,14 @@ public class PlayerMovement : CharacterMovement
 
     private void HandleMovement()
     {
-        if (InputController.instance != null)
-        {
-            rb.linearVelocity = InputController.instance.moveInput * moveSpeed;
-            
-            UpdateAnimation();
-        }
+        if (InputController.instance == null) return;
+        
+        Vector2 input = InputController.instance.moveInput;
+        Vector2 dir = input.sqrMagnitude > 1f ? input.normalized : input;
+        
+        rb.linearVelocity = dir * moveSpeed;
+
+        UpdateAnimation();
     }
     
     private void HandleAbilities()

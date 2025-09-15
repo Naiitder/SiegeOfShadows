@@ -29,7 +29,7 @@ public class EnemyManager : MonoBehaviour
         hash = new SpatialHash2D<EnemyMovement>(hashCellSize);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         hash.Clear();
         for (int i = 0; i < enemies.Count; i++)

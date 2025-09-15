@@ -19,22 +19,61 @@ public class EnemyMovement : CharacterMovement
         if(!EnemyManager.instance.IsInList(this)) EnemyManager.instance.RegisterEnemy(this);
     }
     
-    public void HandleMovement(Vector2 desired)
+  public void HandleMovement(Vector2 desired)
+{
+    if (_flow == null || !_player) return;
+    
+    Vector2 dir = desired.sqrMagnitude > 1e-6f ? desired.normalized : Vector2.zero;
+    float speed = moveSpeed;
+    
+    float maxStep = _flow != null ? _flow.cellSize * 0.45f : 0.25f;
+    Vector2 total = dir * speed * Time.deltaTime;
+    int steps = Mathf.Max(1, Mathf.CeilToInt(total.magnitude / maxStep));
+    Vector2 step = (steps > 0) ? total / steps : Vector2.zero;
+
+    Vector2 pos = rb.position;
+    Vector2 startPos = pos;
+
+    for (int i = 0; i < steps; i++)
     {
-        if (!_player) return;
+        Vector2 tryPos = pos + step;
 
-        Vector2 v = desired.normalized * moveSpeed;
-        
-        if (_flow && _flow.IsBlocked(transform.position))
+        if (!_flow.IsBlocked(tryPos))
         {
-            Vector2 toFree = (_player.position - transform.position).normalized;
-            v += toFree * (moveSpeed * 0.5f);
+            Debug.DrawLine(pos, tryPos, Color.green, 0.05f);
+            pos = tryPos;
         }
-        
-        rb.linearVelocity = v;
+        else
+        {
+            Vector2 tryX = new Vector2(pos.x + step.x, pos.y);
+            Vector2 tryY = new Vector2(pos.x, pos.y + step.y);
 
-        UpdateAnimation();
+            bool moved = false;
+            if (!_flow.IsBlocked(tryX))
+            {
+                Debug.DrawLine(pos, tryX, Color.yellow, 0.05f);
+                pos.x = tryX.x;
+                moved = true;
+            }
+            if (!_flow.IsBlocked(tryY))
+            {
+                Debug.DrawLine(new Vector2(pos.x, pos.y), tryY, Color.cyan, 0.05f);
+                pos.y = tryY.y;
+                moved = true;
+            }
+
+            if (!moved)
+            {
+                Debug.DrawLine(pos, tryPos, Color.red, 0.1f);
+                break;
+            }
+        }
     }
+
+    rb.MovePosition(pos);
+    
+    UpdateAnimation();
+}
 
     private void OnDestroy()
     {
