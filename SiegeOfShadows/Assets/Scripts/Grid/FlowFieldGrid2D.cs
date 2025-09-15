@@ -2,8 +2,28 @@
 using UnityEditor;
 #endif
 using UnityEngine;
-
+using Unity.Collections;
+using Unity.Mathematics;
 using System.Collections.Generic;
+public struct GridData
+{
+    [ReadOnly] public NativeArray<byte> blocked; // 0=free,1=blocked
+    public int width, height;
+    public float2 origin;
+    public float cellSize;
+
+    public bool InBounds(int2 c) => (uint)c.x < width && (uint)c.y < height;
+    public int Idx(int2 c) => c.y * width + c.x;
+    public int2 WorldToCell(float2 w) {
+        float2 local = w - origin;
+        return (int2)math.floor(local / cellSize);
+    }
+    public bool IsBlocked(float2 w) {
+        var c = WorldToCell(w);
+        if (!InBounds(c)) return true;
+        return blocked[Idx(c)] != 0;
+    }
+}
 
 [DefaultExecutionOrder(-500)]
 public class FlowFieldGrid2D : MonoBehaviour
@@ -34,6 +54,7 @@ public class FlowFieldGrid2D : MonoBehaviour
     static readonly ushort[] COST = { 10, 10, 10, 10, 14, 14, 14, 14 };
     const int ORTH_COUNT = 4;  
     const int ALL_COUNT  = 8;  
+    private NativeArray<byte> blockedNative; 
     
     [Header("Gizmos")]
     public bool drawGrid = true;
@@ -63,6 +84,7 @@ public class FlowFieldGrid2D : MonoBehaviour
         blocked = new bool[n];
         distance = new ushort[n];
         dir = new Vector2[n];
+        blockedNative = new NativeArray<byte>(n, Allocator.Persistent);
         BakeObstacles();
         FillDistance(ushort.MaxValue);
     }
@@ -83,6 +105,12 @@ public class FlowFieldGrid2D : MonoBehaviour
         lastPlayerCell = pCell;
     }
 
+    public GridData GetGridDataNative() => new GridData {
+        blocked = blockedNative, width = width, height = height,
+        origin = new float2(origin.x, origin.y), cellSize = cellSize
+    };
+
+    
     public void BakeObstacles()
     {
         var size = new Vector2(
@@ -94,7 +122,10 @@ public class FlowFieldGrid2D : MonoBehaviour
         for (int x = 0; x < width; x++)
         {
             Vector2 c = CellCenter(x, y);
-            blocked[Idx(x, y)] = Physics2D.OverlapBox(c, size, 0f, obstacleMask);
+            bool b = Physics2D.OverlapBox(c, size, 0f, obstacleMask);
+            int i = Idx(x, y);
+            blocked[i] = b;
+            blockedNative[i] = b ? (byte)1 : (byte)0; 
         }
     }
 
@@ -188,6 +219,11 @@ public class FlowFieldGrid2D : MonoBehaviour
         var c = WorldToCell(worldPos);
         if (!InBounds(c.x, c.y)) return true;
         return blocked[Idx(c.x, c.y)];
+    }
+    
+    void OnDestroy()
+    {
+        if (blockedNative.IsCreated) blockedNative.Dispose();
     }
     
 void OnDrawGizmosSelected()
@@ -315,4 +351,6 @@ class MinHeap
             i = s;
         }
     }
+    
+    
 }

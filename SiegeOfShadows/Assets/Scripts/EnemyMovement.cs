@@ -75,6 +75,16 @@ public void HandleMovement(Vector2 desired, float dt)
     rb.MovePosition(pos);
     
     UpdateAnimation();
+} 
+public void ApplyJobPosition(Vector2 pos, float dt)
+{
+    Vector2 cur = rb.position;
+    Vector2 visualV = (pos - cur) / Mathf.Max(1e-6f, dt);
+    
+    rb.linearVelocity = visualV;   
+
+    rb.MovePosition(pos);
+    UpdateAnimation();
 }
 
     private void OnDestroy()

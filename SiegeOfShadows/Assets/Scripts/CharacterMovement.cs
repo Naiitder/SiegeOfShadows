@@ -7,7 +7,7 @@ public class CharacterMovement : MonoBehaviour
     protected SpriteRenderer SpriteRenderer;
     protected int IsMovingHash;
 
-    [SerializeField] protected float moveSpeed;
+    [SerializeField] public float moveSpeed;
     [SerializeField] protected Rigidbody2D rb;
     
     public CharacterStats Stats;
