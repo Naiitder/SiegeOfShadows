@@ -153,4 +153,10 @@ public class FlowFieldGrid2D : MonoBehaviour
         if (!InBounds(c.x, c.y)) return true;
         return blocked[Idx(c.x, c.y)];
     }
+    
+    void OnDrawGizmosSelected() {
+        Gizmos.color = Color.cyan;
+        var size = new Vector3(width * cellSize, height * cellSize, 0f);
+        Gizmos.DrawWireCube((Vector3)origin + new Vector3(size.x/2f, size.y/2f, 0), size);
+    }
 }
