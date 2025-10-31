@@ -6,11 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0d56f8a2-5c03-4cf4-9309-b4d3cc9af555" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SiegeOfShadows/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SiegeOfShadows/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/EnemyManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/EnemyJobs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid/EnemyJobs.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Grid/FlowFieldGrid2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Grid/FlowFieldGrid2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.60f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath D:\0_MyGames\SiegeOfShadows\SiegeOfShadows -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\0_MyGames\SiegeOfShadows\SiegeOfShadows" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -62,7 +66,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.37f1/Unity.app/Contents/MacOS/Unity" />
+      <option name="EXE_PATH" value="/Applications/Unity/Hub/Editor/6000.0.60f1/Unity.app/Contents/MacOS/Unity" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\0_MyGames\SiegeOfShadows\SiegeOfShadows -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\0_MyGames\SiegeOfShadows\SiegeOfShadows" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -124,6 +128,7 @@
       <workItem from="1756557435884" duration="5293000" />
       <workItem from="1757679575713" duration="1365000" />
       <workItem from="1757933016764" duration="14245000" />
+      <workItem from="1761906259280" duration="1332000" />
     </task>
     <servers />
   </component>

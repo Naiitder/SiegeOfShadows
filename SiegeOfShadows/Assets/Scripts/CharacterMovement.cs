@@ -8,7 +8,6 @@ public class CharacterMovement : MonoBehaviour
     protected int IsMovingHash;
 
     [SerializeField] public float moveSpeed;
-    [SerializeField] protected Rigidbody2D rb;
     
     public CharacterStats Stats;
 
@@ -16,20 +15,10 @@ public class CharacterMovement : MonoBehaviour
     {
         Animator = GetComponent<Animator>();
         IsMovingHash = Animator.StringToHash("isMoving");
-        rb = GetComponent<Rigidbody2D>();
         SpriteRenderer = GetComponent<SpriteRenderer>();
         Stats = GetComponent<CharacterStats>();
 
         Stats.OnTakeDamage += FlashOnDamage;
-    }
-
-    protected void UpdateAnimation()
-    {
-        if(rb.linearVelocity.x < 0) SpriteRenderer.flipX = false;
-        else if (rb.linearVelocity.x > 0) SpriteRenderer.flipX = true;
-            
-        if(rb.linearVelocity.magnitude > 0) Animator.SetBool(IsMovingHash, true);
-        else Animator.SetBool(IsMovingHash, false);
     }
 
     private void FlashOnDamage()

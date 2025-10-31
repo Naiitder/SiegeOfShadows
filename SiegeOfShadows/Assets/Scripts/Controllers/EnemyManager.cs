@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Linq;
-using Unity.Burst;
 using Unity.Collections;
 using Unity.Jobs;
 using Unity.Mathematics;
@@ -24,7 +23,7 @@ public class EnemyManager : MonoBehaviour
     private NativeArray<float2> desiredDirs;
     private NativeArray<float> speeds;
     private NativeParallelMultiHashMap<int,int> hash;
-    private bool nativeDirty = false;
+    private bool nativeDirty;
 
     private void Awake()
     {
@@ -35,7 +34,7 @@ public class EnemyManager : MonoBehaviour
         if (enemies.Count == 0)
             enemies = FindObjectsByType<EnemyMovement>(FindObjectsSortMode.None).ToList();
 
-        foreach (var em in enemies) if (em) em.Initialize(player.transform, flow);
+        foreach (var em in enemies) if (em) em.Initialize();
 
         AllocateNative(enemies.Count);
     }
@@ -145,7 +144,7 @@ public class EnemyManager : MonoBehaviour
     public void RegisterEnemy(EnemyMovement em)
     {
         enemies.Add(em);
-        em.Initialize(player.transform, flow);
+        em.Initialize();
         nativeDirty = true;
     }
 

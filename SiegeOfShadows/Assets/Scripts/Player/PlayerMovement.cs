@@ -6,11 +6,15 @@ public class PlayerMovement : CharacterMovement
     public EquippedAbilitySlot[] upgrades = new EquippedAbilitySlot[8];
     private Vector2 lastMoveDirection = new Vector2(-1, 0);
     
+    [SerializeField] protected Rigidbody2D rb;
+    
     protected override void Awake()
     {
         base.Awake();
         
+        rb = GetComponent<Rigidbody2D>();
         Stats = GetComponent<PlayerStats>();
+        
         Stats.OnDeath += Die;
 
         foreach (var slot in upgrades)
@@ -81,5 +85,14 @@ public class PlayerMovement : CharacterMovement
         {
             Stats.TakeDamage(other.GetComponent<CharacterStats>().Damage);
         }
+    }
+    
+    private void UpdateAnimation()
+    {
+        if(rb.linearVelocity.x < 0) SpriteRenderer.flipX = false;
+        else if (rb.linearVelocity.x > 0) SpriteRenderer.flipX = true;
+            
+        if(rb.linearVelocity.magnitude > 0) Animator.SetBool(IsMovingHash, true);
+        else Animator.SetBool(IsMovingHash, false);
     }
 }

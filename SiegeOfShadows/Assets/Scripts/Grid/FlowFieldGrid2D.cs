@@ -7,7 +7,7 @@ using Unity.Mathematics;
 using System.Collections.Generic;
 public struct GridData
 {
-    [ReadOnly] public NativeArray<byte> blocked; // 0=free,1=blocked
+    [ReadOnly] public NativeArray<byte> blocked; 
     public int width, height;
     public float2 origin;
     public float cellSize;
@@ -60,7 +60,7 @@ public class FlowFieldGrid2D : MonoBehaviour
     public bool drawGrid = true;
     public bool drawBlocked = true;
     public bool drawFlow = false;
-    [Range(1, 10)] public int arrowStride = 2; // solo para flechas del flow
+    [Range(1, 10)] public int arrowStride = 2; 
     public Color gridColor = new Color(0f, 1f, 1f, 0.9f);
     public Color blockedColor = new Color(1f, 0f, 0f, 0.25f);
     public Color flowColor = new Color(1f, 1f, 0f, 0.9f);

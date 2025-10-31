@@ -44,7 +44,7 @@ public struct DesiredDirJob : IJobParallelFor
 {
     [ReadOnly] public NativeArray<float2> positions;
     [ReadOnly] public NativeArray<float2> flowDirsPerEnemy;
-    [ReadOnly] public NativeParallelMultiHashMap<int,int> hash; // <-- aquí
+    [ReadOnly] public NativeParallelMultiHashMap<int,int> hash; 
     public float hashCell;
     public float separationRadius;
     public float separationWeight;
@@ -66,7 +66,7 @@ public struct DesiredDirJob : IJobParallelFor
             int2 k = baseK + new int2(ox, oy);
             int key = (k.y << 16) ^ (k.x & 0xFFFF);
 
-            NativeParallelMultiHashMapIterator<int> it; // <-- aquí
+            NativeParallelMultiHashMapIterator<int> it; 
             int idx;
             if (hash.TryGetFirstValue(key, out idx, out it)) {
                 do {
@@ -92,9 +92,9 @@ public struct MoveWithGridSlideJob : IJobParallelFor
     [ReadOnly] public NativeArray<float2> desiredDirs;
     [ReadOnly] public NativeArray<float> speeds;
     public float dt;
-    public float maxStepFrac; // e.g., 0.45
+    public float maxStepFrac; 
 
-    public NativeArray<float2> positions; // in-out
+    public NativeArray<float2> positions; 
 
     public void Execute(int i)
     {
