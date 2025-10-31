@@ -109,7 +109,7 @@ public class EnemyManager : MonoBehaviour
             if (!em) continue;
 
             float2 p = positions[i];
-            em.ApplyJobPosition(new Vector2(p.x, p.y), Time.fixedDeltaTime);
+            em.ApplyJobPosition(new Vector2(p.x, p.y), Time.fixedDeltaTime, desiredDirs[i]);
         }
     }
     

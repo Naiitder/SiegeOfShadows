@@ -21,16 +21,16 @@ public class EnemyMovement : CharacterMovement
     }
 
 
-public void ApplyJobPosition(Vector2 pos, float dt)
-{
-    transform.position = pos;
-    
-    Vector2 v = (pos - lastPos) / Mathf.Max(dt, 1e-6f);
-    if (Mathf.Abs(v.x) > FlipDeadzone)
-        SpriteRenderer.flipX = v.x > 0f;
+    public void ApplyJobPosition(Vector2 newPos, float dt, Vector2 desiredDir)
+    {
+        transform.position = newPos;
 
-    lastPos = pos;
-}
+        Vector2 dir = desiredDir.sqrMagnitude > 1e-6f ? desiredDir : (newPos - lastPos);
+        if (Mathf.Abs(dir.x) > 0.02f)
+            SpriteRenderer.flipX = dir.x > 0f;
+
+        lastPos = newPos;
+    }
 
     private void OnDestroy()
     {
