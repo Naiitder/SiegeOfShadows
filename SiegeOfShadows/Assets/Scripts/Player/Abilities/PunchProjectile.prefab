@@ -48,7 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
-  lifetime: 3
+  hitRadius: 0.08
+  destroyOnHit: 0
 --- !u!61 &3184422741279013791
 BoxCollider2D:
   m_ObjectHideFlags: 0

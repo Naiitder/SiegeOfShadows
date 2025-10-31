@@ -10,7 +10,7 @@ public class Projectile : MonoBehaviour
     
     [Header("Hit")]
     public float hitRadius = 0.08f; 
-    public bool destroyOnHit;
+    public bool destroyOnHit = false;
     
     private static readonly List<EnemyMovement> _candidates = new(32);
     

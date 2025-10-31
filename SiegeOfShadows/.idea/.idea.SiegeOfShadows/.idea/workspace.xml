@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0d56f8a2-5c03-4cf4-9309-b4d3cc9af555" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SiegeOfShadows/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SiegeOfShadows/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Controllers/EnemyManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Controllers/EnemyManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Abilities/Projectiles/Projectile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Abilities/Projectiles/Projectile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Abilities/PunchProjectile.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Abilities/PunchProjectile.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,7 @@
       <workItem from="1756557435884" duration="5293000" />
       <workItem from="1757679575713" duration="1365000" />
       <workItem from="1757933016764" duration="14245000" />
-      <workItem from="1761906259280" duration="3723000" />
+      <workItem from="1761906259280" duration="5186000" />
     </task>
     <servers />
   </component>
