@@ -168,6 +168,7 @@ public class EnemyManager : MonoBehaviour
     {
         enemies.Remove(em);
         nativeDirty = true;
+        managedHash?.Clear(); 
     }
 
     public bool IsInList(EnemyMovement em)

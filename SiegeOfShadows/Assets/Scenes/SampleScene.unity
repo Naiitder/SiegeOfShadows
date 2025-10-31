@@ -627,6 +627,7 @@ MonoBehaviour:
   separationRadius: 0.5
   separationWeight: 0.6
   hashCellSize: 1
+  enemyHitRadius: 0.35
 --- !u!114 &1357860492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -802,7 +803,7 @@ MonoBehaviour:
   upgrades:
   - ability: {fileID: 11400000, guid: 3b94baaa012c3be42a6073423780923a, type: 2}
     level: 1
-    cooldownTimer: 5
+    cooldownTimer: 3
   - ability: {fileID: 0}
     level: 0
     cooldownTimer: 0
