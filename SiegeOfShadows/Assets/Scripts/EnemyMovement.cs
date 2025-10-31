@@ -4,10 +4,7 @@ public class EnemyMovement : CharacterMovement
 {
 
     [SerializeField] private float maxDtClamp = 1f / 30f;
-    
-    [Header("SpriteRenderer")]
     Vector2 lastPos;
-    const float FlipDeadzone = 0.02f; 
 
     protected override void Awake()
     {
@@ -31,14 +28,15 @@ public class EnemyMovement : CharacterMovement
 
         lastPos = newPos;
     }
-
+    private void Die()
+    {
+        Destroy(this.gameObject);
+    }
+    
+    
     private void OnDestroy()
     {
         if(EnemyManager.instance.IsInList(this)) EnemyManager.instance.UnregisterEnemy(this);
     }
 
-    private void Die()
-    {
-        Destroy(this.gameObject);
-    }
 }

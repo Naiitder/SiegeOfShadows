@@ -24,11 +24,19 @@ public class EnemyManager : MonoBehaviour
     private NativeArray<float> speeds;
     private NativeParallelMultiHashMap<int,int> hash;
     private bool nativeDirty;
+    
+    [Header ("SpatialMap")]
+    [SerializeField] private float enemyHitRadius = 0.35f; 
+    private SpatialHash2D<EnemyMovement> managedHash;
+    private readonly List<EnemyMovement> _tmpResults = new(32);
+    private readonly HashSet<EnemyMovement> _dedupe = new();
 
     private void Awake()
     {
         if (instance == null) instance = this;
         else Destroy(this);
+        
+        managedHash = new SpatialHash2D<EnemyMovement>(hashCellSize);
         
         if (!player) player = FindAnyObjectByType<PlayerMovement>();
         if (enemies.Count == 0)
@@ -111,6 +119,14 @@ public class EnemyManager : MonoBehaviour
             float2 p = positions[i];
             em.ApplyJobPosition(new Vector2(p.x, p.y), Time.fixedDeltaTime, desiredDirs[i]);
         }
+        
+        managedHash.Clear();
+        for (int i = 0; i < enemies.Count; i++)
+        {
+            var em = enemies[i];
+            if (!em) continue;
+            managedHash.Insert(em.transform.position, em);
+        }
     }
     
     
@@ -159,18 +175,31 @@ public class EnemyManager : MonoBehaviour
         return enemies.Contains(em);
     }
     
-    public EnemyMovement GetClosestEnemy(Vector2 origin, float maxDistance = Mathf.Infinity)
+    public float GetEnemyHitRadius(EnemyMovement e) => enemyHitRadius;
+    
+    public int QueryEnemiesAlongSegment(Vector2 a, Vector2 b, float sweepRadius, List<EnemyMovement> outResults)
     {
-        EnemyMovement closest = null;
-        float best = maxDistance;
-        for (int i = 0; i < enemies.Count; i++)
-        {
-            var e = enemies[i];
-            if (!e) continue;
-            float d = Vector2.Distance(origin, e.transform.position);
-            if (d < best) { best = d; closest = e; }
+        outResults.Clear();
+        _dedupe.Clear();
+
+        float len = Vector2.Distance(a, b);
+        if (len <= 1e-6f) {
+            managedHash.QueryRadius(a, sweepRadius, _tmpResults, e => (Vector2)e.transform.position);
+            foreach (var em in _tmpResults) if (_dedupe.Add(em)) outResults.Add(em);
+            return outResults.Count;
         }
-        return closest;
+        
+        int steps = Mathf.Max(1, Mathf.CeilToInt(len / Mathf.Max(0.001f, sweepRadius)));
+        Vector2 dir = (b - a) / steps;
+
+        for (int s = 0; s <= steps; s++)
+        {
+            Vector2 p = a + dir * s;
+            managedHash.QueryRadius(p, sweepRadius, _tmpResults, e => (Vector2)e.transform.position);
+            for (int i = 0; i < _tmpResults.Count; i++)
+                if (_dedupe.Add(_tmpResults[i])) outResults.Add(_tmpResults[i]);
+        }
+        return outResults.Count;
     }
 
 }
