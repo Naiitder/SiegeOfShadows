@@ -15,6 +15,9 @@ public class SpatialHash2D<T>
 
     public void Insert(Vector2 pos, T item)
     {
+        if (item == null) return;
+        if (item is UnityEngine.Object uo && uo == null) return;
+
         var k = Key(pos);
         if (!buckets.TryGetValue(k, out var list)) buckets[k] = list = new List<T>(8);
         list.Add(item);
@@ -36,7 +39,13 @@ public class SpatialHash2D<T>
             for (int i = 0; i < list.Count; i++)
             {
                 var it = list[i];
-                var p = getPos(it);
+                if (it == null) continue;
+                if (it is UnityEngine.Object uo && uo == null) continue;
+
+                Vector2 p;
+                try { p = getPos(it); }
+                catch (MissingReferenceException) { continue; } 
+
                 if ((p - pos).sqrMagnitude <= r2) results.Add(it);
             }
         }
