@@ -5,7 +5,7 @@ public class CharacterStats : MonoBehaviour
 {
     [SerializeField] private int currentHealth, maxHealth;
     private int armor;
-    private int damage;
+    [SerializeField] private int damage;
     private float moveSpeed;
     
     public int Armor {get{return armor;} set{armor = value;}}

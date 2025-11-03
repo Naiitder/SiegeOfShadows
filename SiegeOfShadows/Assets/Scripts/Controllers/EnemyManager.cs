@@ -49,6 +49,86 @@ public class EnemyManager : MonoBehaviour
     
     void FixedUpdate()
     {
+        HandleEnemiesMovement();
+    }
+    
+    
+    void OnDestroy()
+    {
+        DisposeNative();
+    }
+
+    void AllocateNative(int n)
+    {
+        DisposeNative();
+
+        if (n <= 0) n = 1;
+
+        positions       = new NativeArray<float2>(n, Allocator.Persistent);
+        flowDirsPerEnemy= new NativeArray<float2>(n, Allocator.Persistent);
+        desiredDirs     = new NativeArray<float2>(n, Allocator.Persistent);
+        speeds          = new NativeArray<float>(n, Allocator.Persistent);
+        hash            = new NativeParallelMultiHashMap<int,int>(n * 2, Allocator.Persistent);
+    }
+
+    void DisposeNative()
+    {
+        if (positions.IsCreated) positions.Dispose();
+        if (flowDirsPerEnemy.IsCreated) flowDirsPerEnemy.Dispose();
+        if (desiredDirs.IsCreated) desiredDirs.Dispose();
+        if (speeds.IsCreated) speeds.Dispose();
+        if (hash.IsCreated) hash.Dispose();
+    }
+
+    public void RegisterEnemy(EnemyMovement em)
+    {
+        enemies.Add(em);
+        em.Initialize();
+        nativeDirty = true;
+    }
+
+    public void UnregisterEnemy(EnemyMovement em)
+    {
+        enemies.Remove(em);
+        nativeDirty = true;
+        managedHash?.Clear(); 
+    }
+
+    public bool IsInList(EnemyMovement em)
+    {
+        return enemies.Contains(em);
+    }
+    
+    public float GetEnemyHitRadius(EnemyMovement e) => enemyHitRadius;
+    
+    public int QueryEnemiesAlongSegment(Vector2 a, Vector2 b, float sweepRadius, List<EnemyMovement> outResults)
+    {
+        outResults.Clear();
+        _dedupe.Clear();
+
+        float len = Vector2.Distance(a, b);
+        if (len <= 1e-6f) {
+            managedHash.QueryRadius(a, sweepRadius, _tmpResults, e => (Vector2)e.transform.position);
+            foreach (var em in _tmpResults) if (_dedupe.Add(em)) outResults.Add(em);
+            return outResults.Count;
+        }
+        
+        int steps = Mathf.Max(1, Mathf.CeilToInt(len / Mathf.Max(0.001f, sweepRadius)));
+        Vector2 dir = (b - a) / steps;
+
+        for (int s = 0; s <= steps; s++)
+        {
+            Vector2 p = a + dir * s;
+            managedHash.QueryRadius(p, sweepRadius, _tmpResults, e => (Vector2)e.transform.position);
+            for (int i = 0; i < _tmpResults.Count; i++)
+                if (_dedupe.Add(_tmpResults[i])) outResults.Add(_tmpResults[i]);
+        }
+        return outResults.Count;
+    }
+
+
+    private void HandleEnemiesMovement()
+    {
         int n = enemies.Count;
         if (n == 0 || flow == null) return;
         
@@ -128,79 +208,4 @@ public class EnemyManager : MonoBehaviour
             managedHash.Insert(em.transform.position, em);
         }
     }
-    
-    
-    void OnDestroy()
-    {
-        DisposeNative();
-    }
-
-    void AllocateNative(int n)
-    {
-        DisposeNative();
-
-        if (n <= 0) n = 1;
-
-        positions       = new NativeArray<float2>(n, Allocator.Persistent);
-        flowDirsPerEnemy= new NativeArray<float2>(n, Allocator.Persistent);
-        desiredDirs     = new NativeArray<float2>(n, Allocator.Persistent);
-        speeds          = new NativeArray<float>(n, Allocator.Persistent);
-        hash            = new NativeParallelMultiHashMap<int,int>(n * 2, Allocator.Persistent);
-    }
-
-    void DisposeNative()
-    {
-        if (positions.IsCreated) positions.Dispose();
-        if (flowDirsPerEnemy.IsCreated) flowDirsPerEnemy.Dispose();
-        if (desiredDirs.IsCreated) desiredDirs.Dispose();
-        if (speeds.IsCreated) speeds.Dispose();
-        if (hash.IsCreated) hash.Dispose();
-    }
-
-    public void RegisterEnemy(EnemyMovement em)
-    {
-        enemies.Add(em);
-        em.Initialize();
-        nativeDirty = true;
-    }
-
-    public void UnregisterEnemy(EnemyMovement em)
-    {
-        enemies.Remove(em);
-        nativeDirty = true;
-        managedHash?.Clear(); 
-    }
-
-    public bool IsInList(EnemyMovement em)
-    {
-        return enemies.Contains(em);
-    }
-    
-    public float GetEnemyHitRadius(EnemyMovement e) => enemyHitRadius;
-    
-    public int QueryEnemiesAlongSegment(Vector2 a, Vector2 b, float sweepRadius, List<EnemyMovement> outResults)
-    {
-        outResults.Clear();
-        _dedupe.Clear();
-
-        float len = Vector2.Distance(a, b);
-        if (len <= 1e-6f) {
-            managedHash.QueryRadius(a, sweepRadius, _tmpResults, e => (Vector2)e.transform.position);
-            foreach (var em in _tmpResults) if (_dedupe.Add(em)) outResults.Add(em);
-            return outResults.Count;
-        }
-        
-        int steps = Mathf.Max(1, Mathf.CeilToInt(len / Mathf.Max(0.001f, sweepRadius)));
-        Vector2 dir = (b - a) / steps;
-
-        for (int s = 0; s <= steps; s++)
-        {
-            Vector2 p = a + dir * s;
-            managedHash.QueryRadius(p, sweepRadius, _tmpResults, e => (Vector2)e.transform.position);
-            for (int i = 0; i < _tmpResults.Count; i++)
-                if (_dedupe.Add(_tmpResults[i])) outResults.Add(_tmpResults[i]);
-        }
-        return outResults.Count;
-    }
-
 }

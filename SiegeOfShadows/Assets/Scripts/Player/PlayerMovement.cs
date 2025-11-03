@@ -1,4 +1,4 @@
-using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : CharacterMovement
@@ -7,6 +7,12 @@ public class PlayerMovement : CharacterMovement
     private Vector2 lastMoveDirection = new Vector2(-1, 0);
     
     [SerializeField] protected Rigidbody2D rb;
+    
+    [Header("CheckForEnemies Stats")]
+    [SerializeField] float contactRadius = 0.35f;
+    [SerializeField] float contactDamageCooldown = 0.35f;
+    private readonly List<EnemyMovement> near = new();
+    private readonly Dictionary<int,float> perEnemyNextHit = new();
     
     protected override void Awake()
     {
@@ -24,7 +30,7 @@ public class PlayerMovement : CharacterMovement
             if (slot.ability is PassiveAbility)
             {
                 PassiveAbility passive = slot.ability as PassiveAbility;
-                passive.Initialize(slot.level);
+                if (passive != null) passive.Initialize(slot.level);
             }
         }
     }
@@ -33,6 +39,7 @@ public class PlayerMovement : CharacterMovement
     {
         HandleMovement();
         HandleAbilities();
+        HandleCollisionWithEnemies();
     }
 
     private void HandleMovement()
@@ -67,7 +74,8 @@ public class PlayerMovement : CharacterMovement
                 if (slot.cooldownTimer <= 0)
                 {
                     ProjectileAbility projectileAbility = slot.ability as ProjectileAbility;
-                    projectileAbility.InstantiateProjectile(transform, lookDirection, slot.level);
+                    if (projectileAbility != null)
+                        projectileAbility.InstantiateProjectile(transform, lookDirection, slot.level);
                     slot.cooldownTimer = slot.ability.GetCooldown(slot.level);
                 }
             }
@@ -78,15 +86,6 @@ public class PlayerMovement : CharacterMovement
     {
         
     }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Enemy"))
-        {
-            Stats.TakeDamage(other.GetComponent<CharacterStats>().Damage);
-        }
-    }
-    
     private void UpdateAnimation()
     {
         if(rb.linearVelocity.x < 0) SpriteRenderer.flipX = false;
@@ -94,5 +93,25 @@ public class PlayerMovement : CharacterMovement
             
         if(rb.linearVelocity.magnitude > 0) Animator.SetBool(IsMovingHash, true);
         else Animator.SetBool(IsMovingHash, false);
+    }
+
+    private void HandleCollisionWithEnemies()
+    {
+        var em = EnemyManager.instance;
+        if (!em) return;
+
+        em.QueryEnemiesAlongSegment(transform.position, transform.position, contactRadius, near);
+        for (int i = 0; i < near.Count; i++)
+        {
+            var e = near[i];
+            if (!e || e.Stats == null) continue;
+
+            int id = e.gameObject.GetInstanceID();
+            if (!perEnemyNextHit.TryGetValue(id, out float next) || Time.time >= next)
+            {
+                Stats.TakeDamage(e.Stats.Damage);
+                perEnemyNextHit[id] = Time.time + contactDamageCooldown;
+            }
+        }
     }
 }

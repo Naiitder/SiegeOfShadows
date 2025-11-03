@@ -133,79 +133,87 @@ public class FlowFieldGrid2D : MonoBehaviour
     {
         for (int i = 0; i < distance.Length; i++) distance[i] = v;
     }
+
     void ComputeFlowFieldFrom(Vector2Int targetCell)
-{
-    FillDistance(ushort.MaxValue);
-
-    int tIdx = Idx(targetCell.x, targetCell.y);
-    if (!InBounds(targetCell.x, targetCell.y)) return;
-    if (blocked[tIdx]) return;
-
-    MinHeap heap = new MinHeap();
-    distance[tIdx] = 0;
-    heap.Push(tIdx, 0);
-    
-    while (heap.Count > 0)
     {
-        heap.Pop(out int curIdx, out int curDist);
-        if (curDist > distance[curIdx]) continue;
+        FillDistance(ushort.MaxValue);
 
-        int cx = curIdx % width;
-        int cy = curIdx / width;
+        int tIdx = Idx(targetCell.x, targetCell.y);
+        if (!InBounds(targetCell.x, targetCell.y)) return;
+        if (blocked[tIdx]) return;
 
-        int nCount = ALL_COUNT; 
-        for (int k = 0; k < nCount; k++)
+        MinHeap heap = new MinHeap();
+        distance[tIdx] = 0;
+        heap.Push(tIdx, 0);
+    
+        while (heap.Count > 0)
         {
-            int nx = cx + DX[k];
-            int ny = cy + DY[k];
-            if (!InBounds(nx, ny)) continue;
+            heap.Pop(out int curIdx, out int curDist);
+            if (curDist > distance[curIdx]) continue;
 
-            int nIdx = Idx(nx, ny);
-            if (blocked[nIdx]) continue;
+            int cx = curIdx % width;
+            int cy = curIdx / width;
 
-            bool isDiag = k >= ORTH_COUNT;
-            if (isDiag)
+            int nCount = ALL_COUNT; 
+            for (int k = 0; k < nCount; k++)
             {
-                int ix1 = Idx(nx, cy);
-                int ix2 = Idx(cx, ny);
-                if (blocked[ix1] || blocked[ix2]) continue;
-            }
+                int nx = cx + DX[k];
+                int ny = cy + DY[k];
+                if (!InBounds(nx, ny)) continue;
 
-            int newDist = curDist + COST[k];
-            if (newDist < distance[nIdx])
-            {
-                distance[nIdx] = (ushort)Mathf.Min(newDist, ushort.MaxValue);
-                heap.Push(nIdx, newDist);
+                int nIdx = Idx(nx, ny);
+                if (blocked[nIdx]) continue;
+
+                bool isDiag = k >= ORTH_COUNT;
+                if (isDiag)
+                {
+                    int ix1 = Idx(nx, cy);
+                    int ix2 = Idx(cx, ny);
+                    if (blocked[ix1] || blocked[ix2]) continue;
+                }
+
+                int newDist = curDist + COST[k];
+                if (newDist < distance[nIdx])
+                {
+                    distance[nIdx] = (ushort)Mathf.Min(newDist, ushort.MaxValue);
+                    heap.Push(nIdx, newDist);
+                }
             }
         }
-    }
     
-    for (int y = 0; y < height; y++)
-    for (int x = 0; x < width; x++)
-    {
-        int i = Idx(x, y);
-        if (distance[i] == ushort.MaxValue) { dir[i] = Vector2.zero; continue; }
-
-        ushort best = distance[i];
-        Vector2 bestDir = Vector2.zero;
-
-        int nCount = ALL_COUNT; 
-        for (int k = 0; k < nCount; k++)
+        for (int y = 0; y < height; y++)
+        for (int x = 0; x < width; x++)
         {
-            int nx = x + DX[k];
-            int ny = y + DY[k];
-            if (!InBounds(nx, ny)) continue;
+            int i = Idx(x, y);
+            if (distance[i] == ushort.MaxValue) { dir[i] = Vector2.zero; continue; }
 
-            int ni = Idx(nx, ny);
-            if (distance[ni] < best)
+            ushort best = distance[i];
+            Vector2 bestDir = Vector2.zero;
+
+            int nCount = ALL_COUNT; 
+            for (int k = 0; k < nCount; k++)
             {
-                best = distance[ni];
-                bestDir = (CellCenter(nx, ny) - CellCenter(x, y)).normalized;
+                int nx = x + DX[k];
+                int ny = y + DY[k];
+                if (!InBounds(nx, ny)) continue;
+
+                int ni = Idx(nx, ny);
+                if (distance[ni] < best)
+                {
+                    best = distance[ni];
+                    bestDir = (CellCenter(nx, ny) - CellCenter(x, y)).normalized;
+                }
             }
+            dir[i] = bestDir;
         }
-        dir[i] = bestDir;
+        
+        if (InBounds(targetCell.x, targetCell.y) && !blocked[tIdx] && player != null)
+        {
+            Vector2 cc = CellCenter(targetCell.x, targetCell.y);
+            Vector2 toPlayer = (Vector2)player.position - cc;
+            dir[tIdx] = toPlayer.sqrMagnitude > 1e-6f ? toPlayer.normalized : Vector2.zero;
+        }
     }
-}
     
     public Vector2 GetFlowDir(Vector2 worldPos)
     {
