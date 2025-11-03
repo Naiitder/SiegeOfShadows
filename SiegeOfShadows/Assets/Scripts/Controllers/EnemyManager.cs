@@ -160,6 +160,7 @@ public class EnemyManager : MonoBehaviour
             hash = hash.AsParallelWriter()
         }.Schedule(n, 64);
         
+        var playerPos = (float2) (Vector2) player.transform.position;
         var desiredJob = new DesiredDirJob
         {
             positions = positions,
@@ -168,7 +169,11 @@ public class EnemyManager : MonoBehaviour
             hashCell = hashCellSize,
             separationRadius = separationRadius,
             separationWeight = separationWeight,
-            desiredOut = desiredDirs
+            desiredOut = desiredDirs,
+            
+            playerPos = playerPos,
+            arriveRadius = math.max(flow.cellSize * 1.2f, 0.5f), 
+            arriveWeight = 1f
         }.Schedule(n, 64, buildHash);
         
         var gd = flow.GetGridDataNative(); 

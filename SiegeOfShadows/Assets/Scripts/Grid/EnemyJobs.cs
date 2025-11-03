@@ -44,18 +44,21 @@ public struct DesiredDirJob : IJobParallelFor
 {
     [ReadOnly] public NativeArray<float2> positions;
     [ReadOnly] public NativeArray<float2> flowDirsPerEnemy;
-    [ReadOnly] public NativeParallelMultiHashMap<int,int> hash; 
+    [ReadOnly] public NativeParallelMultiHashMap<int,int> hash;
     public float hashCell;
     public float separationRadius;
     public float separationWeight;
-
     public NativeArray<float2> desiredOut;
+    
+    public float2 playerPos;
+    public float arriveRadius;   
+    public float arriveWeight;   
 
     public void Execute(int i)
     {
         float2 pos = positions[i];
         float2 desired = flowDirsPerEnemy[i];
-
+        
         int2 baseK = (int2)math.floor(pos / hashCell);
         float r2 = separationRadius * separationRadius;
         float2 sep = 0;
@@ -66,7 +69,7 @@ public struct DesiredDirJob : IJobParallelFor
             int2 k = baseK + new int2(ox, oy);
             int key = (k.y << 16) ^ (k.x & 0xFFFF);
 
-            NativeParallelMultiHashMapIterator<int> it; 
+            NativeParallelMultiHashMapIterator<int> it;
             int idx;
             if (hash.TryGetFirstValue(key, out idx, out it)) {
                 do {
@@ -78,10 +81,20 @@ public struct DesiredDirJob : IJobParallelFor
                 while (hash.TryGetNextValue(out idx, ref it));
             }
         }
-
-        desired += separationWeight * sep;
-        float len2 = math.lengthsq(desired);
-        desiredOut[i] = (len2 > 1e-6f) ? desired / math.sqrt(len2) : float2.zero;
+        
+        float2 toPlayer = playerPos - pos;
+        float dist = math.length(toPlayer);
+        float2 toPlayerDir = dist > 1e-6f ? toPlayer / dist : float2.zero;
+        
+        float t = math.saturate((arriveRadius - dist) / math.max(arriveRadius, 1e-6f));
+        
+        float sepW = separationWeight * (1f - t);
+        desired += sepW * sep;
+        
+        float blend = t * arriveWeight;
+        float2 mixed = (1f - blend) * desired + blend * toPlayerDir;
+        
+        desiredOut[i] = math.normalizesafe(mixed, float2.zero);
     }
 }
 

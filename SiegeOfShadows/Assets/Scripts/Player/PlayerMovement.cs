@@ -38,7 +38,7 @@ public class PlayerMovement : CharacterMovement
     private void Update()
     {
         HandleMovement();
-        HandleAbilities();
+        //HandleAbilities();
         HandleCollisionWithEnemies();
     }
 
