@@ -511,7 +511,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 5, z: 2}
+  m_LocalScale: {x: 4, y: 6, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -574,8 +574,8 @@ GameObject:
   - component: {fileID: 1357860489}
   - component: {fileID: 1357860491}
   - component: {fileID: 1357860492}
-  - component: {fileID: 1357860493}
   - component: {fileID: 1357860494}
+  - component: {fileID: 1357860495}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -618,13 +618,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357860488}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9206cd2de8d9c954c8ec4a1086a5bb5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemies: []
-  flow: {fileID: 1357860493}
+  flow: {fileID: 0}
   separationRadius: 0.5
   separationWeight: 0.6
   hashCellSize: 1
@@ -641,37 +641,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 255df0ed2a0d22143bcd5b885a6279d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1357860493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1357860488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7eab0f9d2aa3240a58aa3ac0bf1fef3b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  origin: {x: -50, y: -50}
-  cellSize: 1
-  width: 200
-  height: 200
-  obstacleMask:
-    serializedVersion: 2
-    m_Bits: 64
-  obstacleEpsilon: 0.02
-  player: {fileID: 7878350318812318690}
-  recomputeInterval: 0.15
-  maxCellsPerFrame: 10000
-  drawGrid: 1
-  drawBlocked: 1
-  drawFlow: 0
-  arrowStride: 2
-  gridColor: {r: 0, g: 1, b: 1, a: 0.6}
-  blockedColor: {r: 1, g: 0, b: 0, a: 0.25}
-  flowColor: {r: 1, g: 1, b: 0, a: 0.9}
-  flowArrowScale: 0.45
 --- !u!114 &1357860494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -685,6 +654,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &1357860495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357860488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f543baa4eba8384ebc6133437ca6cdb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 0
+  gridWorldSize: {x: 200, y: 200}
+  nodeRadius: 0.5
 --- !u!95 &1160356262155778343
 Animator:
   serializedVersion: 7
