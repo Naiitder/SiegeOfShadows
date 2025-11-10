@@ -6,8 +6,6 @@ public class PlayerMovement : CharacterMovement
     public EquippedAbilitySlot[] upgrades = new EquippedAbilitySlot[8];
     private Vector2 lastMoveDirection = new Vector2(-1, 0);
     
-    [SerializeField] protected Rigidbody2D rb;
-    
     [Header("CheckForEnemies Stats")]
     [SerializeField] float contactRadius = 0.35f;
     [SerializeField] float contactDamageCooldown = 0.35f;
@@ -18,7 +16,6 @@ public class PlayerMovement : CharacterMovement
     {
         base.Awake();
         
-        rb = GetComponent<Rigidbody2D>();
         Stats = GetComponent<PlayerStats>();
         
         Stats.OnDeath += Die;
@@ -99,8 +96,7 @@ public class PlayerMovement : CharacterMovement
     {
         var em = EnemyManager.instance;
         if (!em) return;
-
-        em.QueryEnemiesAlongSegment(transform.position, transform.position, contactRadius, near);
+        
         for (int i = 0; i < near.Count; i++)
         {
             var e = near[i];

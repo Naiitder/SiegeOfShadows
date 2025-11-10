@@ -10,6 +10,9 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] public float moveSpeed;
     
     public CharacterStats Stats;
+    
+    [SerializeField] protected Rigidbody2D rb;
+    public Rigidbody2D Rb { get { return rb; } set { rb = value; } }
 
     protected virtual void Awake()
     {
@@ -19,6 +22,7 @@ public class CharacterMovement : MonoBehaviour
         Stats = GetComponent<CharacterStats>();
 
         Stats.OnTakeDamage += FlashOnDamage;
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void FlashOnDamage()
