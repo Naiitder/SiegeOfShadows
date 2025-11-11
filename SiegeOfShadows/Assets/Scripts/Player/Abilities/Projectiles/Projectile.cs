@@ -8,11 +8,6 @@ public class Projectile : MonoBehaviour
     public float speed;
     protected int damage;
     
-    [Header("Hit")]
-    public float hitRadius = 0.08f; 
-    public bool destroyOnHit = false;
-    
-    private static readonly List<EnemyMovement> _candidates = new(32);
     
     SpriteRenderer sprite;
     
@@ -37,30 +32,12 @@ public class Projectile : MonoBehaviour
         Vector2 curPos = transform.position;
         Vector2 nextPos = curPos + direction * speed * Time.deltaTime;
         
-        float sweep = Mathf.Max(hitRadius, 0.05f);
-        var em = EnemyManager.instance;
-        if (em != null)
-        {
-           
-        }
-        
         transform.position = nextPos;
         
         if (sprite != null)
         {
             sprite.flipY = direction.sqrMagnitude >= 0.01f;
         }
-    }
-
-    private static bool IntersectsSegmentCircle(Vector2 A, Vector2 B, Vector2 C, float R)
-    {
-        Vector2 AB = B - A;
-        float ab2 = Vector2.Dot(AB, AB);
-        if (ab2 < 1e-12f) return (C - A).sqrMagnitude <= R * R;
-
-        float t = Mathf.Clamp01(Vector2.Dot(C - A, AB) / ab2);
-        Vector2 P = A + t * AB; 
-        return (C - P).sqrMagnitude <= R * R;
     }
     
     private void OnDestroy()

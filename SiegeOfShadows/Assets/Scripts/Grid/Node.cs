@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Node {
@@ -13,4 +14,11 @@ public class Node {
         gridX = _gridX;
         gridY = _gridY;
     }
+}
+
+public struct NodeData
+{
+    public int distance;        
+    public float2 bestDir;      
+    public byte walkable;       
 }

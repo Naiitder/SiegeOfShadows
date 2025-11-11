@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using Unity.Collections;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class Grid : MonoBehaviour {
@@ -14,6 +16,16 @@ public class Grid : MonoBehaviour {
     float nodeDiameter;
     int gridSizeX, gridSizeY;
     float rebuildTimer;
+    
+    private NativeArray<NodeData> nodesNative; 
+    private bool nativeDirty = true;
+    
+    [Header("Sync flow field into NativeArray")]
+    public int GridSizeX => gridSizeX;
+    public int GridSizeY => gridSizeY;
+    public float2 GridWorldSizeFloat2 => new float2(gridWorldSize.x, gridWorldSize.y);
+    public float2 GridCenterFloat2 => new float2(transform.position.x, transform.position.y);
+    
 
     void Awake() {
         if (!target) target = FindAnyObjectByType<PlayerMovement>().transform;
@@ -34,6 +46,7 @@ public class Grid : MonoBehaviour {
         if (rebuildTimer >= rebuildRate) {
             BuildFlowField(target.position);
             rebuildTimer = 0f;
+            SyncNative(); 
         }
     }
     
@@ -122,6 +135,7 @@ public class Grid : MonoBehaviour {
                 n.bestDirection = dir.sqrMagnitude > 0.0001f ? dir.normalized : Vector2.zero;
             }
         }
+        MarkNativeDirty();
     }
 
     Node FindClosestWalkable(Node from) {
@@ -167,6 +181,51 @@ public class Grid : MonoBehaviour {
         }
 
         return result;
+    }
+    
+    void OnDestroy()
+    {
+        if (nodesNative.IsCreated) nodesNative.Dispose();
+    }
+
+    public NativeArray<NodeData> GetNodesNative()
+    {
+        return nodesNative;
+    }
+
+    public bool NativeReady => nodesNative.IsCreated && !nativeDirty;
+    
+    public void SyncNative()
+    {
+        int total = gridSizeX * gridSizeY;
+        if (!nodesNative.IsCreated || nodesNative.Length != total)
+        {
+            if (nodesNative.IsCreated) nodesNative.Dispose();
+            nodesNative = new NativeArray<NodeData>(total, Allocator.Persistent);
+        }
+
+        int i = 0;
+        for (int y = 0; y < gridSizeY; y++)
+        {
+            for (int x = 0; x < gridSizeX; x++)
+            {
+                var n = grid[x, y];
+                nodesNative[i] = new NodeData
+                {
+                    distance = n.distance,
+                    bestDir = new float2(n.bestDirection.x, n.bestDirection.y),
+                    walkable = (byte)(n.isWalkable ? 1 : 0)
+                };
+                i++;
+            }
+        }
+
+        nativeDirty = false;
+    }
+    
+    public void MarkNativeDirty()
+    {
+        nativeDirty = true;
     }
 
     
