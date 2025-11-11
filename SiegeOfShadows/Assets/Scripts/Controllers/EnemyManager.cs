@@ -10,7 +10,6 @@ public class EnemyManager : MonoBehaviour
     public static EnemyManager instance;
     
     [SerializeField] private List<EnemyMovement> enemies = new List<EnemyMovement>();
-    private PlayerMovement player;
 
     public Grid grid;
     public float steering = 10f;
@@ -21,7 +20,6 @@ public class EnemyManager : MonoBehaviour
         if (instance == null) instance = this;
         else Destroy(this);
         
-        if (!player) player = FindAnyObjectByType<PlayerMovement>();
         if (enemies.Count == 0)
             enemies = FindObjectsByType<EnemyMovement>(FindObjectsSortMode.None).ToList();
 
@@ -32,6 +30,11 @@ public class EnemyManager : MonoBehaviour
     
     void FixedUpdate()
     {
+        HandleEnemiesMovement();
+    }
+
+    void HandleEnemiesMovement()
+    {
         if (grid == null || grid.target == null) return;
         foreach (var enemy in enemies)
         {
@@ -40,7 +43,8 @@ public class EnemyManager : MonoBehaviour
             float distToTarget = Vector2.Distance(ePos, (Vector2)grid.target.position);
             if (distToTarget < stopRadius)
             {
-                enemy.Rb.linearVelocity = Vector2.Lerp(enemy.Rb.linearVelocity, Vector2.zero, 0.25f);
+                enemy.Rb.MovePosition(ePos);
+                continue;
             }
 
             Node node = grid.NodeFromWorldPoint(ePos);
@@ -49,8 +53,8 @@ public class EnemyManager : MonoBehaviour
                 dir = ((Vector2)grid.target.position - ePos).normalized;
 
             Vector2 desiredVel = dir * enemy.moveSpeed;
-            
-            enemy.Rb.linearVelocity = Vector2.Lerp(enemy.Rb.linearVelocity, desiredVel, steering * Time.fixedDeltaTime);
+            Vector2 nextPos = ePos + desiredVel * Time.fixedDeltaTime;
+            enemy.Rb.MovePosition(nextPos);
         }
     }
     

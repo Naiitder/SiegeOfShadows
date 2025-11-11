@@ -6,12 +6,6 @@ public class PlayerMovement : CharacterMovement
     public EquippedAbilitySlot[] upgrades = new EquippedAbilitySlot[8];
     private Vector2 lastMoveDirection = new Vector2(-1, 0);
     
-    [Header("CheckForEnemies Stats")]
-    [SerializeField] float contactRadius = 0.35f;
-    [SerializeField] float contactDamageCooldown = 0.35f;
-    private readonly List<EnemyMovement> near = new();
-    private readonly Dictionary<int,float> perEnemyNextHit = new();
-    
     protected override void Awake()
     {
         base.Awake();
@@ -36,7 +30,6 @@ public class PlayerMovement : CharacterMovement
     {
         HandleMovement();
         HandleAbilities();
-        HandleCollisionWithEnemies();
     }
 
     private void HandleMovement()
@@ -91,23 +84,5 @@ public class PlayerMovement : CharacterMovement
         if(rb.linearVelocity.magnitude > 0) Animator.SetBool(IsMovingHash, true);
         else Animator.SetBool(IsMovingHash, false);
     }
-
-    private void HandleCollisionWithEnemies()
-    {
-        var em = EnemyManager.instance;
-        if (!em) return;
-        
-        for (int i = 0; i < near.Count; i++)
-        {
-            var e = near[i];
-            if (!e || e.Stats == null) continue;
-
-            int id = e.gameObject.GetInstanceID();
-            if (!perEnemyNextHit.TryGetValue(id, out float next) || Time.time >= next)
-            {
-                Stats.TakeDamage(e.Stats.Damage);
-                perEnemyNextHit[id] = Time.time + contactDamageCooldown;
-            }
-        }
-    }
+    
 }

@@ -24,6 +24,11 @@ public class Grid : MonoBehaviour {
     }
     
     void Update() {
+        RebuildGrid();
+    }
+
+    void RebuildGrid()
+    {
         if (target == null) return;
         rebuildTimer += Time.deltaTime;
         if (rebuildTimer >= rebuildRate) {
@@ -31,7 +36,7 @@ public class Grid : MonoBehaviour {
             rebuildTimer = 0f;
         }
     }
-
+    
     void CreateGrid() {
         grid = new Node[gridSizeX, gridSizeY];
         Vector3 worldBottomLeft = transform.position - Vector3.right * gridWorldSize.x / 2 - Vector3.up * gridWorldSize.y / 2;
