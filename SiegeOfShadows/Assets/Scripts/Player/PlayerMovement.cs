@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,11 +7,14 @@ public class PlayerMovement : CharacterMovement
     public EquippedAbilitySlot[] upgrades = new EquippedAbilitySlot[8];
     private Vector2 lastMoveDirection = new Vector2(-1, 0);
     
+    [SerializeField] protected Rigidbody2D rb;
+    
     protected override void Awake()
     {
         base.Awake();
         
         Stats = GetComponent<PlayerStats>();
+        rb = GetComponent<Rigidbody2D>();
         
         Stats.OnDeath += Die;
 
@@ -28,8 +32,12 @@ public class PlayerMovement : CharacterMovement
 
     private void Update()
     {
-        HandleMovement();
         HandleAbilities();
+    }
+
+    private void FixedUpdate()
+    {
+        HandleMovement();
     }
 
     private void HandleMovement()

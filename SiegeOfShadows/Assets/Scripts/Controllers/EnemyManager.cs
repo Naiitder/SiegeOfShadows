@@ -28,7 +28,7 @@ public class EnemyManager : MonoBehaviour
         grid = GetComponent<Grid>();
     }
     
-    void FixedUpdate()
+    void Update()
     {
         HandleEnemiesMovement();
     }
@@ -42,19 +42,14 @@ public class EnemyManager : MonoBehaviour
 
             float distToTarget = Vector2.Distance(ePos, (Vector2)grid.target.position);
             if (distToTarget < stopRadius)
-            {
-                enemy.Rb.MovePosition(ePos);
                 continue;
-            }
 
             Node node = grid.NodeFromWorldPoint(ePos);
             Vector2 dir = node.bestDirection;
             if (dir == Vector2.zero)
                 dir = ((Vector2)grid.target.position - ePos).normalized;
-
-            Vector2 desiredVel = dir * enemy.moveSpeed;
-            Vector2 nextPos = ePos + desiredVel * Time.fixedDeltaTime;
-            enemy.Rb.MovePosition(nextPos);
+            
+            enemy.transform.position = ePos+dir * enemy.moveSpeed * Time.deltaTime;
         }
     }
     
