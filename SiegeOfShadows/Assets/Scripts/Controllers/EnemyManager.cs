@@ -10,88 +10,58 @@ public class EnemyManager : MonoBehaviour
     public static EnemyManager instance;
     
     [SerializeField] private List<EnemyMovement> enemies = new List<EnemyMovement>();
-    private PlayerMovement player;
-    [SerializeField] private FlowFieldGrid2D flow;
-    
-    [Header("Separación / Hash")]
-    [SerializeField] private float separationRadius = 0.5f;
-    [SerializeField] private float separationWeight = 0.6f;
-    [SerializeField] private float hashCellSize = 1.0f;
 
-    private NativeArray<float2> positions;
-    private NativeArray<float2> flowDirsPerEnemy;
-    private NativeArray<float2> desiredDirs;
-    private NativeArray<float> speeds;
-    private NativeParallelMultiHashMap<int,int> hash;
-    private bool nativeDirty;
-    
-    [Header ("SpatialMap")]
-    [SerializeField] private float enemyHitRadius = 0.35f; 
-    private SpatialHash2D<EnemyMovement> managedHash;
-    private readonly List<EnemyMovement> _tmpResults = new(32);
-    private readonly HashSet<EnemyMovement> _dedupe = new();
+    public Grid grid;
+    public float steering = 10f;
+    public float stopRadius = 0.5f;
 
     private void Awake()
     {
         if (instance == null) instance = this;
         else Destroy(this);
         
-        managedHash = new SpatialHash2D<EnemyMovement>(hashCellSize);
-        
-        if (!player) player = FindAnyObjectByType<PlayerMovement>();
         if (enemies.Count == 0)
             enemies = FindObjectsByType<EnemyMovement>(FindObjectsSortMode.None).ToList();
 
         foreach (var em in enemies) if (em) em.Initialize();
-
-        AllocateNative(enemies.Count);
+        
+        grid = GetComponent<Grid>();
     }
     
-    void FixedUpdate()
+    void Update()
     {
         HandleEnemiesMovement();
     }
+
+    void HandleEnemiesMovement()
+    {
+        if (grid == null || grid.target == null) return;
+        foreach (var enemy in enemies)
+        {
+            Vector2 ePos = enemy.transform.position;
+
+            float distToTarget = Vector2.Distance(ePos, (Vector2)grid.target.position);
+            if (distToTarget < stopRadius)
+                continue;
+
+            Node node = grid.NodeFromWorldPoint(ePos);
+            Vector2 dir = node.bestDirection;
+            if (dir == Vector2.zero)
+                dir = ((Vector2)grid.target.position - ePos).normalized;
+            
+            enemy.transform.position = ePos+dir * enemy.moveSpeed * Time.deltaTime;
+        }
+    }
     
-    
-    void OnDestroy()
-    {
-        DisposeNative();
-    }
-
-    void AllocateNative(int n)
-    {
-        DisposeNative();
-
-        if (n <= 0) n = 1;
-
-        positions       = new NativeArray<float2>(n, Allocator.Persistent);
-        flowDirsPerEnemy= new NativeArray<float2>(n, Allocator.Persistent);
-        desiredDirs     = new NativeArray<float2>(n, Allocator.Persistent);
-        speeds          = new NativeArray<float>(n, Allocator.Persistent);
-        hash            = new NativeParallelMultiHashMap<int,int>(n * 2, Allocator.Persistent);
-    }
-
-    void DisposeNative()
-    {
-        if (positions.IsCreated) positions.Dispose();
-        if (flowDirsPerEnemy.IsCreated) flowDirsPerEnemy.Dispose();
-        if (desiredDirs.IsCreated) desiredDirs.Dispose();
-        if (speeds.IsCreated) speeds.Dispose();
-        if (hash.IsCreated) hash.Dispose();
-    }
-
     public void RegisterEnemy(EnemyMovement em)
     {
         enemies.Add(em);
         em.Initialize();
-        nativeDirty = true;
     }
 
     public void UnregisterEnemy(EnemyMovement em)
     {
         enemies.Remove(em);
-        nativeDirty = true;
-        managedHash?.Clear(); 
     }
 
     public bool IsInList(EnemyMovement em)
@@ -99,118 +69,5 @@ public class EnemyManager : MonoBehaviour
         return enemies.Contains(em);
     }
     
-    public float GetEnemyHitRadius(EnemyMovement e) => enemyHitRadius;
     
-    public int QueryEnemiesAlongSegment(Vector2 a, Vector2 b, float sweepRadius, List<EnemyMovement> outResults)
-    {
-        outResults.Clear();
-        _dedupe.Clear();
-
-        float len = Vector2.Distance(a, b);
-        if (len <= 1e-6f) {
-            managedHash.QueryRadius(a, sweepRadius, _tmpResults, e => (Vector2)e.transform.position);
-            foreach (var em in _tmpResults) if (_dedupe.Add(em)) outResults.Add(em);
-            return outResults.Count;
-        }
-        
-        int steps = Mathf.Max(1, Mathf.CeilToInt(len / Mathf.Max(0.001f, sweepRadius)));
-        Vector2 dir = (b - a) / steps;
-
-        for (int s = 0; s <= steps; s++)
-        {
-            Vector2 p = a + dir * s;
-            managedHash.QueryRadius(p, sweepRadius, _tmpResults, e => (Vector2)e.transform.position);
-            for (int i = 0; i < _tmpResults.Count; i++)
-                if (_dedupe.Add(_tmpResults[i])) outResults.Add(_tmpResults[i]);
-        }
-        return outResults.Count;
-    }
-
-
-    private void HandleEnemiesMovement()
-    {
-        int n = enemies.Count;
-        if (n == 0 || flow == null) return;
-        
-        if (!positions.IsCreated || positions.Length != n || nativeDirty)
-        {
-            AllocateNative(n);
-            nativeDirty = false;
-        }
-        
-        for (int i = 0; i < n; i++)
-        {
-            var em = enemies[i];
-            if (!em) continue;
-
-            Vector2 p = em.transform.position;
-            positions[i] = new float2(p.x, p.y);
-
-            Vector2 flowDir = flow.GetFlowDir(p);
-            flowDirsPerEnemy[i] = new float2(flowDir.x, flowDir.y);
-
-            speeds[i] = em.moveSpeed; 
-        }
-        
-        hash.Clear(); 
-        var buildHash = new BuildHashJob
-        {
-            positions = positions,
-            cell = hashCellSize,
-            hash = hash.AsParallelWriter()
-        }.Schedule(n, 64);
-        
-        var playerPos = (float2) (Vector2) player.transform.position;
-        var desiredJob = new DesiredDirJob
-        {
-            positions = positions,
-            flowDirsPerEnemy = flowDirsPerEnemy,
-            hash = hash,
-            hashCell = hashCellSize,
-            separationRadius = separationRadius,
-            separationWeight = separationWeight,
-            desiredOut = desiredDirs,
-            
-            playerPos = playerPos,
-            arriveRadius = math.max(flow.cellSize * 1.2f, 0.5f), 
-            arriveWeight = 1f
-        }.Schedule(n, 64, buildHash);
-        
-        var gd = flow.GetGridDataNative(); 
-        var moveJob = new MoveWithGridSlideJob
-        {
-            grid = new GridDataNative
-            {
-                blocked = gd.blocked,
-                width = gd.width,
-                height = gd.height,
-                origin = gd.origin,
-                cellSize = gd.cellSize
-            },
-            desiredDirs = desiredDirs,
-            speeds = speeds,
-            dt = Mathf.Min(Time.fixedDeltaTime, 1f / 30f),
-            maxStepFrac = 0.45f,
-            positions = positions
-        }.Schedule(n, 64, desiredJob);
-        
-        moveJob.Complete();
-
-        for (int i = 0; i < n; i++)
-        {
-            var em = enemies[i];
-            if (!em) continue;
-
-            float2 p = positions[i];
-            em.ApplyJobPosition(new Vector2(p.x, p.y), Time.fixedDeltaTime, desiredDirs[i]);
-        }
-        
-        managedHash.Clear();
-        for (int i = 0; i < enemies.Count; i++)
-        {
-            var em = enemies[i];
-            if (!em) continue;
-            managedHash.Insert(em.transform.position, em);
-        }
-    }
 }

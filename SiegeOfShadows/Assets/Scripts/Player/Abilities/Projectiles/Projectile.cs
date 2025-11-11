@@ -41,28 +41,7 @@ public class Projectile : MonoBehaviour
         var em = EnemyManager.instance;
         if (em != null)
         {
-            _candidates.Clear();
-            em.QueryEnemiesAlongSegment(curPos, nextPos, sweep + em.GetEnemyHitRadius(null), _candidates);
-            
-            for (int i = 0; i < _candidates.Count; i++)
-            {
-                var enemy = _candidates[i];
-                if (!enemy) continue;
-
-                Vector2 c = enemy.transform ? (Vector2)enemy.transform.position : Vector2.positiveInfinity;
-                float R = (em != null ? em.GetEnemyHitRadius(enemy) : 0.3f) + hitRadius;
-
-                if (IntersectsSegmentCircle(curPos, nextPos, c, R))
-                {
-                    enemy.Stats?.TakeDamage(damage);
-
-                    if (destroyOnHit)
-                    {
-                        Destroy(gameObject);
-                        return;
-                    }
-                }
-            }
+           
         }
         
         transform.position = nextPos;
