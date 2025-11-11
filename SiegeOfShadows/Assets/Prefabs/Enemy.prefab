@@ -127,7 +127,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   Stats: {fileID: 0}
-  rb: {fileID: 0}
 --- !u!114 &5717249767883263697
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,7 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 0
   maxHealth: 20
-  damage: 0
+  damage: 1
 --- !u!50 &-7797169516155166757
 Rigidbody2D:
   serializedVersion: 5

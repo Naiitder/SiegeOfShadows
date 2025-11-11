@@ -14,6 +14,9 @@ public struct FollowFlowJob : IJobParallelForTransform
     [ReadOnly] public float stopRadius;
     [ReadOnly] public float2 targetPos;
     [ReadOnly] public NativeArray<float> moveSpeeds; 
+    
+    [ReadOnly] public float contactRadius;
+    [WriteOnly] public NativeQueue<int>.ParallelWriter contactHits;
 
     public void Execute(int index, TransformAccess transform)
     {
@@ -22,6 +25,12 @@ public struct FollowFlowJob : IJobParallelForTransform
 
         float2 toTarget = targetPos - p;
         float dist = math.length(toTarget);
+        
+        if (dist <= contactRadius)
+        {
+            contactHits.Enqueue(index);
+        }
+
         if (dist <= stopRadius)
             return; 
         
@@ -49,6 +58,9 @@ public struct FollowFlowJob : IJobParallelForTransform
         float speed = moveSpeeds[index];
         
         float2 step = dir * speed * deltaTime;
-        transform.position = new float3(p + step, p3.z);
+        float2 newP = p + step;
+        transform.position = new float3(newP, p3.z);
+        
+
     }
 }
