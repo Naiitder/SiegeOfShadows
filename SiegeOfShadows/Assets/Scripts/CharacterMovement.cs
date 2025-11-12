@@ -10,6 +10,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] public float moveSpeed;
     
     public CharacterStats Stats;
+    private Coroutine flashCoroutine;
     
 
     protected virtual void Awake()
@@ -22,15 +23,18 @@ public class CharacterMovement : MonoBehaviour
         Stats.OnTakeDamage += FlashOnDamage;
     }
 
+
     private void FlashOnDamage()
     {
-        StartCoroutine(nameof(FlashCoroutine));
+        if (flashCoroutine != null) StopCoroutine(flashCoroutine);
+        flashCoroutine = StartCoroutine(nameof(FlashCoroutine));
     }
 
     private IEnumerator FlashCoroutine()
     {
         SpriteRenderer.color = Color.red;
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.35f);
         SpriteRenderer.color = Color.white;
+        flashCoroutine = null;
     }
 }

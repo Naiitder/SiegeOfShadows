@@ -87,12 +87,7 @@ public class EnemyManager : MonoBehaviour
             var enemy = enemies[enemyIndex];
             if (enemy == null || enemy.Stats == null || player.Stats == null) continue;
             
-            Debug.Log("nextAllowedHitAt"+nextAllowedHitAt[enemyIndex]);
-            if (Time.time < nextAllowedHitAt[enemyIndex])
-            {
-                Debug.Log("Time.time"+Time.time);
-                continue;
-            }
+            if (Time.time < nextAllowedHitAt[enemyIndex]) continue;
             
             player.Stats.TakeDamage(enemy.Stats.Damage);
             
