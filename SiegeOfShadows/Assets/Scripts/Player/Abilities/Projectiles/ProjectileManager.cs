@@ -7,6 +7,8 @@ public class ProjectileManager : MonoBehaviour
     public static ProjectileManager instance;
     List<Projectile> projectiles = new List<Projectile>();
     
+    public List<Projectile> Projectiles { get => projectiles; set => projectiles = value; }
+    
     private void Awake()
     {
        if(instance == null) instance = this;

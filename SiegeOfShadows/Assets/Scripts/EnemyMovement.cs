@@ -6,7 +6,7 @@ public class EnemyMovement : CharacterMovement
     protected override void Awake()
     {
         base.Awake();
-        Stats.OnDeath += Die;
+        stats.OnDeath += Die;
         if(EnemyManager.instance != null) Initialize();
     }
 

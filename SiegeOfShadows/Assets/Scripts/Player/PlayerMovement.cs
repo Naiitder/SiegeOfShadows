@@ -13,10 +13,10 @@ public class PlayerMovement : CharacterMovement
     {
         base.Awake();
         
-        Stats = GetComponent<PlayerStats>();
+        stats = GetComponent<PlayerStats>();
         rb = GetComponent<Rigidbody2D>();
         
-        Stats.OnDeath += Die;
+        stats.OnDeath += Die;
 
         foreach (var slot in upgrades)
         {

@@ -24,6 +24,12 @@ public class EnemyManager : MonoBehaviour
     
     private NativeQueue<int> contactHits;     
     private List<float> nextAllowedHitAt;
+    private List<float> nextAllowedProjectileHitAt;
+    
+    NativeArray<float2> enemyPos;
+    NativeParallelMultiHashMap<int,int> enemyHash;
+    NativeArray<ProjectileData> projNative;
+    NativeArray<int> hitEnemyIndex;
     
     private PlayerMovement player;
 
@@ -41,6 +47,7 @@ public class EnemyManager : MonoBehaviour
         moveSpeeds = new NativeList<float>(Allocator.Persistent);
         contactHits = new NativeQueue<int>(Allocator.Persistent);
         nextAllowedHitAt = new List<float>(enemies.Count);
+        nextAllowedProjectileHitAt = new List<float>(enemies.Count);
         
         foreach (var em in enemies)
         {
@@ -48,6 +55,7 @@ public class EnemyManager : MonoBehaviour
             taa.Add(em.transform);
             moveSpeeds.Add(em.moveSpeed);
             nextAllowedHitAt.Add(0f); 
+            nextAllowedProjectileHitAt.Add(0f); 
             em.Initialize(); 
         }
         
@@ -56,14 +64,20 @@ public class EnemyManager : MonoBehaviour
     
     void Update()
     {
-        HandleEnemiesMovement();
+        HandleJobs();
     }
 
-    void HandleEnemiesMovement()
+    void HandleJobs()
     {
         if (grid == null || grid.target == null) return;
         if (!grid.NativeReady) return; 
         
+        HandleEnemiesMovement();
+        HandleHits();
+    }
+
+    void HandleEnemiesMovement()
+    {
         var job = new FollowFlowJob
         {
             nodes = grid.GetNodesNative(),
@@ -85,14 +99,89 @@ public class EnemyManager : MonoBehaviour
         {
             if (enemyIndex < 0 || enemyIndex >= enemies.Count) continue;
             var enemy = enemies[enemyIndex];
-            if (enemy == null || enemy.Stats == null || player.Stats == null) continue;
+            if (enemy == null || enemy.stats == null || player.stats == null) continue;
             
             if (Time.time < nextAllowedHitAt[enemyIndex]) continue;
             
-            player.Stats.TakeDamage(enemy.Stats.Damage);
+            player.stats.TakeDamage(enemy.stats.Damage);
             
             nextAllowedHitAt[enemyIndex] = Time.time + contactCooldown;
         }
+    }
+
+    void HandleHits()
+    {
+        var projectiles = ProjectileManager.instance.Projectiles;
+        
+        int enemyCount = enemies?.Count ?? 0;
+        int projCount  = projectiles?.Count ?? 0;
+        if (enemyCount == 0 || projCount == 0) return;
+        
+        enemyPos = new NativeArray<float2>(enemyCount, Allocator.TempJob);
+        var copyJob = new CopyEnemyPositionsJob { enemyPos = enemyPos };
+        JobHandle copyHandle = copyJob.Schedule(taa);
+        
+        enemyHash = new NativeParallelMultiHashMap<int, int>(enemyCount * 4, Allocator.TempJob);
+        var buildJob = new BuildEnemyHashJob
+        {
+            enemyPos = enemyPos,
+            gridCenter = grid.GridCenterFloat2,
+            gridWorldSize = grid.GridWorldSizeFloat2,
+            gridCells = new int2(grid.GridSizeX, grid.GridSizeY),
+            map = enemyHash.AsParallelWriter()
+        };
+        JobHandle buildHandle = buildJob.Schedule(enemyCount, 64, copyHandle);
+        
+        projNative = new NativeArray<ProjectileData>(projCount, Allocator.TempJob);
+        hitEnemyIndex = new NativeArray<int>(projCount, Allocator.TempJob);
+        for (int i = 0; i < projCount; i++)
+        {
+            var p = projectiles[i];
+            if (!p) { hitEnemyIndex[i] = -1; continue; }
+            var v = p.transform.position;  
+            projNative[i] = new ProjectileData
+            {
+                pos = new float2(v.x, v.y),
+                radius = p.Radius,    
+                damage = p.Damage         
+            };
+            hitEnemyIndex[i] = -1;
+        }
+        
+        var hitJob = new ProjectileHitJob
+        {
+            projectiles = projNative,
+            enemyPos = enemyPos,
+            enemyHash = enemyHash,
+            gridCenter = grid.GridCenterFloat2,
+            gridWorldSize = grid.GridWorldSizeFloat2,
+            gridCells = new int2(grid.GridSizeX, grid.GridSizeY),
+            enemyRadius = contactRadius,
+            hitEnemyIndex = hitEnemyIndex
+        };
+        JobHandle hitHandle = hitJob.Schedule(projCount, 64, buildHandle);
+        
+        hitHandle.Complete();
+
+        for (int i = projCount - 1; i >= 0; i--)
+        {
+            int ei = hitEnemyIndex[i];
+            if (ei < 0) continue;
+
+            var enemy = enemies[ei];
+            var proj  = projectiles[i];
+            if (enemy != null && enemy.stats != null && proj != null)
+            {
+                if (Time.time < nextAllowedProjectileHitAt[ei]) continue;
+                enemy.stats.TakeDamage(proj.Damage);
+                nextAllowedProjectileHitAt[ei] = Time.time + proj.projectileHitCooldown;
+            }
+        }
+        
+        enemyPos.Dispose();
+        enemyHash.Dispose();
+        projNative.Dispose();
+        hitEnemyIndex.Dispose();
     }
     
     public void RegisterEnemy(EnemyMovement em)
@@ -101,6 +190,7 @@ public class EnemyManager : MonoBehaviour
         taa.Add(em.transform);
         moveSpeeds.Add(em.moveSpeed);
         nextAllowedHitAt.Add(0f);
+        nextAllowedProjectileHitAt.Add(0f);
         enemies.Add(em);
         em.Initialize();
     }
@@ -119,6 +209,10 @@ public class EnemyManager : MonoBehaviour
         int lastIdx = nextAllowedHitAt.Count - 1;
         if (idx != lastIdx) nextAllowedHitAt[idx] = nextAllowedHitAt[lastIdx];
         nextAllowedHitAt.RemoveAt(lastIdx);
+        
+        int lastPH = nextAllowedProjectileHitAt.Count - 1;
+        if (idx != lastPH) nextAllowedProjectileHitAt[idx] = nextAllowedProjectileHitAt[lastPH];
+        nextAllowedProjectileHitAt.RemoveAt(lastPH);
 
         int lastE = enemies.Count - 1;
         enemies[idx] = enemies[lastE];

@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class CharacterMovement : MonoBehaviour
 
     [SerializeField] public float moveSpeed;
     
-    public CharacterStats Stats;
+    public CharacterStats stats;
     private Coroutine flashCoroutine;
     
 
@@ -18,9 +19,9 @@ public class CharacterMovement : MonoBehaviour
         Animator = GetComponent<Animator>();
         IsMovingHash = Animator.StringToHash("isMoving");
         SpriteRenderer = GetComponent<SpriteRenderer>();
-        Stats = GetComponent<CharacterStats>();
+        stats = GetComponent<CharacterStats>();
 
-        Stats.OnTakeDamage += FlashOnDamage;
+        stats.OnTakeDamage += FlashOnDamage;
     }
 
 

@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
+    public float projectileHitCooldown = 0.35f;
     protected Vector2 direction;
     public float speed;
-    protected int damage;
+    [SerializeField] protected int damage;
+    [SerializeField] protected float radius;
     
+    public int Damage { get => damage; set => damage = value; }
+    public float Radius { get => radius; set => radius = value; }
     
     SpriteRenderer sprite;
     
