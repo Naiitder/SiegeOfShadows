@@ -60,6 +60,22 @@ public struct FollowFlowJob : IJobParallelForTransform
         float speed = moveSpeeds[index];
         
         float2 step = dir * speed * deltaTime;
+        
+
+        if (math.abs(dir.x) > 0.02)
+        {
+            var ls = transform.localScale;          
+            float desiredSign = (dir.x >= 0f) ? -1f : 1f;
+            float currentSign = (ls.x >= 0f) ? 1f : -1f;
+
+            if (desiredSign != currentSign)
+            {
+                ls.x = math.abs(ls.x) * desiredSign; 
+                transform.localScale = ls;
+            }
+        }
+
+        
         float2 newP = p + step;
         transform.position = new float3(newP, p3.z);
         
