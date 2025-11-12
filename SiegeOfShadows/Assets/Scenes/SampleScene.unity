@@ -644,7 +644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyToSpawn: {fileID: 1262381191341736018, guid: 92c4c5a08b7264e14944d7ac6beef526, type: 3}
-  numberOfEnemies: 10
+  numberOfEnemies: 1000
   spawnScatterRadius: 0.5
 --- !u!4 &1710298526
 Transform:
