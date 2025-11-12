@@ -17,9 +17,9 @@ public class EnemyManager : MonoBehaviour
     
     private TransformAccessArray taa;
     private NativeList<float> moveSpeeds;
+    private NativeList<float> contactsRadiuses;
     
     [Header("Damage on collision")]
-    public float contactRadius = 0.45f;  
     public float contactCooldown = 0.5f;
     
     private NativeQueue<int> contactHits;     
@@ -45,6 +45,7 @@ public class EnemyManager : MonoBehaviour
 
         taa = new TransformAccessArray(enemies.Count);
         moveSpeeds = new NativeList<float>(Allocator.Persistent);
+        contactsRadiuses = new NativeList<float>(Allocator.Persistent);
         contactHits = new NativeQueue<int>(Allocator.Persistent);
         nextAllowedHitAt = new List<float>(enemies.Count);
         nextAllowedProjectileHitAt = new List<float>(enemies.Count);
@@ -54,6 +55,7 @@ public class EnemyManager : MonoBehaviour
             if (!em) continue;
             taa.Add(em.transform);
             moveSpeeds.Add(em.moveSpeed);
+            contactsRadiuses.Add(em.contactRadius);
             nextAllowedHitAt.Add(0f); 
             nextAllowedProjectileHitAt.Add(0f); 
             em.Initialize(); 
@@ -88,7 +90,7 @@ public class EnemyManager : MonoBehaviour
             stopRadius = stopRadius,
             targetPos = new float2(grid.target.position.x, grid.target.position.y),
             moveSpeeds = moveSpeeds.AsDeferredJobArray(),
-            contactRadius = contactRadius,
+            contactRadiuses = contactsRadiuses.AsDeferredJobArray(),
             contactHits = contactHits.AsParallelWriter()
         };
 
@@ -108,7 +110,6 @@ public class EnemyManager : MonoBehaviour
             nextAllowedHitAt[enemyIndex] = Time.time + contactCooldown;
         }
     }
-
     void HandleHits()
     {
         var projectiles = ProjectileManager.instance.Projectiles;
@@ -136,48 +137,54 @@ public class EnemyManager : MonoBehaviour
         hitEnemyIndex = new NativeArray<int>(projCount, Allocator.TempJob);
         for (int i = 0; i < projCount; i++)
         {
-            var p = projectiles[i];
-            if (!p) { hitEnemyIndex[i] = -1; continue; }
-            var v = p.transform.position;  
-            projNative[i] = new ProjectileData
+            if (projectiles != null)
             {
-                pos = new float2(v.x, v.y),
-                radius = p.Radius,    
-                damage = p.Damage         
-            };
+                var p = projectiles[i];
+                if (!p) { hitEnemyIndex[i] = -1; continue; }
+                var v = p.transform.position;  
+                projNative[i] = new ProjectileData
+                {
+                    pos = new float2(v.x, v.y),
+                    radius = p.Radius,    
+                    damage = p.Damage         
+                };
+            }
+
             hitEnemyIndex[i] = -1;
         }
         
-        var hitJob = new ProjectileHitJob
-        {
+        var hitQueue = new NativeQueue<HitResult>(Allocator.TempJob);
+        var hitJob = new ProjectileHitJob {
             projectiles = projNative,
-            enemyPos = enemyPos,
-            enemyHash = enemyHash,
-            gridCenter = grid.GridCenterFloat2,
+            enemyPos    = enemyPos,
+            enemyRadiuses  = contactsRadiuses.AsDeferredJobArray(),              
+            enemyHash   = enemyHash,
+            gridCenter  = grid.GridCenterFloat2,
             gridWorldSize = grid.GridWorldSizeFloat2,
-            gridCells = new int2(grid.GridSizeX, grid.GridSizeY),
-            enemyRadius = contactRadius,
-            hitEnemyIndex = hitEnemyIndex
+            gridCells   = new int2(grid.GridSizeX, grid.GridSizeY),
+            hits        = hitQueue.AsParallelWriter()
         };
-        JobHandle hitHandle = hitJob.Schedule(projCount, 64, buildHandle);
-        
+        var hitHandle = hitJob.Schedule(projNative.Length, 64, buildHandle);
         hitHandle.Complete();
 
-        for (int i = projCount - 1; i >= 0; i--)
+        while (hitQueue.TryDequeue(out var h))
         {
-            int ei = hitEnemyIndex[i];
-            if (ei < 0) continue;
-
-            var enemy = enemies[ei];
-            var proj  = projectiles[i];
-            if (enemy != null && enemy.stats != null && proj != null)
+            if (projectiles != null && enemies != null)
             {
-                if (Time.time < nextAllowedProjectileHitAt[ei]) continue;
-                enemy.stats.TakeDamage(proj.Damage);
-                nextAllowedProjectileHitAt[ei] = Time.time + proj.projectileHitCooldown;
+                var enemy = enemies[h.enemyIndex];
+                var proj  = projectiles[h.projectileIndex];
+                if (enemy != null && enemy.stats != null && proj != null)
+                {
+                    if (Time.time >= nextAllowedProjectileHitAt[h.enemyIndex])
+                    {
+                        enemy.stats.TakeDamage(proj.Damage);
+                        nextAllowedProjectileHitAt[h.enemyIndex] = Time.time + proj.projectileHitCooldown;
+                    }
+                }
             }
         }
         
+        hitQueue.Dispose();
         enemyPos.Dispose();
         enemyHash.Dispose();
         projNative.Dispose();
@@ -189,6 +196,7 @@ public class EnemyManager : MonoBehaviour
         if (!em) return;
         taa.Add(em.transform);
         moveSpeeds.Add(em.moveSpeed);
+        contactsRadiuses.Add(em.contactRadius);
         nextAllowedHitAt.Add(0f);
         nextAllowedProjectileHitAt.Add(0f);
         enemies.Add(em);
@@ -202,9 +210,13 @@ public class EnemyManager : MonoBehaviour
         
         taa.RemoveAtSwapBack(idx);
         
-        int last = moveSpeeds.Length - 1;
-        if (idx != last) moveSpeeds[idx] = moveSpeeds[last];
-        moveSpeeds.RemoveAt(last);
+        int lastMS = moveSpeeds.Length - 1;
+        if (idx != lastMS) moveSpeeds[idx] = moveSpeeds[lastMS];
+        moveSpeeds.RemoveAt(lastMS);
+        
+        int lastC = contactsRadiuses.Length - 1;
+        if (idx != lastC) contactsRadiuses[idx] = contactsRadiuses[lastC];
+        contactsRadiuses.RemoveAt(lastC);
         
         int lastIdx = nextAllowedHitAt.Count - 1;
         if (idx != lastIdx) nextAllowedHitAt[idx] = nextAllowedHitAt[lastIdx];

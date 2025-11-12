@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class EnemyMovement : CharacterMovement
 {
+    public float contactRadius = 0.45f;  
 
     protected override void Awake()
     {

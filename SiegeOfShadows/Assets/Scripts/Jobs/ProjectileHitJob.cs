@@ -8,14 +8,14 @@ public struct ProjectileHitJob : IJobParallelFor
 {
     [ReadOnly] public NativeArray<ProjectileData> projectiles;
     [ReadOnly] public NativeArray<float2> enemyPos;
+    [ReadOnly] public NativeArray<float> enemyRadiuses; 
     [ReadOnly] public NativeParallelMultiHashMap<int,int> enemyHash;
 
     [ReadOnly] public float2 gridCenter;
     [ReadOnly] public float2 gridWorldSize;
     [ReadOnly] public int2 gridCells;
-    [ReadOnly] public float enemyRadius; 
 
-    public NativeArray<int> hitEnemyIndex;
+    [WriteOnly] public NativeQueue<HitResult>.ParallelWriter hits;
 
     static int Hash(int2 c) => (c.x * 73856093) ^ (c.y * 19349663);
 
@@ -23,8 +23,6 @@ public struct ProjectileHitJob : IJobParallelFor
     {
         var proj = projectiles[i];
         float2 p = proj.pos;
-        float r = proj.radius + enemyRadius;
-        float r2 = r * r;
         
         float2 half = gridWorldSize * 0.5f;
         float fx = math.saturate((p.x - gridCenter.x + half.x) / gridWorldSize.x);
@@ -43,15 +41,18 @@ public struct ProjectileHitJob : IJobParallelFor
                 do
                 {
                     float2 ep = enemyPos[eIdx];
+                    float   er = enemyRadiuses.IsCreated ? enemyRadiuses[eIdx] : 0f;
+                    
+                    float r  = proj.radius + er;
+                    float r2 = r * r;
+                    
                     if (math.lengthsq(ep - p) <= r2)
                     {
-                        hitEnemyIndex[i] = eIdx; 
-                        return;
+                        hits.Enqueue(new HitResult { projectileIndex = i, enemyIndex = eIdx });
                     }
                 }
                 while (enemyHash.TryGetNextValue(out eIdx, ref it));
             }
         }
-        hitEnemyIndex[i] = -1;
     }
 }

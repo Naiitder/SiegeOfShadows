@@ -126,7 +126,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  Stats: {fileID: 0}
+  stats: {fileID: 0}
+  contactRadius: 0.45
 --- !u!114 &5717249767883263697
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -569,7 +569,6 @@ MonoBehaviour:
   enemies: []
   grid: {fileID: 0}
   stopRadius: 0.25
-  contactRadius: 0.45
   contactCooldown: 0.5
 --- !u!114 &1357860492
 MonoBehaviour:
@@ -645,7 +644,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyToSpawn: {fileID: 1262381191341736018, guid: 92c4c5a08b7264e14944d7ac6beef526, type: 3}
-  numberOfEnemies: 1
+  numberOfEnemies: 10
   spawnScatterRadius: 0.5
 --- !u!4 &1710298526
 Transform:
