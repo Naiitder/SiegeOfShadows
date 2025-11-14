@@ -4,7 +4,7 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public static GameController instance;
-    public PlayerMovement player;
+    public PlayerController player;
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -12,6 +12,6 @@ public class GameController : MonoBehaviour
         
         Application.targetFrameRate = 60;
         QualitySettings.vSyncCount = 1;
-        player = FindAnyObjectByType<PlayerMovement>();
+        player = FindAnyObjectByType<PlayerController>();
     }
 }

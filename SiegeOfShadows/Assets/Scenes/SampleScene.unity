@@ -582,6 +582,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 255df0ed2a0d22143bcd5b885a6279d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!114 &1357860494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -644,7 +645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyToSpawn: {fileID: 1262381191341736018, guid: 92c4c5a08b7264e14944d7ac6beef526, type: 3}
-  numberOfEnemies: 1000
+  numberOfEnemies: 1
   spawnScatterRadius: 0.5
 --- !u!4 &1710298526
 Transform:
@@ -815,6 +816,7 @@ MonoBehaviour:
   - ability: {fileID: 0}
     level: 0
     cooldownTimer: 0
+  pickupRadius: 0.4
   rb: {fileID: 0}
 --- !u!50 &7878350318812318692
 Rigidbody2D:

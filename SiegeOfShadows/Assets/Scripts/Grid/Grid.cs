@@ -28,7 +28,7 @@ public class Grid : MonoBehaviour {
     
 
     void Awake() {
-        if (!target) target = FindAnyObjectByType<PlayerMovement>().transform;
+        if (!target) target = FindAnyObjectByType<PlayerController>().transform;
         nodeDiameter = nodeRadius * 2;
         gridSizeX = Mathf.RoundToInt(gridWorldSize.x / nodeDiameter);
         gridSizeY = Mathf.RoundToInt(gridWorldSize.y / nodeDiameter);

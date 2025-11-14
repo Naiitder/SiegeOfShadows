@@ -4,13 +4,13 @@ using Unity.Mathematics;
 using UnityEngine.Jobs;
 
 [BurstCompile]
-public struct CopyEnemyPositionsJob : IJobParallelForTransform
+public struct CopyPositionsJob : IJobParallelForTransform
 {
-    public NativeArray<float2> enemyPos; 
+    public NativeArray<float2> positions; 
 
     public void Execute(int index, TransformAccess transform)
     {
         float3 position = transform.position;
-        enemyPos[index] = position.xy;
+        positions[index] = position.xy;
     }
 }

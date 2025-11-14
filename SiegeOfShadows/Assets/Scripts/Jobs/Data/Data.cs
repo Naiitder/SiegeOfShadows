@@ -19,3 +19,8 @@ public struct HitResult
     public int projectileIndex;  
     public int enemyIndex;       
 }
+
+public struct PickUp
+{
+    public int itemIndex;
+}

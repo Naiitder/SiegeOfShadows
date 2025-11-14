@@ -27,7 +27,7 @@ public class Projectile : MonoBehaviour
         
         sprite = GetComponentInChildren<SpriteRenderer>();
         
-        ProjectileManager.instance.RegisterProjectile(this);
+        EntityManager.instance.RegisterProjectile(this);
         Destroy(gameObject, lifetime);
     }
 
@@ -46,9 +46,9 @@ public class Projectile : MonoBehaviour
     
     private void OnDestroy()
     {
-        if (ProjectileManager.instance != null)
+        if (EntityManager.instance != null)
         {
-            ProjectileManager.instance.UnregisterProjectile(this);
+            EntityManager.instance.UnregisterProjectile(this);
         }
     }
     

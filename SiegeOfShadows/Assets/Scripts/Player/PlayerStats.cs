@@ -19,7 +19,7 @@ public class PlayerStats : CharacterStats
         }
     }
 
-    private void AddExperiencie(int experience)
+    public void AddExperiencie(int experience)
     {
         currentXp += experience;
         if (currentXp >= maxXp)

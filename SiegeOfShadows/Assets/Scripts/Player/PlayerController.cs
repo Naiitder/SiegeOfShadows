@@ -2,10 +2,12 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : CharacterMovement
+public class PlayerController : CharacterMovement
 {
     public EquippedAbilitySlot[] upgrades = new EquippedAbilitySlot[8];
     private Vector2 lastMoveDirection = new Vector2(-1, 0);
+    
+    public float pickupRadius = 0.4f;
     
     [SerializeField] protected Rigidbody2D rb;
     
@@ -84,6 +86,7 @@ public class PlayerMovement : CharacterMovement
     {
         
     }
+    
     private void UpdateAnimation()
     {
         if(rb.linearVelocity.x < 0) SpriteRenderer.flipX = false;

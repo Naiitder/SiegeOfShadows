@@ -10,7 +10,7 @@ public class EnemyManager : MonoBehaviour
 {
     public static EnemyManager instance;
     
-    [SerializeField] private List<EnemyMovement> enemies = new List<EnemyMovement>();
+    [SerializeField] private List<EnemyController> enemies = new List<EnemyController>();
 
     public Grid grid;
     public float stopRadius = 0.25f;
@@ -31,7 +31,7 @@ public class EnemyManager : MonoBehaviour
     NativeArray<ProjectileData> projNative;
     NativeArray<int> hitEnemyIndex;
     
-    private PlayerMovement player;
+    private PlayerController player;
 
     private void Awake()
     {
@@ -41,7 +41,7 @@ public class EnemyManager : MonoBehaviour
         if (!grid) grid = FindAnyObjectByType<Grid>();
         
         if (enemies.Count == 0)
-            enemies = FindObjectsByType<EnemyMovement>(FindObjectsSortMode.None).ToList();
+            enemies = FindObjectsByType<EnemyController>(FindObjectsSortMode.None).ToList();
 
         taa = new TransformAccessArray(enemies.Count);
         moveSpeeds = new NativeList<float>(Allocator.Persistent);
@@ -61,7 +61,7 @@ public class EnemyManager : MonoBehaviour
             em.Initialize(); 
         }
         
-        player = FindAnyObjectByType<PlayerMovement>();
+        player = FindAnyObjectByType<PlayerController>();
     }
     
     void Update()
@@ -112,14 +112,14 @@ public class EnemyManager : MonoBehaviour
     }
     void HandleHits()
     {
-        var projectiles = ProjectileManager.instance.Projectiles;
+        var projectiles = EntityManager.instance.Projectiles;
         
         int enemyCount = enemies?.Count ?? 0;
         int projCount  = projectiles?.Count ?? 0;
         if (enemyCount == 0 || projCount == 0) return;
         
         enemyPos = new NativeArray<float2>(enemyCount, Allocator.TempJob);
-        var copyJob = new CopyEnemyPositionsJob { enemyPos = enemyPos };
+        var copyJob = new CopyPositionsJob { positions = enemyPos };
         JobHandle copyHandle = copyJob.Schedule(taa);
         
         enemyHash = new NativeParallelMultiHashMap<int, int>(enemyCount * 4, Allocator.TempJob);
@@ -191,7 +191,7 @@ public class EnemyManager : MonoBehaviour
         hitEnemyIndex.Dispose();
     }
     
-    public void RegisterEnemy(EnemyMovement em)
+    public void RegisterEnemy(EnemyController em)
     {
         if (!em) return;
         taa.Add(em.transform);
@@ -203,7 +203,7 @@ public class EnemyManager : MonoBehaviour
         em.Initialize();
     }
 
-    public void UnregisterEnemy(EnemyMovement em)
+    public void UnregisterEnemy(EnemyController em)
     {
         int idx = enemies.IndexOf(em);
         if (idx < 0) return;
@@ -231,7 +231,7 @@ public class EnemyManager : MonoBehaviour
         enemies.RemoveAt(lastE);
     }
 
-    public bool IsInList(EnemyMovement em)
+    public bool IsInList(EnemyController em)
     {
         return enemies.Contains(em);
     }

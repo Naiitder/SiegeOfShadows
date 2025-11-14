@@ -128,6 +128,9 @@ MonoBehaviour:
   moveSpeed: 2
   stats: {fileID: 0}
   contactRadius: 0.45
+  expGameObject: {fileID: 803796936308029549, guid: 870ea1a8db0c3435d95dbbf720f229b5, type: 3}
+  expDrop: 5
+  prizeDropRate: 0.01
 --- !u!114 &5717249767883263697
 MonoBehaviour:
   m_ObjectHideFlags: 0
