@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class CharacterStats : MonoBehaviour
 {
-    [SerializeField] private int currentHealth, maxHealth;
+    [SerializeField] protected int currentHealth, maxHealth;
     private int armor;
     [SerializeField] private int damage;
     private float moveSpeed;
@@ -13,13 +13,8 @@ public class CharacterStats : MonoBehaviour
     
     public Action OnTakeDamage { get; set; }
     public Action OnDeath { get; set; }
-
-    private void Awake()
-    {
-        currentHealth = maxHealth;
-    }
     
-    public void TakeDamage(int dmg)
+    public virtual void TakeDamage(int dmg)
     {
         if(currentHealth <= 0) return;
         
@@ -32,5 +27,10 @@ public class CharacterStats : MonoBehaviour
         }
         
         OnTakeDamage?.Invoke();
+    }
+
+    public virtual void Initialize()
+    {
+        currentHealth = maxHealth;
     }
 }

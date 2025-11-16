@@ -7,6 +7,8 @@ public class PlayerController : CharacterMovement
     public EquippedAbilitySlot[] upgrades = new EquippedAbilitySlot[8];
     private Vector2 lastMoveDirection = new Vector2(-1, 0);
     
+    private PlayerStats playerStats;
+    
     public float pickupRadius = 0.4f;
     
     [SerializeField] protected Rigidbody2D rb;
@@ -15,7 +17,10 @@ public class PlayerController : CharacterMovement
     {
         base.Awake();
         
-        stats = GetComponent<PlayerStats>();
+        playerStats = GetComponent<PlayerStats>();
+        playerStats.Initialize();
+        stats = playerStats; 
+        
         rb = GetComponent<Rigidbody2D>();
         
         stats.OnDeath += Die;
@@ -35,6 +40,7 @@ public class PlayerController : CharacterMovement
     private void Update()
     {
         HandleAbilities();
+        playerStats.UpdateEaseSliders();
     }
 
     private void FixedUpdate()

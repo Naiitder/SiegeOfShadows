@@ -20,7 +20,8 @@ public class CharacterMovement : MonoBehaviour
         IsMovingHash = Animator.StringToHash("isMoving");
         SpriteRenderer = GetComponent<SpriteRenderer>();
         stats = GetComponent<CharacterStats>();
-
+        stats.Initialize();
+        
         stats.OnTakeDamage += FlashOnDamage;
     }
 
