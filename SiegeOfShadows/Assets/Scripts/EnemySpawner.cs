@@ -1,20 +1,57 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
 public class EnemySpawner : MonoBehaviour
 {
-    public GameObject enemyToSpawn;
-    public int numberOfEnemies;
-    public float spawnScatterRadius = 0.5f;
+    public Transform player;
+    public float spawnDistance = 10f;
+    public int maxEnemiesOnScreen = 100;
+    
+    public Wave[] waves;
+    private float timer;
+
+    private int currentWave = 0;
+    private int enemiesAlive = 0;
+    
 
     private void Start()
     {
-        for (int i = 0; i < numberOfEnemies; i++)
+        player = FindAnyObjectByType<PlayerController>().transform;
+    }
+
+    private void Update()
+    {
+        timer += Time.deltaTime;
+        
+        if (currentWave < waves.Length - 1 && timer >= waves[currentWave + 1].startTime)
         {
-            Vector2 jitter = Random.insideUnitCircle * spawnScatterRadius;
-            Vector3 pos = transform.position + new Vector3(jitter.x, jitter.y, 0);
-            Instantiate(enemyToSpawn, pos, Quaternion.identity);
+            currentWave++;
         }
+        
+        if (enemiesAlive < maxEnemiesOnScreen)
+        {
+            StartCoroutine(SpawnRoutine());
+        }
+    }
+    
+    IEnumerator SpawnRoutine()
+    {
+        var wave = waves[currentWave];
+        yield return new WaitForSeconds(wave.spawnRate);
+        
+        Vector2 spawnPos = GetSpawnPosition();
+        GameObject enemy = Instantiate(wave.enemyPrefab, spawnPos, Quaternion.identity);
+        
+        enemiesAlive++;
+        
+        enemy.GetComponent<EnemyController>().stats.OnDeath += () => enemiesAlive--;
+    }
+
+    private Vector2 GetSpawnPosition()
+    {
+        Vector2 dir = Random.insideUnitCircle.normalized;
+        return (Vector2)player.position + dir * spawnDistance;
     }
 }

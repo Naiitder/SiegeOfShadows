@@ -1651,9 +1651,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64ae2ee7442ea41a098a8d2800b42934, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyToSpawn: {fileID: 1262381191341736018, guid: 92c4c5a08b7264e14944d7ac6beef526, type: 3}
-  numberOfEnemies: 10
-  spawnScatterRadius: 0.5
+  player: {fileID: 0}
+  spawnDistance: 10
+  maxEnemiesOnScreen: 100
+  waves:
+  - name: 
+    startTime: 0
+    enemyPrefab: {fileID: 1262381191341736018, guid: 92c4c5a08b7264e14944d7ac6beef526, type: 3}
+    spawnRate: 2
 --- !u!4 &1710298526
 Transform:
   m_ObjectHideFlags: 0

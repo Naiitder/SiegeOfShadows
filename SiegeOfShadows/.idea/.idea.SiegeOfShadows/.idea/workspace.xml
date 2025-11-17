@@ -45,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Abilities/EquippedAbilitySlot.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Abilities/PassiveAbilities/PassiveAbility.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Wave.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -158,6 +159,7 @@
       <workItem from="1762935784649" duration="13443000" />
       <workItem from="1763123487547" duration="4593000" />
       <workItem from="1763240553018" duration="5811000" />
+      <workItem from="1763300962726" duration="3373000" />
     </task>
     <servers />
   </component>
